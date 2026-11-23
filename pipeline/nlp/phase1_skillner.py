@@ -35,17 +35,19 @@ COURSE_CORPUS = RAW / "course_outlines" / "_corpus.json"
 def load_skillner():
     try:
         import spacy
-        from skillner import SkillExtractor
-        from skillner.general_params import SKILL_DB
+        from spacy.matcher import PhraseMatcher
+        from skillNer.skill_extractor_class import SkillExtractor
+        from skillNer.general_params import SKILL_DB
     except ImportError as e:
         print(f"\n[ERROR] Missing dependency: {e}")
         print("Install with:")
-        print("  pip install spacy skillner --break-system-packages")
+        print("  pip install skillNer")
         print("  python -m spacy download en_core_web_lg")
         sys.exit(1)
 
     print("Loading spaCy model (en_core_web_lg)...")
     try:
+        import spacy
         nlp = spacy.load("en_core_web_lg")
     except OSError:
         print("[ERROR] spaCy model not found. Run:")
@@ -53,7 +55,8 @@ def load_skillner():
         sys.exit(1)
 
     print("Initialising SkillNER...")
-    extractor = SkillExtractor(nlp, SKILL_DB, PhraseMatcher=spacy.matcher.PhraseMatcher)
+    from spacy.matcher import PhraseMatcher
+    extractor = SkillExtractor(nlp, SKILL_DB, PhraseMatcher)
     return extractor
 
 
@@ -64,13 +67,19 @@ def extract_skills(extractor, text: str) -> list[str]:
     try:
         annotations = extractor.annotate(text[:5000])  # cap at 5k chars
         skills = []
-        for match in annotations.get("results", {}).get("full_matches", []):
-            skills.append(match["doc_node_value"].lower().strip())
-        for match in annotations.get("results", {}).get("ngram_scored", []):
+        # skillNer returns results dict with full_matches and ngram_scored
+        results = annotations.get("results", {})
+        for match in results.get("full_matches", []):
+            val = match.get("doc_node_value", "").lower().strip()
+            if val:
+                skills.append(val)
+        for match in results.get("ngram_scored", []):
             if match.get("score", 0) >= 0.8:
-                skills.append(match["doc_node_value"].lower().strip())
+                val = match.get("doc_node_value", "").lower().strip()
+                if val:
+                    skills.append(val)
         return list(set(skills))
-    except Exception as e:
+    except Exception:
         return []
 
 
