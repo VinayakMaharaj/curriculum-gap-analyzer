@@ -1,0 +1,819 @@
+[
+  {
+    "id": "STA-COMP0100",
+    "skills": [
+      "problem solve",
+      "computer hardware",
+      "algorithm design",
+      "programming"
+    ]
+  },
+  {
+    "id": "STA-COMP0200",
+    "skills": [
+      "software engineering",
+      "data structure",
+      "operating system",
+      "process model"
+    ]
+  },
+  {
+    "id": "STA-COMP1011",
+    "skills": [
+      "microsoft office"
+    ]
+  },
+  {
+    "id": "STA-COMP1600",
+    "skills": [
+      "survey",
+      "operating system",
+      "algorithms"
+    ]
+  },
+  {
+    "id": "STA-COMP1601",
+    "skills": [
+      "programming concept"
+    ]
+  },
+  {
+    "id": "STA-COMP1602",
+    "skills": [
+      "sort merge",
+      "multidimensional array",
+      "simulation"
+    ]
+  },
+  {
+    "id": "STA-COMP2140",
+    "skills": [
+      "project management",
+      "verification and validation",
+      "process model",
+      "software design"
+    ]
+  },
+  {
+    "id": "STA-COMP2171",
+    "skills": [
+      "uml",
+      "software architecture"
+    ]
+  },
+  {
+    "id": "STA-COMP2190",
+    "skills": [
+      "network architecture",
+      "network security",
+      "distribute computing"
+    ]
+  },
+  {
+    "id": "STA-COMP2201",
+    "skills": [
+      "graph theory",
+      "generating functions",
+      "probability"
+    ]
+  },
+  {
+    "id": "STA-COMP2211",
+    "skills": [
+      "design strategy",
+      "rsa",
+      "cryptography",
+      "sorting",
+      "algorithm analysis"
+    ]
+  },
+  {
+    "id": "STA-COMP2601",
+    "skills": [
+      "multiprocessing",
+      "digital logic"
+    ]
+  },
+  {
+    "id": "STA-COMP2602",
+    "skills": [
+      "tcp ip model",
+      "tcp ip",
+      "writing",
+      "networking programs"
+    ]
+  },
+  {
+    "id": "STA-COMP2603",
+    "skills": [
+      "procedural programming"
+    ]
+  },
+  {
+    "id": "STA-COMP2604",
+    "skills": [
+      "scheduling",
+      "file system",
+      "memory management"
+    ]
+  },
+  {
+    "id": "STA-COMP2605",
+    "skills": [
+      "relational database",
+      "sql transactions",
+      "xml database",
+      "database design"
+    ]
+  },
+  {
+    "id": "STA-COMP2606",
+    "skills": [
+      "development management"
+    ]
+  },
+  {
+    "id": "STA-COMP2611",
+    "skills": [
+      "algorithms",
+      "link list",
+      "binary tree"
+    ]
+  },
+  {
+    "id": "STA-COMP3161",
+    "skills": [
+      "indexing",
+      "sql",
+      "data models",
+      "query optimization",
+      "nosql"
+    ]
+  },
+  {
+    "id": "STA-COMP3602",
+    "skills": [
+      "turing machines",
+      "finite automata"
+    ]
+  },
+  {
+    "id": "STA-COMP3603",
+    "skills": []
+  },
+  {
+    "id": "STA-COMP3605",
+    "skills": [
+      "python",
+      "computational intelligence"
+    ]
+  },
+  {
+    "id": "STA-COMP3606",
+    "skills": [
+      "programming",
+      "android",
+      "emerge technology",
+      "sms"
+    ]
+  },
+  {
+    "id": "STA-COMP3608",
+    "skills": [
+      "genetic algorithm",
+      "expert system"
+    ]
+  },
+  {
+    "id": "STA-COMP3609",
+    "skills": [
+      "animation",
+      "physics"
+    ]
+  },
+  {
+    "id": "STA-COMP3610",
+    "skills": [
+      "mapreduce",
+      "nosql"
+    ]
+  },
+  {
+    "id": "STA-COMP3613",
+    "skills": [
+      "team process",
+      "specification design"
+    ]
+  },
+  {
+    "id": "STA-INFO1600",
+    "skills": []
+  },
+  {
+    "id": "STA-INFO1601",
+    "skills": [
+      "web page"
+    ]
+  },
+  {
+    "id": "STA-INFO2600",
+    "skills": [
+      "information system",
+      "concepts business",
+      "business process automation",
+      "business process"
+    ]
+  },
+  {
+    "id": "STA-INFO2601",
+    "skills": [
+      "network architecture",
+      "communication",
+      "basic network"
+    ]
+  },
+  {
+    "id": "STA-INFO2602",
+    "skills": [
+      "digital medium",
+      "server side",
+      "web application"
+    ]
+  },
+  {
+    "id": "STA-INFO2603",
+    "skills": [
+      "operating system",
+      "troubleshooting",
+      "installation"
+    ]
+  },
+  {
+    "id": "STA-INFO2604",
+    "skills": [
+      "risk analysis",
+      "information assurance"
+    ]
+  },
+  {
+    "id": "STA-INFO2605",
+    "skills": []
+  },
+  {
+    "id": "STA-INFO3600",
+    "skills": [
+      "erp",
+      "information system",
+      "business process",
+      "application framework",
+      "e business",
+      "crm"
+    ]
+  },
+  {
+    "id": "STA-INFO3601",
+    "skills": [
+      "operating system"
+    ]
+  },
+  {
+    "id": "STA-INFO3602",
+    "skills": [
+      "web service"
+    ]
+  },
+  {
+    "id": "STA-INFO3604",
+    "skills": [
+      "project management",
+      "research"
+    ]
+  },
+  {
+    "id": "STA-INFO3605",
+    "skills": [
+      "routing protocols",
+      "vlsm",
+      "lan switch",
+      "ospf"
+    ]
+  },
+  {
+    "id": "STA-INFO3607",
+    "skills": [
+      "tcp ip",
+      "frame relay",
+      "network protocol",
+      "ppp"
+    ]
+  },
+  {
+    "id": "STA-INFO3609",
+    "skills": [
+      "computer science"
+    ]
+  },
+  {
+    "id": "STA-INFO3611",
+    "skills": [
+      "mysql"
+    ]
+  },
+  {
+    "id": "STA-INFO3612",
+    "skills": []
+  },
+  {
+    "id": "CH-COMP1105",
+    "skills": [
+      "control structure",
+      "problem solve",
+      "algorithms",
+      "programming"
+    ]
+  },
+  {
+    "id": "CH-COMP1115",
+    "skills": [
+      "polymorphism",
+      "exception handling",
+      "object orient design",
+      "programming concept"
+    ]
+  },
+  {
+    "id": "CH-COMP1120",
+    "skills": [
+      "combinatorics",
+      "graph theory",
+      "discrete mathematic"
+    ]
+  },
+  {
+    "id": "CH-COMP2115",
+    "skills": [
+      "design strategy",
+      "hash table",
+      "algorithm analysis"
+    ]
+  },
+  {
+    "id": "CH-COMP2120",
+    "skills": [
+      "linear algebra",
+      "computer science"
+    ]
+  },
+  {
+    "id": "CH-COMP2125",
+    "skills": [
+      "digital logic",
+      "memory hierarchy"
+    ]
+  },
+  {
+    "id": "CH-COMP2130",
+    "skills": [
+      "scheduling",
+      "file system",
+      "process management",
+      "memory management"
+    ]
+  },
+  {
+    "id": "CH-COMP2140",
+    "skills": [
+      "nosql",
+      "sql",
+      "relational model"
+    ]
+  },
+  {
+    "id": "CH-COMP2150",
+    "skills": [
+      "requirements engineering",
+      "project management",
+      "testing project"
+    ]
+  },
+  {
+    "id": "CH-COMP2160",
+    "skills": [
+      "network programming",
+      "osi",
+      "routing network",
+      "tcp ip model",
+      "tcp ip"
+    ]
+  },
+  {
+    "id": "CH-COMP3115",
+    "skills": [
+      "natural language processing",
+      "machine learn"
+    ]
+  },
+  {
+    "id": "CH-COMP3120",
+    "skills": [
+      "feature engineering",
+      "reinforcement learning",
+      "deep learning"
+    ]
+  },
+  {
+    "id": "CH-COMP3125",
+    "skills": [
+      "text processing",
+      "information extraction",
+      "language model",
+      "sentiment analysis",
+      "parsing"
+    ]
+  },
+  {
+    "id": "CH-COMP3130",
+    "skills": [
+      "knowledge discovery",
+      "datasets"
+    ]
+  },
+  {
+    "id": "CH-COMP3135",
+    "skills": [
+      "nosql",
+      "analytics"
+    ]
+  },
+  {
+    "id": "CH-COMP3140",
+    "skills": [
+      "access control",
+      "control network",
+      "vulnerability",
+      "network security",
+      "cryptography",
+      "ethical hacking"
+    ]
+  },
+  {
+    "id": "CH-COMP3145",
+    "skills": [
+      "prototyping",
+      "user center design",
+      "interface design",
+      "usability"
+    ]
+  },
+  {
+    "id": "CH-COMP3150",
+    "skills": [
+      "microservices"
+    ]
+  },
+  {
+    "id": "CH-COMP3155",
+    "skills": [
+      "containerization",
+      "serverless computing",
+      "cloud service",
+      "virtualization"
+    ]
+  },
+  {
+    "id": "CH-COMP3165",
+    "skills": [
+      "supervision",
+      "research"
+    ]
+  },
+  {
+    "id": "CH-COMP3170",
+    "skills": []
+  },
+  {
+    "id": "FI-COMP1100",
+    "skills": [
+      "algorithm design",
+      "concepts programming"
+    ]
+  },
+  {
+    "id": "FI-COMP1105",
+    "skills": [
+      "data",
+      "problem solve",
+      "data structures",
+      "programming"
+    ]
+  },
+  {
+    "id": "FI-COMP1110",
+    "skills": [
+      "combinatorics",
+      "discrete mathematic"
+    ]
+  },
+  {
+    "id": "FI-COMP2100",
+    "skills": [
+      "object orient programming",
+      "data structures",
+      "programming",
+      "recursion"
+    ]
+  },
+  {
+    "id": "FI-COMP2105",
+    "skills": [
+      "hash table",
+      "link list",
+      "algorithm"
+    ]
+  },
+  {
+    "id": "FI-COMP2110",
+    "skills": [
+      "matrix algebra"
+    ]
+  },
+  {
+    "id": "FI-COMP2115",
+    "skills": [
+      "digital logic",
+      "memory hierarchy",
+      "number system",
+      "parallel processing"
+    ]
+  },
+  {
+    "id": "FI-COMP2120",
+    "skills": [
+      "scheduling",
+      "file system",
+      "memory management",
+      "management"
+    ]
+  },
+  {
+    "id": "FI-COMP2125",
+    "skills": [
+      "er diagram",
+      "sql",
+      "nosql",
+      "relational model"
+    ]
+  },
+  {
+    "id": "FI-COMP2130",
+    "skills": [
+      "project management",
+      "software design",
+      "requirement analysis"
+    ]
+  },
+  {
+    "id": "FI-COMP2135",
+    "skills": [
+      "network architecture",
+      "tcp ip",
+      "application development"
+    ]
+  },
+  {
+    "id": "FI-COMP3100",
+    "skills": [
+      "planning"
+    ]
+  },
+  {
+    "id": "FI-COMP3105",
+    "skills": [
+      "python",
+      "dimensionality reduction"
+    ]
+  },
+  {
+    "id": "FI-COMP3110",
+    "skills": [
+      "data pipeline",
+      "nosql",
+      "scale"
+    ]
+  },
+  {
+    "id": "FI-COMP3115",
+    "skills": [
+      "language model",
+      "topic modeling"
+    ]
+  },
+  {
+    "id": "FI-COMP3120",
+    "skills": [
+      "network security",
+      "digital forensic",
+      "ethical hacking"
+    ]
+  },
+  {
+    "id": "FI-COMP3125",
+    "skills": [
+      "distributed computing",
+      "cloud service",
+      "scalability",
+      "containerization",
+      "distributed",
+      "microservices"
+    ]
+  },
+  {
+    "id": "FI-COMP3130",
+    "skills": [
+      "usability testing",
+      "user center design",
+      "prototyping"
+    ]
+  },
+  {
+    "id": "FI-COMP3140",
+    "skills": [
+      "research design"
+    ]
+  },
+  {
+    "id": "MON-COMP1161",
+    "skills": [
+      "object orient programming",
+      "exception handling",
+      "polymorphism"
+    ]
+  },
+  {
+    "id": "MON-COMP1210",
+    "skills": [
+      "combinatorics",
+      "graph theory"
+    ]
+  },
+  {
+    "id": "MON-COMP2140",
+    "skills": [
+      "testing strategies",
+      "requirements engineering",
+      "design",
+      "software development"
+    ]
+  },
+  {
+    "id": "MON-COMP2190",
+    "skills": [
+      "peer to peer",
+      "models web",
+      "distribute computing"
+    ]
+  },
+  {
+    "id": "MON-COMP2201",
+    "skills": [
+      "formal language",
+      "discrete mathematic",
+      "generating functions",
+      "graph algorithm"
+    ]
+  },
+  {
+    "id": "MON-COMP2211",
+    "skills": [
+      "dynamic programming",
+      "sorting",
+      "np completeness",
+      "graph algorithm",
+      "greedy algorithm"
+    ]
+  },
+  {
+    "id": "MON-COMP2340",
+    "skills": [
+      "assembly language",
+      "digital logic"
+    ]
+  },
+  {
+    "id": "MON-COMP2601",
+    "skills": [
+      "nosql",
+      "relational database",
+      "sql"
+    ]
+  },
+  {
+    "id": "MON-COMP2611",
+    "skills": [
+      "hash table",
+      "link list",
+      "algorithm analysis"
+    ]
+  },
+  {
+    "id": "MON-COMP3101",
+    "skills": [
+      "process management",
+      "virtual memory",
+      "scheduling",
+      "file system",
+      "threading",
+      "memory management"
+    ]
+  },
+  {
+    "id": "MON-COMP3161",
+    "skills": [
+      "nosql",
+      "distribute database",
+      "query optimization",
+      "data warehousing"
+    ]
+  },
+  {
+    "id": "MON-COMP3200",
+    "skills": [
+      "problem solve",
+      "machine learn",
+      "planning"
+    ]
+  },
+  {
+    "id": "MON-COMP3210",
+    "skills": [
+      "deep learning"
+    ]
+  },
+  {
+    "id": "MON-COMP3220",
+    "skills": [
+      "question answer",
+      "information extraction",
+      "text classification",
+      "language model",
+      "modeling information"
+    ]
+  },
+  {
+    "id": "MON-COMP3230",
+    "skills": [
+      "anomaly detection",
+      "visualization",
+      "data preprocessing"
+    ]
+  },
+  {
+    "id": "MON-COMP3240",
+    "skills": [
+      "scale",
+      "stream processing",
+      "mapreduce",
+      "spark stream",
+      "data management",
+      "distribute file system",
+      "file system",
+      "nosql"
+    ]
+  },
+  {
+    "id": "MON-COMP3310",
+    "skills": [
+      "network security",
+      "cryptography",
+      "digital forensic",
+      "vulnerability assessment"
+    ]
+  },
+  {
+    "id": "MON-COMP3320",
+    "skills": [
+      "serverless",
+      "virtualization"
+    ]
+  },
+  {
+    "id": "MON-COMP3410",
+    "skills": [
+      "task analysis",
+      "usability"
+    ]
+  },
+  {
+    "id": "MON-COMP3801",
+    "skills": [
+      "supervision",
+      "literature review",
+      "research",
+      "engineering project"
+    ]
+  },
+  {
+    "id": "MON-COMP3850",
+    "skills": []
+  }
+]

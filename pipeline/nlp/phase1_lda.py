@@ -26,6 +26,8 @@ import pathlib
 import sys
 from collections import Counter, defaultdict
 
+import numpy as np
+
 PROCESSED = pathlib.Path("data/processed")
 LDA_DIR   = PROCESSED / "lda_model"
 LDA_DIR.mkdir(parents=True, exist_ok=True)
@@ -37,6 +39,18 @@ LDA_ITERATIONS = 400
 RANDOM_STATE   = 42
 MIN_SKILL_FREQ = 2   # ignore skills appearing < 2 times (noise reduction)
 TOP_N_SKILLS   = 15  # top skills per topic to display
+
+
+class NumpyEncoder(json.JSONEncoder):
+    """JSON encoder that handles numpy scalar types returned by gensim."""
+    def default(self, obj):
+        if isinstance(obj, np.integer):
+            return int(obj)
+        if isinstance(obj, np.floating):
+            return float(obj)
+        if isinstance(obj, np.ndarray):
+            return obj.tolist()
+        return super().default(obj)
 
 
 def load_deps():
@@ -52,7 +66,7 @@ def load_deps():
 
 def load_skill_lists(path: pathlib.Path) -> list[list[str]]:
     """Load list of per-document skill lists."""
-    data = json.loads(path.read_text())
+    data = json.loads(path.read_text(encoding="utf-8"))
     return [doc["skills"] for doc in data if doc.get("skills")]
 
 
@@ -83,10 +97,10 @@ def compute_gap(job_freq: Counter, course_freq: Counter,
 
         gap_rows.append({
             "skill":           skill,
-            "job_count":       job_freq[skill],
-            "job_prevalence":  round(job_prev,   4),
-            "course_coverage": round(course_cov, 4),
-            "gap_score":       round(gap_score,  4),
+            "job_count":       int(job_freq[skill]),
+            "job_prevalence":  round(float(job_prev),   4),
+            "course_coverage": round(float(course_cov), 4),
+            "gap_score":       round(float(gap_score),  4),
             "in_courses":      skill in course_freq,
         })
 
@@ -156,12 +170,14 @@ def main():
     print(f"\nTop {TOP_N_SKILLS} skills per topic:")
     for t in range(K_TOPICS):
         top_terms = lda_model.show_topic(t, topn=TOP_N_SKILLS)
-        terms = [{"skill": term, "weight": round(weight, 4)} for term, weight in top_terms]
+        terms = [{"skill": term, "weight": round(float(weight), 4)} for term, weight in top_terms]
         topics.append({"topic_id": t, "top_terms": terms})
         top_str = ", ".join(term for term, _ in top_terms[:6])
         print(f"  Topic {t:2d}: {top_str}")
 
-    (PROCESSED / "lda_topics.json").write_text(json.dumps(topics, indent=2))
+    (PROCESSED / "lda_topics.json").write_text(
+        json.dumps(topics, indent=2, cls=NumpyEncoder), encoding="utf-8"
+    )
     print(f"\n  → {PROCESSED}/lda_topics.json")
 
     # ── Coherence score ───────────────────────────────────────────────────────
@@ -171,7 +187,7 @@ def main():
             model=lda_model, texts=job_docs_f,
             dictionary=dictionary, coherence="c_v"
         )
-        coherence = cm.get_coherence()
+        coherence = float(cm.get_coherence())
         print(f"\n  LDA coherence (c_v): {coherence:.4f}")
     except Exception as e:
         coherence = None
@@ -181,11 +197,13 @@ def main():
     print("\nComputing skill gap table...")
     gap_table = compute_gap(job_freq, course_freq, job_docs_f, course_docs_f, top_n=50)
 
-    (PROCESSED / "gap_table.json").write_text(json.dumps(gap_table, indent=2))
+    (PROCESSED / "gap_table.json").write_text(
+        json.dumps(gap_table, indent=2, cls=NumpyEncoder), encoding="utf-8"
+    )
 
     # CSV for paper
     csv_path = PROCESSED / "gap_table.csv"
-    with open(csv_path, "w", newline="") as f:
+    with open(csv_path, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=[
             "skill", "job_count", "job_prevalence",
             "course_coverage", "gap_score", "in_courses"
@@ -223,7 +241,9 @@ def main():
         "n_course_skills_vocab": len(course_vocab),
         "top_gaps": gap_table[:10],
     }
-    (PROCESSED / "phase1_summary.json").write_text(json.dumps(summary, indent=2))
+    (PROCESSED / "phase1_summary.json").write_text(
+        json.dumps(summary, indent=2, cls=NumpyEncoder), encoding="utf-8"
+    )
 
     print("\n" + "=" * 65)
     print("Phase 1 LDA complete.")
