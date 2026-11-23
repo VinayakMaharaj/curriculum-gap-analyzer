@@ -1,6 +1,6 @@
 """
 Indeed Canada scraper — Mohammed baseline (replaces defunct Workopolis).
-HTML scraping of ca.indeed.com across Toronto / Vancouver / Remote.
+HTML scraping of ca.indeed.com across Toronto / Vancouver / Montreal / Remote.
 
 Usage:
   python scrape_indeed_canada.py
@@ -36,7 +36,7 @@ OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 MANIFEST_PATH = OUTPUT_DIR / "_manifest.json"
 
 DELAY_MIN = 2.0
-DELAY_MAX = 4.0
+DELAY_MAX = 4.5
 
 HEADERS = {
     "User-Agent": (
@@ -50,7 +50,7 @@ HEADERS = {
 }
 
 INDEED_BASE = "https://ca.indeed.com"
-MAX_PAGES_PER_SEARCH = 5   # 15 results/page → 75 max per keyword+location
+MAX_PAGES_PER_SEARCH = 5   # 15 results/page → up to 75 per keyword+location
 
 
 # ---------------------------------------------------------------------------
@@ -103,65 +103,111 @@ def fetch_job_detail(jk: str, session: requests.Session) -> dict | None:
     page_text = soup.get_text(" ", strip=True)
 
     title = ""
-    for sel in [
-        "h1[data-testid='jobsearch-JobInfoHeader-title']",
-        "h1.jobsearch-JobInfoHeader-title",
-        "h1",
-    ]:
-        tag = soup.select_one(sel)
-        if tag:
-            title = tag.get_text(strip=True)
-            break
-
     company = ""
-    for sel in [
-        "[data-testid='inlineHeader-companyName']",
-        ".jobsearch-CompanyInfoWithoutHeaderImage span",
-        ".icl-u-lg-mr--sm",
-    ]:
-        tag = soup.select_one(sel)
-        if tag:
-            company = tag.get_text(strip=True)
-            break
-
     location = ""
-    for sel in [
-        "[data-testid='job-location']",
-        "[class*='companyLocation']",
-    ]:
-        tag = soup.select_one(sel)
-        if tag:
-            location = tag.get_text(strip=True)
-            break
-
     description = ""
-    for sel in [
-        "#jobDescriptionText",
-        ".jobsearch-jobDescriptionText",
-        "div[data-testid='job-description']",
-    ]:
-        tag = soup.select_one(sel)
-        if tag:
-            description = tag.get_text(" ", strip=True)
-            if len(description) > 200:
+
+    # Strategy 1: JSON-LD
+    for script in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(script.string or "")
+            if isinstance(data, list):
+                data = data[0]
+            if data.get("@type") == "JobPosting":
+                title = data.get("title", "")
+                description = data.get("description", "")
+                loc_obj = data.get("jobLocation", {})
+                if isinstance(loc_obj, list):
+                    loc_obj = loc_obj[0] if loc_obj else {}
+                location = loc_obj.get("address", {}).get("addressLocality", "")
+                company = data.get("hiringOrganization", {}).get("name", "")
+                break
+        except Exception:
+            continue
+
+    # Strategy 2: Indeed-specific data attributes
+    if not title:
+        for sel in [
+            "h1[data-testid='jobsearch-JobInfoHeader-title']",
+            "h1.jobsearch-JobInfoHeader-title",
+            "h1",
+        ]:
+            tag = soup.select_one(sel)
+            if tag and tag.get_text(strip=True):
+                title = tag.get_text(strip=True)
                 break
 
+    if not company:
+        for sel in [
+            "[data-testid='inlineHeader-companyName']",
+            ".jobsearch-CompanyInfoWithoutHeaderImage span",
+            "[class*='companyName']",
+        ]:
+            tag = soup.select_one(sel)
+            if tag and tag.get_text(strip=True):
+                company = tag.get_text(strip=True)
+                break
+
+    if not location:
+        for sel in [
+            "[data-testid='job-location']",
+            "[class*='companyLocation']",
+        ]:
+            tag = soup.select_one(sel)
+            if tag and tag.get_text(strip=True):
+                location = tag.get_text(strip=True)
+                break
+
+    # Strategy 3: description CSS selectors
+    if not description:
+        for sel in [
+            "#jobDescriptionText",
+            ".jobsearch-jobDescriptionText",
+            "div[data-testid='job-description']",
+            "[class*='jobDescription']",
+        ]:
+            tag = soup.select_one(sel)
+            if tag:
+                text = tag.get_text(" ", strip=True)
+                if len(text) > 200:
+                    description = text
+                    break
+
+    # Strategy 4: largest div heuristic
+    if not description:
+        candidates = [
+            tag.get_text(" ", strip=True)
+            for tag in soup.find_all("div")
+            if len(tag.get_text(" ", strip=True)) > 300
+        ]
+        if candidates:
+            description = max(candidates, key=len)
+
+    # Strip HTML if came from JSON-LD
+    if description and "<" in description:
+        desc_soup = BeautifulSoup(description, "html.parser")
+        description = desc_soup.get_text(" ", strip=True)
+
     salary = ""
-    m = re.search(r"\$[\d,]+(?:\s*[-–]\s*\$[\d,]+)?(?:\s*(?:per|a)\s+\w+)?", page_text, re.IGNORECASE)
+    m = re.search(
+        r"\$[\d,]+(?:\s*[-–]\s*\$[\d,]+)?(?:\s*(?:per|a|/)\s*\w+)?",
+        page_text,
+        re.IGNORECASE,
+    )
     if m:
         salary = m.group(0)
 
     return {
-        "job_id": jk,
-        "url": url,
-        "title": title,
-        "company": company,
-        "location": location,
-        "country": "Canada",
-        "salary": salary,
+        "job_id":    jk,
+        "url":       url,
+        "title":     title,
+        "company":   company,
+        "location":  location,
+        "country":   "Canada",
+        "salary":    salary,
         "description": description,
         "char_count": len(description),
-        "source": "ca.indeed.com",
+        "source":    "ca.indeed.com",
     }
 
 
@@ -173,6 +219,7 @@ def run_scrape() -> list[dict]:
     session = requests.Session()
     session.headers.update(HEADERS)
 
+    # Warm up cookies
     try:
         session.get(INDEED_BASE, timeout=10)
         sleep()
@@ -196,12 +243,15 @@ def run_scrape() -> list[dict]:
 
     for i, jk in enumerate(jk_list, 1):
         out_path = OUTPUT_DIR / f"{jk}.json"
+
         if out_path.exists():
-            with open(out_path, encoding="utf-8") as f:
-                job = json.load(f)
-            jobs.append(job)
-            print(f"  [{i}/{len(jk_list)}] {jk} — cached")
-            continue
+            existing = json.load(open(out_path, encoding="utf-8"))
+            if existing.get("char_count", 0) > 150:
+                jobs.append(existing)
+                print(f"  [{i}/{len(jk_list)}] {jk} — cached ({existing['char_count']} chars)")
+                continue
+            else:
+                print(f"  [{i}/{len(jk_list)}] {jk} — re-fetching (was empty)")
 
         print(f"  [{i}/{len(jk_list)}] {jk} ...")
         job = fetch_job_detail(jk, session)
@@ -221,20 +271,20 @@ def run_scrape() -> list[dict]:
 def write_manifest(jobs: list[dict]):
     meaningful = [j for j in jobs if j.get("char_count", 0) > 150]
     manifest = {
-        "total_found": len(jobs),
-        "meaningful": len(meaningful),
-        "source": "ca.indeed.com",
-        "keywords": SEARCH_KEYWORDS,
-        "locations": LOCATIONS,
+        "total_found":  len(jobs),
+        "meaningful":   len(meaningful),
+        "source":       "ca.indeed.com",
+        "keywords":     SEARCH_KEYWORDS,
+        "locations":    LOCATIONS,
         "jobs": [
             {
-                "job_id": j["job_id"],
-                "title": j.get("title", ""),
-                "company": j.get("company", ""),
-                "location": j.get("location", ""),
-                "country": "Canada",
-                "char_count": j.get("char_count", 0),
-                "url": j.get("url", ""),
+                "job_id":      j["job_id"],
+                "title":       j.get("title", ""),
+                "company":     j.get("company", ""),
+                "location":    j.get("location", ""),
+                "country":     "Canada",
+                "char_count":  j.get("char_count", 0),
+                "url":         j.get("url", ""),
                 "has_content": j.get("char_count", 0) > 150,
             }
             for j in jobs
