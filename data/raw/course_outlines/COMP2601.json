@@ -1,0 +1,8 @@
+{
+  "code": "COMP2601",
+  "url": "https://sta.uwi.edu/fst/dcit/content/comp2601",
+  "title": "Department of Computing & Information Technology",
+  "description": "This course builds upon knowledge and skills developed in COMP 1600. This course explores how computers from a programmer’s view point rather than from the hardware designer’s perspective. Topics include: Digital Logic and Digital Systems, Machine Level Representation of Data, Assembly Level Machine Organization, Memory System Organization and Architecture, Interfacing and Communication, Multiprocessing and Alternative Architectures, and Performance Enhancements. The overarching theme of the course is the hardware-software interface; in particular, focusing on what a programmer needs to know about the underlying hardware to achieve high performance for his or her code. ASSESSMENT",
+  "raw_text": "This course builds upon knowledge and skills developed in COMP 1600. This course explores how computers from a programmer’s view point rather than from the hardware designer’s perspective. Topics include: Digital Logic and Digital Systems, Machine Level Representation of Data, Assembly Level Machine Organization, Memory System Organization and Architecture, Interfacing and Communication, Multiprocessing and Alternative Architectures, and Performance Enhancements. The overarching theme of the course is the hardware-software interface; in particular, focusing on what a programmer needs to know about the underlying hardware to achieve high performance for his or her code. ASSESSMENT",
+  "scrape_status": "ok"
+}

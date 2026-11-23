@@ -1,0 +1,8 @@
+{
+  "code": "COMP2604",
+  "url": "https://sta.uwi.edu/fst/dcit/content/comp2604",
+  "title": "Department of Computing & Information Technology",
+  "description": "This course looks at the inner workings of operating systems such as Windows, Ubuntu, and Mac OS X, both from a theoretical algorithmic point of view as well as a practical system programming point of view. The student will be introduced to the fundamental algorithms that support the existence of contemporary operating systems. Topics include the important areas of processes, threads, and CPU management, main and virtual memory management, file systems, disk scheduling algorithms, protection and security. ASSESSMENT",
+  "raw_text": "This course looks at the inner workings of operating systems such as Windows, Ubuntu, and Mac OS X, both from a theoretical algorithmic point of view as well as a practical system programming point of view. The student will be introduced to the fundamental algorithms that support the existence of contemporary operating systems. Topics include the important areas of processes, threads, and CPU management, main and virtual memory management, file systems, disk scheduling algorithms, protection and security. ASSESSMENT",
+  "scrape_status": "ok"
+}

@@ -1,0 +1,8 @@
+{
+  "code": "INFO3605",
+  "url": "https://sta.uwi.edu/fst/dcit/content/info3605",
+  "title": "Department of Computing & Information Technology",
+  "description": "This course builds on fundamental networking concepts by introducing students to Local Area Network (LAN) switching equipment, protocols and topologies. Students learn about Classless Routing, RIP V2, Single Area OSPF, EIGRP, and the Spanning Tree Protocol, and differentiate between cut-through and store-and-forward LAN switching. Lab activities include implementing VLSM, RIP V2, OSPF, EIGRP, trunking and routing VLANs. Students create virtual LANs and analyze various LAN segmentations. The course will be delivered using a combination of lectures, case studies, simulations and various online resources. Assignments will take the form of multiple choice, simulated lab examinations, group projects and presentations. ASSESSMENT  (No final written examination)",
+  "raw_text": "This course builds on fundamental networking concepts by introducing students to Local Area Network (LAN) switching equipment, protocols and topologies. Students learn about Classless Routing, RIP V2, Single Area OSPF, EIGRP, and the Spanning Tree Protocol, and differentiate between cut-through and store-and-forward LAN switching. Lab activities include implementing VLSM, RIP V2, OSPF, EIGRP, trunking and routing VLANs. Students create virtual LANs and analyze various LAN segmentations. The course will be delivered using a combination of lectures, case studies, simulations and various online resources. Assignments will take the form of multiple choice, simulated lab examinations, group projects and presentations. ASSESSMENT  (No final written examination)",
+  "scrape_status": "ok"
+}

@@ -1,0 +1,374 @@
+{
+  "total": 45,
+  "ok": 39,
+  "failed": [
+    "COMP1600",
+    "COMP1602",
+    "COMP1603",
+    "MATH1115",
+    "FOUN1105",
+    "FOUN1301"
+  ],
+  "courses": [
+    {
+      "code": "COMP1600",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp1600",
+      "title": "Department of Computing & Information Technology",
+      "description": "",
+      "raw_text": "",
+      "scrape_status": "empty"
+    },
+    {
+      "code": "COMP1601",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp-1601",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course uses an appropriate programming language as a tool to teach fundamental programming concepts. The main concepts covered are sequence, selection and repetition logic; character and string manipulation; functions; and a basic introduction to arrays and their applications. ASSESSMENT",
+      "raw_text": "This course uses an appropriate programming language as a tool to teach fundamental programming concepts. The main concepts covered are sequence, selection and repetition logic; character and string manipulation; functions; and a basic introduction to arrays and their applications. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP1602",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp1602",
+      "title": "Department of Computing & Information Technology",
+      "description": "",
+      "raw_text": "",
+      "scrape_status": "empty"
+    },
+    {
+      "code": "COMP1603",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp1603",
+      "title": "Department of Computing & Information Technology",
+      "description": "",
+      "raw_text": "",
+      "scrape_status": "empty"
+    },
+    {
+      "code": "COMP1604",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp1604",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course introduces students to the basic mathematical structures and computational techniques that are considered to be the foundation for courses in computer science and information technology. Students are also taught how to reason logically and how to solve problems using various proof techniques. The main mathematical structures covered are logic, sets, relations and functions. ASSESSMENT",
+      "raw_text": "This course introduces students to the basic mathematical structures and computational techniques that are considered to be the foundation for courses in computer science and information technology. Students are also taught how to reason logically and how to solve problems using various proof techniques. The main mathematical structures covered are logic, sets, relations and functions. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO1600",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info1600",
+      "title": "Department of Computing & Information Technology",
+      "description": "This is a foundation course in Information Technology and it introduces students to the discipline of Information Technology. It describes how it relates to other computing disciplines. At the end of the course, students will be able to appreciate what is Information Technology and how it is used by organizations today to improve their efficiency and profitability. The course also provides a general overview of the B.Sc. in Information Technology so that when the course concludes, students will understand how the whole degree fits together in a cohesive manner. Numerous examples are presented throughout the course so that students can get a concrete picture of the role of information technology in organizations. ASSESSMENT",
+      "raw_text": "This is a foundation course in Information Technology and it introduces students to the discipline of Information Technology. It describes how it relates to other computing disciplines. At the end of the course, students will be able to appreciate what is Information Technology and how it is used by organizations today to improve their efficiency and profitability. The course also provides a general overview of the B.Sc. in Information Technology so that when the course concludes, students will understand how the whole degree fits together in a cohesive manner. Numerous examples are presented throughout the course so that students can get a concrete picture of the role of information technology in organizations. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO1601",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info1601",
+      "title": "Department of Computing & Information Technology",
+      "description": "This is an introduction to web technologies and systems, including hypertext, self-descriptive text, web page design, web navigational systems, and various mark-up languages and scripting languages. Programming examples; exercises and projects are drawn from practical web-based applications. Good programming practice and program clarity is emphasized throughout the course. At the end of the course, students will be able to appreciate the need for web related technologies and how they are used by organizations to improve their efficiency, marketability and profitability.  ASSESSMENT  (No final written examination)",
+      "raw_text": "This is an introduction to web technologies and systems, including hypertext, self-descriptive text, web page design, web navigational systems, and various mark-up languages and scripting languages. Programming examples; exercises and projects are drawn from practical web-based applications. Good programming practice and program clarity is emphasized throughout the course. At the end of the course, students will be able to appreciate the need for web related technologies and how they are used by organizations to improve their efficiency, marketability and profitability.  ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "MATH1115",
+      "url": "https://sta.uwi.edu/fst/dcit/content/math1115",
+      "title": "Department of Computing & Information Technology",
+      "description": "",
+      "raw_text": "",
+      "scrape_status": "empty"
+    },
+    {
+      "code": "COMP2601",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp2601",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course builds upon knowledge and skills developed in COMP 1600. This course explores how computers from a programmer’s view point rather than from the hardware designer’s perspective. Topics include: Digital Logic and Digital Systems, Machine Level Representation of Data, Assembly Level Machine Organization, Memory System Organization and Architecture, Interfacing and Communication, Multiprocessing and Alternative Architectures, and Performance Enhancements. The overarching theme of the course is the hardware-software interface; in particular, focusing on what a programmer needs to know about the underlying hardware to achieve high performance for his or her code. ASSESSMENT",
+      "raw_text": "This course builds upon knowledge and skills developed in COMP 1600. This course explores how computers from a programmer’s view point rather than from the hardware designer’s perspective. Topics include: Digital Logic and Digital Systems, Machine Level Representation of Data, Assembly Level Machine Organization, Memory System Organization and Architecture, Interfacing and Communication, Multiprocessing and Alternative Architectures, and Performance Enhancements. The overarching theme of the course is the hardware-software interface; in particular, focusing on what a programmer needs to know about the underlying hardware to achieve high performance for his or her code. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP2602",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp2602",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course examines some of the important concepts related to computer networks, e.g., the network edge and core, routers, the ISO and TCP/IP reference models for computer communication and networking protocols. Many use the Internet and local area networks every day but are not fully aware as to what goes on “behind-the-scenes” to make this network communication possible. In this course, students explore what happens to the data in the computer before it is prepared for transmission, how protocols work to transmit the data and how it is received at other computers. Error control and recovery methods for lost or corrupted data are also investigated. A layered model for computer communications is thoroughly examined. Students will write networking programs and test them on a local area network or on the Internet. ASSESSMENT",
+      "raw_text": "This course examines some of the important concepts related to computer networks, e.g., the network edge and core, routers, the ISO and TCP/IP reference models for computer communication and networking protocols. Many use the Internet and local area networks every day but are not fully aware as to what goes on “behind-the-scenes” to make this network communication possible. In this course, students explore what happens to the data in the computer before it is prepared for transmission, how protocols work to transmit the data and how it is received at other computers. Error control and recovery methods for lost or corrupted data are also investigated. A layered model for computer communications is thoroughly examined. Students will write networking programs and test them on a local area network or on the Internet. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP2603",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp2603",
+      "title": "Department of Computing & Information Technology",
+      "description": " ASSESSMENT",
+      "raw_text": " ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP2604",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp2604",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course looks at the inner workings of operating systems such as Windows, Ubuntu, and Mac OS X, both from a theoretical algorithmic point of view as well as a practical system programming point of view. The student will be introduced to the fundamental algorithms that support the existence of contemporary operating systems. Topics include the important areas of processes, threads, and CPU management, main and virtual memory management, file systems, disk scheduling algorithms, protection and security. ASSESSMENT",
+      "raw_text": "This course looks at the inner workings of operating systems such as Windows, Ubuntu, and Mac OS X, both from a theoretical algorithmic point of view as well as a practical system programming point of view. The student will be introduced to the fundamental algorithms that support the existence of contemporary operating systems. Topics include the important areas of processes, threads, and CPU management, main and virtual memory management, file systems, disk scheduling algorithms, protection and security. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP2605",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp2605",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course covers the design and implementation of relational database systems. Emphasis is placed on the database design of real world business application using Entity Relationship modelling. SQL programming is covered in detail. Data Management concepts such as Transaction Management, Concurrency Control, Recovery, and backups are presented. XML-enabled databases are also studied. An overview of several specialized databases is introduced and the technical and managerial responsibilities of a database administrator are discussed. By utilizing an abundance of real world business applications, students are introduced to database systems and designs used by organizations. Additionally students examine the characteristics of database transactions and how they affect database integrity and consistency. At the end of this course, students will be able to effectively design and implement enterprise database systems. ASSESSMENT:",
+      "raw_text": "This course covers the design and implementation of relational database systems. Emphasis is placed on the database design of real world business application using Entity Relationship modelling. SQL programming is covered in detail. Data Management concepts such as Transaction Management, Concurrency Control, Recovery, and backups are presented. XML-enabled databases are also studied. An overview of several specialized databases is introduced and the technical and managerial responsibilities of a database administrator are discussed. By utilizing an abundance of real world business applications, students are introduced to database systems and designs used by organizations. Additionally students examine the characteristics of database transactions and how they affect database integrity and consistency. At the end of this course, students will be able to effectively design and implement enterprise database systems. ASSESSMENT:",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP2606",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp2606",
+      "title": "Department of Computing & Information Technology",
+      "description": "The specification, development, management, and evolution of software systems make up the discipline of software engineering. In this course, students apply methods and tools to develop software designs and specifications.  The course focuses on universal techniques for developing large-scale systems rather than individual algorithms. In order to build good business systems, it is particularly important that the student place a great deal of emphasis in exploring the different process models and the topics covering requirements analysis and system specification, system architecture and design, verification and validation and system evolution. During the course, students will participate in a real problem solving/software development project which will expose them to the processes, tools and techniques of professional product quality software development. ASSESSMENT",
+      "raw_text": "The specification, development, management, and evolution of software systems make up the discipline of software engineering. In this course, students apply methods and tools to develop software designs and specifications.  The course focuses on universal techniques for developing large-scale systems rather than individual algorithms. In order to build good business systems, it is particularly important that the student place a great deal of emphasis in exploring the different process models and the topics covering requirements analysis and system specification, system architecture and design, verification and validation and system evolution. During the course, students will participate in a real problem solving/software development project which will expose them to the processes, tools and techniques of professional product quality software development. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP2611",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp-2611",
+      "title": "Department of Computing & Information Technology",
+      "description": " ASSESSMENT",
+      "raw_text": " ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO2602",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info2602",
+      "title": "Department of Computing & Information Technology",
+      "description": "ASSESSMENT  (No final written examination)",
+      "raw_text": "ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO2604",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info2604",
+      "title": "Department of Computing & Information Technology",
+      "description": "Information Systems Security builds upon concepts explored in Computer Programming II. This course explores concepts needed to manage the necessary processes that guarantee information assurance.  It covers operational issues, policies and procedures, attacks and defense mechanisms, risk analyses and information security. The course will be delivered using a combination of lectures, blended learning, case studies and various online resources. ASSESSMENT",
+      "raw_text": "Information Systems Security builds upon concepts explored in Computer Programming II. This course explores concepts needed to manage the necessary processes that guarantee information assurance.  It covers operational issues, policies and procedures, attacks and defense mechanisms, risk analyses and information security. The course will be delivered using a combination of lectures, blended learning, case studies and various online resources. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "MATH2250",
+      "url": "https://sta.uwi.edu/fst/dcit/content/math2250",
+      "title": "Department of Computing & Information Technology",
+      "description": "Statistics and probability; frequency distributions, frequency polygons and histograms; introduction to probability; basic axioms, conditional probability, Bayes theorem, mutual independence; introduction to random variables; probability distribution, Bernoulli trials, the Binomial distribution and the Poisson distribution; probability density and mass functions of a continuous random variable; expectation and variance; the exponential and normal distributions; distribution of sample means; point estimates; confidence intervals; statistical inference - tests of significance. Regression analysis; analysis of multiple regression; non-parametric statistical methods; analysis of variance; design of experiments; randomised block design and analysis.",
+      "raw_text": "Statistics and probability; frequency distributions, frequency polygons and histograms; introduction to probability; basic axioms, conditional probability, Bayes theorem, mutual independence; introduction to random variables; probability distribution, Bernoulli trials, the Binomial distribution and the Poisson distribution; probability density and mass functions of a continuous random variable; expectation and variance; the exponential and normal distributions; distribution of sample means; point estimates; confidence intervals; statistical inference - tests of significance. Regression analysis; analysis of multiple regression; non-parametric statistical methods; analysis of variance; design of experiments; randomised block design and analysis.",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3601",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3601",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course covers specific fundamental algorithm-design techniques used to formulate solutions to a wide variety of problems. It also covers problem-solving techniques for analysing algorithms to determine space/time requirements. ASSESSMENT",
+      "raw_text": "This course covers specific fundamental algorithm-design techniques used to formulate solutions to a wide variety of problems. It also covers problem-solving techniques for analysing algorithms to determine space/time requirements. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3602",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3602",
+      "title": "Department of Computing & Information Technology",
+      "description": "The course introduces undergraduate computer science students to the foundations of theoretical computer science. It exposes them to abstractions which can be used to solve complex real world problems. It introduces: Regular Languages, Finite Automata, Context-free Languages, Computability; Turing machines and Complexity Classes. Finally, students gain an appreciation for theoretical aspects of computing and the basic skills required to assess the limitations of the computer. ASSESSMENT",
+      "raw_text": "The course introduces undergraduate computer science students to the foundations of theoretical computer science. It exposes them to abstractions which can be used to solve complex real world problems. It introduces: Regular Languages, Finite Automata, Context-free Languages, Computability; Turing machines and Complexity Classes. Finally, students gain an appreciation for theoretical aspects of computing and the basic skills required to assess the limitations of the computer. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3603",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3603",
+      "title": "Department of Computing & Information Technology",
+      "description": "Human-computer interaction is an interdisciplinary field that integrates theories and methodologies from computer science, cognitive psychology, design, and many other areas. The course is intended to introduce the student to the basic concepts of human-computer interaction. It will cover the basic theory and methods that exist in the field. The course will unfold by examining design and evaluation. Case studies are used throughout the readings to exemplify the methods presented and to lend a context to the issues discussed. The students will gain principles and skills for designing and evaluating interactive systems. The heart of the course is a semester-long group project that will help students learn in a hands-on way about the various stages of an effective design process. The goal of this course is to help students realize that user interface development is an ongoing process throughout the full product life cycle, and developing the human-computer interface is not something to be done at the last minute, when the \"rest of the system\" is finished. Hence, this course concentrates on creating and testing DESIGNS of human-computer systems through low and medium fidelity prototypes and NOT with implementing a piece of software in this class. ASSESSMENT  (No final written examination)",
+      "raw_text": "Human-computer interaction is an interdisciplinary field that integrates theories and methodologies from computer science, cognitive psychology, design, and many other areas. The course is intended to introduce the student to the basic concepts of human-computer interaction. It will cover the basic theory and methods that exist in the field. The course will unfold by examining design and evaluation. Case studies are used throughout the readings to exemplify the methods presented and to lend a context to the issues discussed. The students will gain principles and skills for designing and evaluating interactive systems. The heart of the course is a semester-long group project that will help students learn in a hands-on way about the various stages of an effective design process. The goal of this course is to help students realize that user interface development is an ongoing process throughout the full product life cycle, and developing the human-computer interface is not something to be done at the last minute, when the \"rest of the system\" is finished. Hence, this course concentrates on creating and testing DESIGNS of human-computer systems through low and medium fidelity prototypes and NOT with implementing a piece of software in this class. ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3991",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp-3991",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course introduces students to the fundamental mathematical concepts and computational techniques that are used in computer science. It focuses intuitively on core calculus and linear algebra concepts, emphasising their theoretical basis in computational problem solving, and concrete implementation (via an appropriate programming language) in real-world applications and models. ASSESSMENT",
+      "raw_text": "This course introduces students to the fundamental mathematical concepts and computational techniques that are used in computer science. It focuses intuitively on core calculus and linear algebra concepts, emphasising their theoretical basis in computational problem solving, and concrete implementation (via an appropriate programming language) in real-world applications and models. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO3604",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info3604",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course builds upon concepts explored in INFO 2600 or COMP 2606. The course requires the student to implement a project of an appropriate scope. The student will liaise with an academic supervisor. Several lectures may be given on project management and research methodologies. The course will be delivered using consultation sessions with student groups. Assignments will take the form of written deliverables, presentations and online journals. This course will allow students to apply what they have learnt throughout their respective programmes in order to implement a functional project. The course also allows students to apply the project management process which involves project planning and group communication. These skills are necessary in the real-world system development environment. ASSESSMENT  (No final written examination)",
+      "raw_text": "This course builds upon concepts explored in INFO 2600 or COMP 2606. The course requires the student to implement a project of an appropriate scope. The student will liaise with an academic supervisor. Several lectures may be given on project management and research methodologies. The course will be delivered using consultation sessions with student groups. Assignments will take the form of written deliverables, presentations and online journals. This course will allow students to apply what they have learnt throughout their respective programmes in order to implement a functional project. The course also allows students to apply the project management process which involves project planning and group communication. These skills are necessary in the real-world system development environment. ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3605",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3605",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course provides an introduction to various computational and data mining techniques that are used within the computer science discipline to facilitate intelligent decision making and analysis within systems. The course focuses on providing a practical understanding of a number of computational intelligence techniques without over-burdening the student with the theoretical foundation that many of these techniques possess. The course provides a foundational understanding of topics that will be useful for further work in data mining analysis and machine learning. The course will utilize an appropriate programming language (e.g., python) and available software tools (e.g., scikit-learn, scipy and pandas) to give students practical experience utilizing these algorithms to solve real world problems. ASSESSMENT",
+      "raw_text": "This course provides an introduction to various computational and data mining techniques that are used within the computer science discipline to facilitate intelligent decision making and analysis within systems. The course focuses on providing a practical understanding of a number of computational intelligence techniques without over-burdening the student with the theoretical foundation that many of these techniques possess. The course provides a foundational understanding of topics that will be useful for further work in data mining analysis and machine learning. The course will utilize an appropriate programming language (e.g., python) and available software tools (e.g., scikit-learn, scipy and pandas) to give students practical experience utilizing these algorithms to solve real world problems. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3606",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3606",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course is recommended as an essential part of the \"Net-centric Computing\" component of the ACM Computing curricula. It looks at the architecture of wireless networks and associated protocols. Software support for wireless and mobile computing is also examined. This includes Android Programming and SMS based applications. The course recognizes that software regimes may evolve over time and hence would examine at least one of the major relevant and applicable wireless programming languages available from time to time. Emerging technologies are also discussed. ASSESSMENT",
+      "raw_text": "This course is recommended as an essential part of the \"Net-centric Computing\" component of the ACM Computing curricula. It looks at the architecture of wireless networks and associated protocols. Software support for wireless and mobile computing is also examined. This includes Android Programming and SMS based applications. The course recognizes that software regimes may evolve over time and hence would examine at least one of the major relevant and applicable wireless programming languages available from time to time. Emerging technologies are also discussed. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3607",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3607",
+      "title": "Department of Computing & Information Technology",
+      "description": "The course looks at the main tools of modern object-oriented software development. The main tools are: design-support tools (principally design patterns) and programming-support tools (principally IDE). This course has a strong emphasis on project design and programming using design patterns. Each pattern represents a best practice solution to a software problem in a specific context. The course covers the rationale and benefits of object-oriented software design patterns. Numerous problems will be studied to investigate the implementation of good design patterns. ASSESSMENT  (No final written examination)",
+      "raw_text": "The course looks at the main tools of modern object-oriented software development. The main tools are: design-support tools (principally design patterns) and programming-support tools (principally IDE). This course has a strong emphasis on project design and programming using design patterns. Each pattern represents a best practice solution to a software problem in a specific context. The course covers the rationale and benefits of object-oriented software design patterns. Numerous problems will be studied to investigate the implementation of good design patterns. ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3608",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3608",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course provides an introduction to artificial intelligence and its applications. The course concentrates on solving problems associated with artificial intelligence using data mining and knowledge representation tools. Topics covered in the course include characteristics of intelligent systems, rule-based Expert Systems; production rules, reasoning with uncertainty, search strategies, artificial neural networks, genetic algorithms, knowledge engineering and data mining. ASSESSMENT  (No final written examination)",
+      "raw_text": "This course provides an introduction to artificial intelligence and its applications. The course concentrates on solving problems associated with artificial intelligence using data mining and knowledge representation tools. Topics covered in the course include characteristics of intelligent systems, rule-based Expert Systems; production rules, reasoning with uncertainty, search strategies, artificial neural networks, genetic algorithms, knowledge engineering and data mining. ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3609",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3609",
+      "title": "Department of Computing & Information Technology",
+      "description": "The Game Programming course will allow students to combine concepts taught in order courses together with the new game programming concepts taught in this course, in order to build games. The students will be introduced to an appropriate 2D programming API (e.g., Java), the game loop, game entities, images, sound, animations, game physics and user input. At the end of the course students will have a good grasp on the concepts of game programming and will be able to produce games for multiple platforms.  The course covers the fundamental aspects of images, sounds, animations and sprites and shows how to develop a two-dimensional game using these elements. Mathematics and Physics principles are discussed throughout the course whenever they are pertinent to the topics being presented (e.g. collision detection of sprites). ASSESSMENT  (No final written examination)",
+      "raw_text": "The Game Programming course will allow students to combine concepts taught in order courses together with the new game programming concepts taught in this course, in order to build games. The students will be introduced to an appropriate 2D programming API (e.g., Java), the game loop, game entities, images, sound, animations, game physics and user input. At the end of the course students will have a good grasp on the concepts of game programming and will be able to produce games for multiple platforms.  The course covers the fundamental aspects of images, sounds, animations and sprites and shows how to develop a two-dimensional game using these elements. Mathematics and Physics principles are discussed throughout the course whenever they are pertinent to the topics being presented (e.g. collision detection of sprites). ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3610",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3610",
+      "title": "Department of Computing & Information Technology",
+      "description": "The course exposes students to the various approaches used in analysing big data. The course focuses on the use of data warehouses and distributed database design to analyse structured data and Hadoop for unstructured data. Students are also introduced to various NoSQL databases and approaches for storing and processing large volumes of data. The MapReduce model for processing large data sets in discussed and it is compared against the parallel database approach. ASSESSMENT  (No final written examination)",
+      "raw_text": "The course exposes students to the various approaches used in analysing big data. The course focuses on the use of data warehouses and distributed database design to analyse structured data and Hadoop for unstructured data. Students are also introduced to various NoSQL databases and approaches for storing and processing large volumes of data. The MapReduce model for processing large data sets in discussed and it is compared against the parallel database approach. ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3611",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3611",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course covers basic to intermediate techniques for discrete event simulation of common scenarios. It draws on concepts from the theory of computation and computer programming. In many real world situations, it is infeasible to develop a precise mathematical model with a closed-form analytic solution for a given problem. Modelling and simulation is a means of coping with this type of problem. ASSESSMENT",
+      "raw_text": "This course covers basic to intermediate techniques for discrete event simulation of common scenarios. It draws on concepts from the theory of computation and computer programming. In many real world situations, it is infeasible to develop a precise mathematical model with a closed-form analytic solution for a given problem. Modelling and simulation is a means of coping with this type of problem. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3612",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3612",
+      "title": "Department of Computing & Information Technology",
+      "description": "Each time this course is offered, it addresses a topic in computer science that is not covered as a regular course. Topics may change from year to year. Some of these topics include: Computer Graphics; Robotics, Computer Assisted Design (CAD); E-Learning; Mobile Health; Data Visualization; E-Science; Speech Synthesis; Advanced Processor Architecture; Expert Systems; Computability and Complexity; Proof of Correctness of Programs; Image Processing; any other approved topic. ASSESSMENT",
+      "raw_text": "Each time this course is offered, it addresses a topic in computer science that is not covered as a regular course. Topics may change from year to year. Some of these topics include: Computer Graphics; Robotics, Computer Assisted Design (CAD); E-Learning; Mobile Health; Data Visualization; E-Science; Speech Synthesis; Advanced Processor Architecture; Expert Systems; Computability and Complexity; Proof of Correctness of Programs; Image Processing; any other approved topic. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "COMP3613",
+      "url": "https://sta.uwi.edu/fst/dcit/content/comp3613",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course is a continuation of developing skills surrounding software engineering, its principles and practical applications within the computer science curriculum. This course will expose students to the required engineering rigors of specifying, designing, developing and maintaining product-quality code. It will prepare them for the challenge of developing software systems as part of a team through a better understanding of development process methodologies, and an appreciation of the different challenges software engineers face in domains as varied as web-based systems, mission-critical systems and safety-critical systems. ASSESSMENT  (No final written examination)",
+      "raw_text": "This course is a continuation of developing skills surrounding software engineering, its principles and practical applications within the computer science curriculum. This course will expose students to the required engineering rigors of specifying, designing, developing and maintaining product-quality code. It will prepare them for the challenge of developing software systems as part of a team through a better understanding of development process methodologies, and an appreciation of the different challenges software engineers face in domains as varied as web-based systems, mission-critical systems and safety-critical systems. ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO2605",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info2605",
+      "title": "Department of Computing & Information Technology",
+      "description": "PRE-REQUISITES:INFO 1600ORCOMP1600COURSE DESCRIPTION This course provides an overview of current ethical standards and practices in the computing and information technology area. Students will develop an awareness of both the ethical and legal issues facing the computerized workplace. The course will be delivered using a combination of lectures, eLearning, case studies and various online resources.  Assignments will take the form of written examinations, group projects and presentations. ASSESSMENT (No final written examination)",
+      "raw_text": "PRE-REQUISITES:INFO 1600ORCOMP1600COURSE DESCRIPTION This course provides an overview of current ethical standards and practices in the computing and information technology area. Students will develop an awareness of both the ethical and legal issues facing the computerized workplace. The course will be delivered using a combination of lectures, eLearning, case studies and various online resources.  Assignments will take the form of written examinations, group projects and presentations. ASSESSMENT (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO3600",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info3600",
+      "title": "Department of Computing & Information Technology",
+      "description": "The course focuses on Information Systems in terms of business processes. It covers transaction cycles, events, and activities of Revenue, Expenditure, Production, and Human Resources business processes. The course covers core application frameworks – customer relationship management, enterprise resource planning, revenue and expenditure management, and human resource management – with emphasis on modelling of business processes and data. The material is covered from the perspective of business in Trinidad & Tobago. E-Business concepts and principles are introduced. The course will be delivered using a combination of lectures, blended learning case studies, labs and various online resources. ASSESSMENT",
+      "raw_text": "The course focuses on Information Systems in terms of business processes. It covers transaction cycles, events, and activities of Revenue, Expenditure, Production, and Human Resources business processes. The course covers core application frameworks – customer relationship management, enterprise resource planning, revenue and expenditure management, and human resource management – with emphasis on modelling of business processes and data. The material is covered from the perspective of business in Trinidad & Tobago. E-Business concepts and principles are introduced. The course will be delivered using a combination of lectures, blended learning case studies, labs and various online resources. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO3605",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info3605",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course builds on fundamental networking concepts by introducing students to Local Area Network (LAN) switching equipment, protocols and topologies. Students learn about Classless Routing, RIP V2, Single Area OSPF, EIGRP, and the Spanning Tree Protocol, and differentiate between cut-through and store-and-forward LAN switching. Lab activities include implementing VLSM, RIP V2, OSPF, EIGRP, trunking and routing VLANs. Students create virtual LANs and analyze various LAN segmentations. The course will be delivered using a combination of lectures, case studies, simulations and various online resources. Assignments will take the form of multiple choice, simulated lab examinations, group projects and presentations. ASSESSMENT  (No final written examination)",
+      "raw_text": "This course builds on fundamental networking concepts by introducing students to Local Area Network (LAN) switching equipment, protocols and topologies. Students learn about Classless Routing, RIP V2, Single Area OSPF, EIGRP, and the Spanning Tree Protocol, and differentiate between cut-through and store-and-forward LAN switching. Lab activities include implementing VLSM, RIP V2, OSPF, EIGRP, trunking and routing VLANs. Students create virtual LANs and analyze various LAN segmentations. The course will be delivered using a combination of lectures, case studies, simulations and various online resources. Assignments will take the form of multiple choice, simulated lab examinations, group projects and presentations. ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO3606",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info3606",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course provides the student with an understanding of virtualization and its role in both private and cloud technologies. The student will be able to manage virtualization technologies and management of private and public cloud technologies. The course will be delivered using a combination of lectures, case studies and various online resources. Assignments will take the form of written examinations, lab examinations, group projects and presentations. ASSESSMENT  (No final written examination)",
+      "raw_text": "This course provides the student with an understanding of virtualization and its role in both private and cloud technologies. The student will be able to manage virtualization technologies and management of private and public cloud technologies. The course will be delivered using a combination of lectures, case studies and various online resources. Assignments will take the form of written examinations, lab examinations, group projects and presentations. ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO3607",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info3607",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course introduces WAN theory and design, WAN technology, PPP, ISDN and Frame Relay. Topics include network congestion problems, TCP/IP transport and network layer protocols, and advanced routing. The course will be delivered using a combination of lectures, eLearning, case studies, simulations and various online resources. Assignments will take the form of multiple choice, simulated lab examinations, group projects and presentations. ASSESSMENT  (No final written examination)",
+      "raw_text": "This course introduces WAN theory and design, WAN technology, PPP, ISDN and Frame Relay. Topics include network congestion problems, TCP/IP transport and network layer protocols, and advanced routing. The course will be delivered using a combination of lectures, eLearning, case studies, simulations and various online resources. Assignments will take the form of multiple choice, simulated lab examinations, group projects and presentations. ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO3608",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info3608",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course provides broad coverage of e-commerce systems. It covers the various ecommerce business models and e-commerce payment systems. The course will be delivered using a combination of lectures, eLearning, case studies and various online resources. Assignments will take the form of written examinations, lab examinations, group projects and presentations. ASSESSMENT  (No final written examination)",
+      "raw_text": "This course provides broad coverage of e-commerce systems. It covers the various ecommerce business models and e-commerce payment systems. The course will be delivered using a combination of lectures, eLearning, case studies and various online resources. Assignments will take the form of written examinations, lab examinations, group projects and presentations. ASSESSMENT  (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO3609",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info3609",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course provides students with an opportunity to develop practical skills through the application of computer science concepts within a structured and supervised environment. The course requires the student to develop software artifact(s) that will be useful to the business/institution and will be used beyond the scope/time of the internship. ASSESSMENT (No final written examination)",
+      "raw_text": "This course provides students with an opportunity to develop practical skills through the application of computer science concepts within a structured and supervised environment. The course requires the student to develop software artifact(s) that will be useful to the business/institution and will be used beyond the scope/time of the internship. ASSESSMENT (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO3610",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info3610",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course provides students with an opportunity to develop practical skills through the application of computer science concepts within a structured and supervised environment. The course requires the student to develop software artifact(s) that will be useful to the business/institution and will be used beyond the scope/time of the internship. ASSESSMENT (No final written examination)",
+      "raw_text": "This course provides students with an opportunity to develop practical skills through the application of computer science concepts within a structured and supervised environment. The course requires the student to develop software artifact(s) that will be useful to the business/institution and will be used beyond the scope/time of the internship. ASSESSMENT (No final written examination)",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO3611",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info3611",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course introduces students to Database Administration. Students taking the course should have a basic understanding of database concepts and SQL commands. The course provides practical experience in setting up and maintaining a MySQL/Oracle server, including backing up, recovery, configuration and optimisation strategies. This course is suitable for delegates intending to sit the Oracle SQL Fundamentals and Oracle Administration examinations for both Oracle and MySQL. ASSESSMENT (No final written examination) ",
+      "raw_text": "This course introduces students to Database Administration. Students taking the course should have a basic understanding of database concepts and SQL commands. The course provides practical experience in setting up and maintaining a MySQL/Oracle server, including backing up, recovery, configuration and optimisation strategies. This course is suitable for delegates intending to sit the Oracle SQL Fundamentals and Oracle Administration examinations for both Oracle and MySQL. ASSESSMENT (No final written examination) ",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "INFO3612",
+      "url": "https://sta.uwi.edu/fst/dcit/content/info-3612",
+      "title": "Department of Computing & Information Technology",
+      "description": "This course is designed to provide students with practical skills and knowledge to manage and secure an organization's IT infrastructure by identifying, responding to, and preventing security threats. The course covers operational aspects of Cybersecurity such as threat detection, vulnerability management, incident response, system hardening, and digital forensics. By engaging in hands-on labs and real-world case studies, students will gain proficiency with security tools, including SIEM, Intrusion Detection System/Intrusion Prevention System (IDS/IPS), and Security Orchestration, Automation, and Response (SOAR) platforms, preparing them for roles in Cybersecurity operations. ASSESSMENT",
+      "raw_text": "This course is designed to provide students with practical skills and knowledge to manage and secure an organization's IT infrastructure by identifying, responding to, and preventing security threats. The course covers operational aspects of Cybersecurity such as threat detection, vulnerability management, incident response, system hardening, and digital forensics. By engaging in hands-on labs and real-world case studies, students will gain proficiency with security tools, including SIEM, Intrusion Detection System/Intrusion Prevention System (IDS/IPS), and Security Orchestration, Automation, and Response (SOAR) platforms, preparing them for roles in Cybersecurity operations. ASSESSMENT",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "FOUN1101",
+      "url": "https://sta.uwi.edu/fst/dcit/content/foun1101",
+      "title": "Department of Computing & Information Technology",
+      "description": "Course is offered by the Faculty of Humanities and Education. ",
+      "raw_text": "Course is offered by the Faculty of Humanities and Education. ",
+      "scrape_status": "ok"
+    },
+    {
+      "code": "FOUN1105",
+      "url": "https://sta.uwi.edu/fst/dcit/content/foun1105",
+      "title": "Department of Computing & Information Technology",
+      "description": "",
+      "raw_text": "",
+      "scrape_status": "empty"
+    },
+    {
+      "code": "FOUN1301",
+      "url": "https://sta.uwi.edu/fst/dcit/content/foun1301",
+      "title": "Department of Computing & Information Technology",
+      "description": "",
+      "raw_text": "",
+      "scrape_status": "empty"
+    }
+  ]
+}

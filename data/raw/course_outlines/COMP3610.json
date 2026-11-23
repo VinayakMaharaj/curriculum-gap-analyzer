@@ -1,0 +1,8 @@
+{
+  "code": "COMP3610",
+  "url": "https://sta.uwi.edu/fst/dcit/content/comp3610",
+  "title": "Department of Computing & Information Technology",
+  "description": "The course exposes students to the various approaches used in analysing big data. The course focuses on the use of data warehouses and distributed database design to analyse structured data and Hadoop for unstructured data. Students are also introduced to various NoSQL databases and approaches for storing and processing large volumes of data. The MapReduce model for processing large data sets in discussed and it is compared against the parallel database approach. ASSESSMENT  (No final written examination)",
+  "raw_text": "The course exposes students to the various approaches used in analysing big data. The course focuses on the use of data warehouses and distributed database design to analyse structured data and Hadoop for unstructured data. Students are also introduced to various NoSQL databases and approaches for storing and processing large volumes of data. The MapReduce model for processing large data sets in discussed and it is compared against the parallel database approach. ASSESSMENT  (No final written examination)",
+  "scrape_status": "ok"
+}
