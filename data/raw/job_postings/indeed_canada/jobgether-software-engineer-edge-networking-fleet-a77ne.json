@@ -1,0 +1,36 @@
+{
+  "job_id": "jobgether-software-engineer-edge-networking-fleet-a77ne",
+  "url": "https://jobs.lever.co/jobgether/b5e4424a-4d49-46a4-b878-b4708a170961",
+  "title": "Software Engineer, Edge Networking & Fleet",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Rust",
+    "gRPC",
+    "HTTP",
+    "Kubernetes",
+    "Terraform",
+    "BigQuery",
+    "Kafka",
+    "Prometheus",
+    "Grafana",
+    "OpenTelemetry",
+    "Python",
+    "C++",
+    "Java",
+    "Networking",
+    "Backend",
+    "DevOps",
+    "Infrastructure"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793798559105,
+  "description": "Required skills: Rust, gRPC, HTTP, Kubernetes, Terraform, BigQuery, Kafka, Prometheus, Grafana, OpenTelemetry, Python, C++, Java, Networking, Backend, DevOps, Infrastructure | Seniority: Senior | Employment type: full_time",
+  "char_count": 222,
+  "source": "jobdatalake.com/CA"
+}

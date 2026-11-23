@@ -1,0 +1,25 @@
+{
+  "job_id": "penn-entertainment-senior-data-engineer-btddl",
+  "url": "https://job-boards.greenhouse.io/penninteractive/jobs/6229387004",
+  "title": "Senior Data Engineer (Remote)",
+  "company": "theScore",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$130k–$175k",
+  "skills": [
+    "SQL",
+    "dbt",
+    "Airflow",
+    "Python",
+    "BigQuery",
+    "Looker"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1792720943625,
+  "description": "Required skills: SQL, dbt, Airflow, Python, BigQuery, Looker | Seniority: Senior | Salary: $130k–$175k USD | Employment type: full_time",
+  "char_count": 135,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,28 @@
+{
+  "job_id": "exacare-staff-data-engineer-ss64b",
+  "url": "https://ats.rippling.com/exacare-inc/jobs/40ba5eaf-76c9-4932-98c6-660f71eab2b1",
+  "title": "Staff Data Engineer",
+  "company": "ExaCare",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "TypeScript",
+    "ETL",
+    "Data Warehousing",
+    "Databricks",
+    "dbt",
+    "Airflow",
+    "Spark",
+    "Data"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1791848517917,
+  "description": "Required skills: SQL, TypeScript, ETL, Data Warehousing, Databricks, dbt, Airflow, Spark, Data | Seniority: Staff | Employment type: full_time",
+  "char_count": 142,
+  "source": "jobdatalake.com/CA"
+}

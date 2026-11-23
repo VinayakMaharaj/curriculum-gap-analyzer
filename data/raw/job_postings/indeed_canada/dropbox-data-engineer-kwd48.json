@@ -1,0 +1,30 @@
+{
+  "job_id": "dropbox-data-engineer-kwd48",
+  "url": "https://jobs.dropbox.com/listing/8211532?gh_jid=8211532",
+  "title": "Data Engineer",
+  "company": "Dropbox",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$101k–$137k",
+  "skills": [
+    "Spark",
+    "Python",
+    "Java",
+    "C++",
+    "Scala",
+    "SQL",
+    "Databricks",
+    "Airflow",
+    "Kafka",
+    "Kinesis"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1790236832896,
+  "description": "Required skills: Spark, Python, Java, C++, Scala, SQL, Databricks, Airflow, Kafka, Kinesis | Seniority: Mid Level, Senior | Salary: $101k–$137k USD | Employment type: full_time",
+  "char_count": 176,
+  "source": "jobdatalake.com/CA"
+}

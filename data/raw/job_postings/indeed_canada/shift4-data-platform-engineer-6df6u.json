@@ -1,0 +1,39 @@
+{
+  "job_id": "shift4-data-platform-engineer-6df6u",
+  "url": "https://shift4payments.wd108.myworkdayjobs.com/en-US/Shift4_External_CareerSite/job/Data-Platform-Engineer_JR0000799",
+  "title": "Data Platform Engineer",
+  "company": "Shift4",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "AWS",
+    "ECS",
+    "SQS",
+    "S3",
+    "IAM",
+    "CloudWatch",
+    "RDS",
+    "Snowflake",
+    "Terraform",
+    "Ansible",
+    "Docker",
+    "CI/CD",
+    "Prometheus",
+    "Grafana",
+    "Datadog",
+    "Python",
+    "MySQL",
+    "Kafka",
+    "RabbitMQ",
+    "PCI DSS"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1794925427306,
+  "description": "Required skills: AWS, ECS, SQS, S3, IAM, CloudWatch, RDS, Snowflake, Terraform, Ansible, Docker, CI/CD, Prometheus, Grafana, Datadog, Python, MySQL, Kafka, RabbitMQ, PCI DSS | Seniority: Senior | Employment type: full_time",
+  "char_count": 222,
+  "source": "jobdatalake.com/CA"
+}

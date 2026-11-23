@@ -1,0 +1,37 @@
+{
+  "job_id": "trm-labs-tech-lead-staff-software-engineer-data-product-us-kvvde",
+  "url": "https://jobs.ashbyhq.com/trm-labs/051d74a6-983e-4cec-81f6-840f6d057de1",
+  "title": "Tech Lead, Staff Software Engineer, Data Product",
+  "company": "TRM Labs",
+  "location": "North America",
+  "country": "Canada",
+  "salary": "$200k–$250k",
+  "skills": [
+    "Python",
+    "SQL",
+    "BigQuery",
+    "PostgreSQL",
+    "Airflow",
+    "dbt",
+    "Spark",
+    "Kafka",
+    "Docker",
+    "Terraform",
+    "Kubernetes",
+    "Datadog",
+    "API",
+    "Machine Learning",
+    "AI",
+    "Backend",
+    "Data"
+  ],
+  "seniority": [
+    "Staff",
+    "Manager"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1790087004787,
+  "description": "Required skills: Python, SQL, BigQuery, PostgreSQL, Airflow, dbt, Spark, Kafka, Docker, Terraform, Kubernetes, Datadog, API, Machine Learning, AI, Backend, Data | Seniority: Staff, Manager | Salary: $200k–$250k USD | Employment type: full_time",
+  "char_count": 243,
+  "source": "jobdatalake.com/CA"
+}

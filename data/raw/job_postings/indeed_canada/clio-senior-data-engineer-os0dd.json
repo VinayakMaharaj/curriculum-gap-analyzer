@@ -1,0 +1,33 @@
+{
+  "job_id": "clio-senior-data-engineer-os0dd",
+  "url": "https://clio.wd3.myworkdayjobs.com/en-US/cliocareersite/job/Senior-Data-Engineer_BF-REQ-2011",
+  "title": "Senior Data Engineer",
+  "company": "Clio",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$157k–$213k",
+  "skills": [
+    "Python",
+    "Scala",
+    "Ruby",
+    "SQL",
+    "AWS",
+    "Terraform",
+    "Spark",
+    "Kafka",
+    "Airflow",
+    "Databricks",
+    "ETL",
+    "Data Warehousing",
+    "AI",
+    "Data"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1791682408883,
+  "description": "Required skills: Python, Scala, Ruby, SQL, AWS, Terraform, Spark, Kafka, Airflow, Databricks, ETL, Data Warehousing, AI, Data | Seniority: Senior | Salary: $157k–$213k USD | Employment type: full_time",
+  "char_count": 200,
+  "source": "jobdatalake.com/CA"
+}

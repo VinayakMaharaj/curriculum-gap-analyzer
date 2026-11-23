@@ -1,0 +1,34 @@
+{
+  "job_id": "citigroup-software-engineer-cloud-python-6rwfq",
+  "url": "https://jobs.citi.com/job/mississauga/software-engineer-cloud-and-python/287/102161070240",
+  "title": "Software Engineer, Cloud & Python",
+  "company": "Citigroup",
+  "location": "Mississauga, ON, CA",
+  "country": "Canada",
+  "salary": "$121k–$171k",
+  "skills": [
+    "Python",
+    "Airflow",
+    "REST",
+    "FastAPI",
+    "JSON",
+    "Kafka",
+    "S3",
+    "SQL Server",
+    "Oracle",
+    "Docker",
+    "CI/CD",
+    "Grafana",
+    "OpenTelemetry",
+    "Spark",
+    "Backend"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1792956539060,
+  "description": "Required skills: Python, Airflow, REST, FastAPI, JSON, Kafka, S3, SQL Server, Oracle, Docker, CI/CD, Grafana, OpenTelemetry, Spark, Backend | Seniority: Mid Level | Salary: $121k–$171k USD | Employment type: full_time",
+  "char_count": 217,
+  "source": "jobdatalake.com/CA"
+}

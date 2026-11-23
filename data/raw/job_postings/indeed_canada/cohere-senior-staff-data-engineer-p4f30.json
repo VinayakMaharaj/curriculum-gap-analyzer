@@ -1,0 +1,27 @@
+{
+  "job_id": "cohere-senior-staff-data-engineer-p4f30",
+  "url": "https://jobs.ashbyhq.com/cohere/4ef5101e-b083-49cd-808a-54c754d159e5",
+  "title": "Senior Staff Data Engineer",
+  "company": "Cohere",
+  "location": "Toronto",
+  "country": "Canada",
+  "salary": "$275k–$450k",
+  "skills": [
+    "BigQuery",
+    "Airflow",
+    "dbt",
+    "Looker",
+    "Terraform",
+    "IAM",
+    "Snowflake"
+  ],
+  "seniority": [
+    "Senior",
+    "Staff"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1792679800515,
+  "description": "Required skills: BigQuery, Airflow, dbt, Looker, Terraform, IAM, Snowflake | Seniority: Senior, Staff | Salary: $275k–$450k USD | Employment type: full_time",
+  "char_count": 156,
+  "source": "jobdatalake.com/CA"
+}

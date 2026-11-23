@@ -1,0 +1,36 @@
+{
+  "job_id": "citigroup-software-engineer-0bdga",
+  "url": "https://jobs.citi.com/job/mississauga/software-engineer/287/102161065152",
+  "title": "Software Engineer",
+  "company": "Citigroup",
+  "location": "Mississauga, ON",
+  "country": "Canada",
+  "salary": "$79k–$111k",
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Microservices",
+    "CI/CD",
+    "Jenkins",
+    "Git",
+    "GitHub",
+    "Bitbucket",
+    "Linux",
+    "Unix",
+    "Python",
+    "OpenShift",
+    "Kubernetes",
+    "NoSQL",
+    "MongoDB",
+    "Couchbase",
+    "Backend"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1792956633378,
+  "description": "Required skills: Java, Spring Boot, Microservices, CI/CD, Jenkins, Git, GitHub, Bitbucket, Linux, Unix, Python, OpenShift, Kubernetes, NoSQL, MongoDB, Couchbase, Backend | Seniority: Mid Level | Salary: $79k–$111k USD | Employment type: full_time",
+  "char_count": 246,
+  "source": "jobdatalake.com/CA"
+}

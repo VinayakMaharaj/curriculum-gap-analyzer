@@ -1,0 +1,28 @@
+{
+  "job_id": "workos-data-engineer-pjyjc",
+  "url": "https://jobs.ashbyhq.com/workos/26377b4d-b392-4fd7-b813-10c2920299f9",
+  "title": "Data Engineer",
+  "company": "WorkOS",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$175k–$240k",
+  "skills": [
+    "Snowflake",
+    "dbt",
+    "Airflow",
+    "SQL",
+    "Python",
+    "Terraform",
+    "LLM",
+    "CI/CD",
+    "API"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1790334685025,
+  "description": "Required skills: Snowflake, dbt, Airflow, SQL, Python, Terraform, LLM, CI/CD, API | Seniority: Senior | Salary: $175k–$240k USD | Employment type: full_time",
+  "char_count": 156,
+  "source": "jobdatalake.com/CA"
+}

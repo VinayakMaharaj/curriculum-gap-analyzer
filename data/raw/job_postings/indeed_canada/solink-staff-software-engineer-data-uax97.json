@@ -1,0 +1,40 @@
+{
+  "job_id": "solink-staff-software-engineer-data-uax97",
+  "url": "https://jobs.ashbyhq.com/solink/18c79c81-1c00-4d0d-a9de-178c0ccac2c3",
+  "title": "Staff Software Engineer, Data (Remote)",
+  "company": "Solink",
+  "location": "Remote, Canada",
+  "country": "Canada",
+  "salary": "$138k–$173k",
+  "skills": [
+    "Node.js",
+    "React",
+    "AWS",
+    "Lambda",
+    "DynamoDB",
+    "SQS",
+    "Kinesis",
+    "JavaScript",
+    "TypeScript",
+    "Snowflake",
+    "JIRA",
+    "CloudFormation",
+    "Terraform",
+    "SQL",
+    "NoSQL",
+    "Elasticsearch",
+    "Agile",
+    "Backend",
+    "FullStack",
+    "DevOps",
+    "Data"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1790825840848,
+  "description": "Required skills: Node.js, React, AWS, Lambda, DynamoDB, SQS, Kinesis, JavaScript, TypeScript, Snowflake, JIRA, CloudFormation, Terraform, SQL, NoSQL, Elasticsearch, Agile, Backend, FullStack, DevOps, Data | Seniority: Staff | Salary: $138k–$173k USD | Employment type: full_time",
+  "char_count": 278,
+  "source": "jobdatalake.com/CA"
+}

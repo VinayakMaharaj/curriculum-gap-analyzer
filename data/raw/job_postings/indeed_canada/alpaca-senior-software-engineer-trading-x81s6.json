@@ -1,0 +1,31 @@
+{
+  "job_id": "alpaca-senior-software-engineer-trading-x81s6",
+  "url": "https://job-boards.greenhouse.io/alpaca/jobs/6115753004",
+  "title": "Senior Software Engineer, Trading",
+  "company": "Alpaca",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "C++",
+    "Go",
+    "Rust",
+    "Java",
+    "Scala",
+    "Python",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "Backend",
+    "FullStack"
+  ],
+  "seniority": [
+    "Senior",
+    "Manager"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793405473744,
+  "description": "Required skills: C++, Go, Rust, Java, Scala, Python, GCP, Docker, Kubernetes, Backend, FullStack | Seniority: Senior, Manager | Employment type: full_time",
+  "char_count": 154,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,43 @@
+{
+  "job_id": "loopio-data-engineer-8dwx6",
+  "url": "https://jobs.ashbyhq.com/loopio/22176975-076d-48f4-aa35-96be7daf1889",
+  "title": "Data Engineer",
+  "company": "Loopio",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$104k–$140k",
+  "skills": [
+    "SQL",
+    "Python",
+    "AWS",
+    "RDS",
+    "S3",
+    "Redshift",
+    "ECS",
+    "ETL",
+    "Data Warehousing",
+    "Spark",
+    "CI/CD",
+    "Jenkins",
+    "Airflow",
+    "Databricks",
+    "Docker",
+    "Kubernetes",
+    "Scala",
+    "Java",
+    "NoSQL",
+    "Redis",
+    "DynamoDB",
+    "Agile",
+    "Machine Learning",
+    "NLP"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1789891295237,
+  "description": "Required skills: SQL, Python, AWS, RDS, S3, Redshift, ECS, ETL, Data Warehousing, Spark, CI/CD, Jenkins, Airflow, Databricks, Docker, Kubernetes, Scala, Java, NoSQL, Redis, DynamoDB, Agile, Machine Learning, NLP | Seniority: Senior | Salary: $104k–$140k USD | Employment type: full_time",
+  "char_count": 286,
+  "source": "jobdatalake.com/CA"
+}

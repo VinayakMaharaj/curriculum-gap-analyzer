@@ -1,0 +1,31 @@
+{
+  "job_id": "jobgether-director-of-data-architecture-y93tc",
+  "url": "https://jobs.lever.co/jobgether/ffacb27b-231c-493d-87e8-3a51a4ab17bb",
+  "title": "Director of Data Architecture",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$200k–$200k",
+  "skills": [
+    "Data Engineering",
+    "Data Warehousing",
+    "ETL",
+    "Snowflake",
+    "BigQuery",
+    "MongoDB",
+    "PostgreSQL",
+    "MySQL",
+    "Airflow",
+    "dbt"
+  ],
+  "seniority": [
+    "Director",
+    "Manager",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1795084088302,
+  "description": "Required skills: Data Engineering, Data Warehousing, ETL, Snowflake, BigQuery, MongoDB, PostgreSQL, MySQL, Airflow, dbt | Seniority: Director, Manager, Senior | Salary: $200k–$200k USD | Employment type: full_time",
+  "char_count": 213,
+  "source": "jobdatalake.com/CA"
+}

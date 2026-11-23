@@ -1,0 +1,27 @@
+{
+  "job_id": "movable-ink-data-engineer-event-data-56r4u",
+  "url": "https://movableink.com/job-listing?gh_jid=8127737",
+  "title": "Data Engineer, Event Data (Remote)",
+  "company": "Movable Ink",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$130k–$165k",
+  "skills": [
+    "Elixir",
+    "Python",
+    "SQL",
+    "Kafka",
+    "Kinesis",
+    "AWS",
+    "Terraform",
+    "Databricks"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1786725604731,
+  "description": "Required skills: Elixir, Python, SQL, Kafka, Kinesis, AWS, Terraform, Databricks | Seniority: Mid Level | Salary: $130k–$165k USD | Employment type: full_time",
+  "char_count": 158,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,31 @@
+{
+  "job_id": "carepartners-senior-data-engineer-jeoki",
+  "url": "https://careers-carepartners.icims.com/jobs/6833/senior-data-engineer/job",
+  "title": "Senior Data Engineer",
+  "company": "CarePartners",
+  "location": "Waterloo, ON",
+  "country": "Canada",
+  "salary": "$100k–$120k",
+  "skills": [
+    "SQL",
+    "Python",
+    "ETL",
+    "Data Warehousing",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Snowflake",
+    "Databricks",
+    "Power BI",
+    "Tableau",
+    "Looker"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1794678638437,
+  "description": "Required skills: SQL, Python, ETL, Data Warehousing, AWS, Azure, GCP, Snowflake, Databricks, Power BI, Tableau, Looker | Seniority: Senior | Salary: $100k–$120k USD | Employment type: full_time",
+  "char_count": 193,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,40 @@
+{
+  "job_id": "citigroup-full-stack-software-engineer-irmnp",
+  "url": "https://jobs.citi.com/job/mississauga/full-stack-software-engineer/287/102161045648",
+  "title": "Full Stack Software Engineer",
+  "company": "Citigroup",
+  "location": "Mississauga, ON",
+  "country": "Canada",
+  "salary": "$94k–$142k",
+  "skills": [
+    "Java",
+    "Spring Boot",
+    "Microservices",
+    "API",
+    "Kafka",
+    "React",
+    "Oracle",
+    "MongoDB",
+    "Kubernetes",
+    "Docker",
+    "OpenShift",
+    "CI/CD",
+    "JUnit",
+    "JMeter",
+    "Jenkins",
+    "GitHub Actions",
+    "Generative AI",
+    "Agile",
+    "Backend",
+    "Frontend",
+    "FullStack"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1792956971990,
+  "description": "Required skills: Java, Spring Boot, Microservices, API, Kafka, React, Oracle, MongoDB, Kubernetes, Docker, OpenShift, CI/CD, JUnit, JMeter, Jenkins, GitHub Actions, Generative AI, Agile, Backend, Frontend, FullStack | Seniority: Mid Level | Salary: $94k–$142k USD | Employment type: full_time",
+  "char_count": 292,
+  "source": "jobdatalake.com/CA"
+}

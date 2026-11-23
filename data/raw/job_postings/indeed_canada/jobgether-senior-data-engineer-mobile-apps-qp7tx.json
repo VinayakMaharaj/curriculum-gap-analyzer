@@ -1,0 +1,28 @@
+{
+  "job_id": "jobgether-senior-data-engineer-mobile-apps-qp7tx",
+  "url": "https://jobs.lever.co/jobgether/83d6da68-206c-4f66-9b93-9b5700bcaf80",
+  "title": "Senior Data Engineer",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "Spark",
+    "Databricks",
+    "Airflow",
+    "GCP",
+    "BigQuery",
+    "dbt",
+    "API"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1789209083050,
+  "description": "Required skills: Python, SQL, Spark, Databricks, Airflow, GCP, BigQuery, dbt, API | Seniority: Senior | Employment type: full_time",
+  "char_count": 130,
+  "source": "jobdatalake.com/CA"
+}

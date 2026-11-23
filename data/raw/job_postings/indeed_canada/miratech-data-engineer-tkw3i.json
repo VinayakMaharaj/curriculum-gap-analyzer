@@ -1,0 +1,31 @@
+{
+  "job_id": "miratech-data-engineer-tkw3i",
+  "url": "https://jobs.smartrecruiters.com/miratech1/744000158012779",
+  "title": "Data Engineer",
+  "company": "Miratech",
+  "location": "Gananoque, ON",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "ETL",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Spark",
+    "Kafka",
+    "Airflow",
+    "Snowflake",
+    "Redshift",
+    "BigQuery"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793494426373,
+  "description": "Required skills: Python, SQL, ETL, AWS, GCP, Azure, Spark, Kafka, Airflow, Snowflake, Redshift, BigQuery | Seniority: Senior | Employment type: full_time",
+  "char_count": 153,
+  "source": "jobdatalake.com/CA"
+}

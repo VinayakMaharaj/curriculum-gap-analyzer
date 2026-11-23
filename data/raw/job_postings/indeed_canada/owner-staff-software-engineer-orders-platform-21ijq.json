@@ -1,0 +1,31 @@
+{
+  "job_id": "owner-staff-software-engineer-orders-platform-21ijq",
+  "url": "https://jobs.ashbyhq.com/Owner/8e9cb0dc-12e3-4554-b5f9-5238f4ef4280",
+  "title": "Staff Software Engineer",
+  "company": "Owner",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$240k–$260k",
+  "skills": [
+    "Kotlin",
+    "TypeScript",
+    "React",
+    "React Native",
+    "Kubernetes",
+    "ArgoCD",
+    "Datadog",
+    "PostgreSQL",
+    "SQLite",
+    "OpenTelemetry",
+    "Kafka",
+    "Backend"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1794359268694,
+  "description": "Required skills: Kotlin, TypeScript, React, React Native, Kubernetes, ArgoCD, Datadog, PostgreSQL, SQLite, OpenTelemetry, Kafka, Backend | Seniority: Staff | Salary: $240k–$260k USD | Employment type: full_time",
+  "char_count": 210,
+  "source": "jobdatalake.com/CA"
+}

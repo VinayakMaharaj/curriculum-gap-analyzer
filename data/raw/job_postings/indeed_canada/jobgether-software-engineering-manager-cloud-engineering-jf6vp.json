@@ -1,0 +1,33 @@
+{
+  "job_id": "jobgether-software-engineering-manager-cloud-engineering-jf6vp",
+  "url": "https://jobs.lever.co/jobgether/06dbb6d9-e9e0-4eb1-a61c-023028aa16ee",
+  "title": "Software Engineering Manager, Cloud Engineering",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$149k–$220k",
+  "skills": [
+    "Kubernetes",
+    "Terraform",
+    "Helm",
+    "Prometheus",
+    "Grafana",
+    "IAM",
+    "GCP",
+    "CI/CD",
+    "ArgoCD",
+    "GitHub Actions",
+    "AI",
+    "DevOps",
+    "Infrastructure"
+  ],
+  "seniority": [
+    "Manager",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1795084138606,
+  "description": "Required skills: Kubernetes, Terraform, Helm, Prometheus, Grafana, IAM, GCP, CI/CD, ArgoCD, GitHub Actions, AI, DevOps, Infrastructure | Seniority: Manager, Senior | Salary: $149k–$220k USD | Employment type: full_time",
+  "char_count": 218,
+  "source": "jobdatalake.com/CA"
+}

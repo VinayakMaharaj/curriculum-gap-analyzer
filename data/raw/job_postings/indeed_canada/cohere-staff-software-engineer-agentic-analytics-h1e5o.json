@@ -1,0 +1,33 @@
+{
+  "job_id": "cohere-staff-software-engineer-agentic-analytics-h1e5o",
+  "url": "https://jobs.ashbyhq.com/cohere/39cab400-c976-41d9-9002-880ac6985b64",
+  "title": "Staff Software Engineer, Agentic Analytics",
+  "company": "Cohere",
+  "location": "San Francisco, CA",
+  "country": "Canada",
+  "salary": "$250k–$325k",
+  "skills": [
+    "Python",
+    "SQL",
+    "BigQuery",
+    "dbt",
+    "LLM",
+    "API",
+    "Cloud Computing",
+    "GCP",
+    "Snowflake",
+    "Slack",
+    "JIRA",
+    "Backend",
+    "Data"
+  ],
+  "seniority": [
+    "Staff",
+    "Manager"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1794642127432,
+  "description": "Required skills: Python, SQL, BigQuery, dbt, LLM, API, Cloud Computing, GCP, Snowflake, Slack, JIRA, Backend, Data | Seniority: Staff, Manager | Salary: $250k–$325k USD | Employment type: full_time",
+  "char_count": 197,
+  "source": "jobdatalake.com/CA"
+}

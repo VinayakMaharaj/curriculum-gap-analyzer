@@ -1,0 +1,32 @@
+{
+  "job_id": "jobgether-staff-data-engineer-296dr",
+  "url": "https://jobs.lever.co/jobgether/0a8311f1-0419-4802-860c-e40c78997a92",
+  "title": "Staff Data Engineer",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "Scala",
+    "SQL",
+    "Kafka",
+    "AWS",
+    "CI/CD",
+    "Data Warehousing",
+    "Machine Learning",
+    "AI",
+    "Cloud Computing",
+    "ETL",
+    "RAG",
+    "API"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1791152508330,
+  "description": "Required skills: Python, Scala, SQL, Kafka, AWS, CI/CD, Data Warehousing, Machine Learning, AI, Cloud Computing, ETL, RAG, API | Seniority: Staff | Employment type: full_time",
+  "char_count": 174,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "trm-labs-senior-or-staff-software-engineer-data-platform-canada-md8wu",
+  "url": "https://jobs.ashbyhq.com/trm-labs/e989a9b7-103d-46fb-9787-7f81c8f361c4",
+  "title": "Senior or Staff Software Engineer, Data Platform",
+  "company": "TRM Labs",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "BigQuery",
+    "Airflow",
+    "dbt",
+    "Spark",
+    "Kafka",
+    "Docker",
+    "Terraform",
+    "Kubernetes",
+    "Datadog",
+    "Backend",
+    "Data"
+  ],
+  "seniority": [
+    "Senior",
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1790736161798,
+  "description": "Required skills: Python, SQL, BigQuery, Airflow, dbt, Spark, Kafka, Docker, Terraform, Kubernetes, Datadog, Backend, Data | Seniority: Senior, Staff | Employment type: full_time",
+  "char_count": 177,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "sdg-group-data-platform-cloud-engineer-z433l",
+  "url": "https://careers.sdggroup.com/jobs/8364832-data-platform-cloud-engineer",
+  "title": "Data Platform & Cloud Engineer",
+  "company": "SDG Group",
+  "location": "Santiago de Compostela",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Azure",
+    "AWS",
+    "GCP",
+    "PowerShell",
+    "Python",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "CI/CD",
+    "Databricks",
+    "Snowflake",
+    "DevOps",
+    "Infrastructure"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1789229464882,
+  "description": "Required skills: Azure, AWS, GCP, PowerShell, Python, Docker, Kubernetes, Terraform, CI/CD, Databricks, Snowflake, DevOps, Infrastructure | Seniority: Mid Level, Senior | Employment type: full_time",
+  "char_count": 197,
+  "source": "jobdatalake.com/CA"
+}

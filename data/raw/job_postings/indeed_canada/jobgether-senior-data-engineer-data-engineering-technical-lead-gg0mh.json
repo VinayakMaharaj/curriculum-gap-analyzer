@@ -1,0 +1,27 @@
+{
+  "job_id": "jobgether-senior-data-engineer-data-engineering-technical-lead-gg0mh",
+  "url": "https://jobs.lever.co/jobgether/843d285d-6114-4c46-bfae-54dcd99a7ba7",
+  "title": "Senior Data Engineer",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Snowflake",
+    "dbt",
+    "Python",
+    "ETL",
+    "Data Warehousing",
+    "CI/CD",
+    "Git",
+    "Data"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1791152490822,
+  "description": "Required skills: Snowflake, dbt, Python, ETL, Data Warehousing, CI/CD, Git, Data | Seniority: Senior | Employment type: full_time",
+  "char_count": 129,
+  "source": "jobdatalake.com/CA"
+}

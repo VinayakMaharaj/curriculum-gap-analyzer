@@ -1,0 +1,32 @@
+{
+  "job_id": "vantage-analytics-senior-engineer-ai-data-platform-g4dgl",
+  "url": "https://jobs.ashbyhq.com/vantageanalytics/ba2cc36b-903e-4a67-8d82-5330e9784193",
+  "title": "Senior Engineer, AI & Data Platform (Remote)",
+  "company": "Vantage Analytics",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$150k–$175k",
+  "skills": [
+    "SQL",
+    "dbt",
+    "LLM",
+    "LangGraph",
+    "LangChain",
+    "Docker",
+    "CircleCI",
+    "GitHub Actions",
+    "MySQL",
+    "PostgreSQL",
+    "Python",
+    "Backend",
+    "Data"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1795400438743,
+  "description": "Required skills: SQL, dbt, LLM, LangGraph, LangChain, Docker, CircleCI, GitHub Actions, MySQL, PostgreSQL, Python, Backend, Data | Seniority: Senior | Salary: $150k–$175k USD | Employment type: full_time",
+  "char_count": 203,
+  "source": "jobdatalake.com/CA"
+}

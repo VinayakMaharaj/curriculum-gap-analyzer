@@ -1,0 +1,28 @@
+{
+  "job_id": "jane-senior-data-engineer-data-performance-and-tooling-5f4nl",
+  "url": "https://jobs.ashbyhq.com/jane/e70c917f-ceb8-4c3c-aa05-c9db657e7015",
+  "title": "Senior Data Engineer",
+  "company": "Jane",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$122k–$190k",
+  "skills": [
+    "SQL",
+    "Data Warehousing",
+    "ETL",
+    "AWS",
+    "Terraform",
+    "Snowflake",
+    "Kafka",
+    "Spark",
+    "Ruby on Rails"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1790321660224,
+  "description": "Required skills: SQL, Data Warehousing, ETL, AWS, Terraform, Snowflake, Kafka, Spark, Ruby on Rails | Seniority: Senior | Salary: $122k–$190k USD | Employment type: full_time",
+  "char_count": 174,
+  "source": "jobdatalake.com/CA"
+}

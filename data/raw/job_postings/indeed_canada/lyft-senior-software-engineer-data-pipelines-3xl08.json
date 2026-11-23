@@ -1,0 +1,38 @@
+{
+  "job_id": "lyft-senior-software-engineer-data-pipelines-3xl08",
+  "url": "https://app.careerpuck.com/job-board/lyft/job/8795875002?gh_jid=8795875002",
+  "title": "Senior Software Engineer, Data Pipelines",
+  "company": "Lyft",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$136k–$170k",
+  "skills": [
+    "Go",
+    "Python",
+    "DynamoDB",
+    "Kinesis",
+    "Kafka",
+    "SQS",
+    "S3",
+    "GraphQL",
+    "Hive",
+    "AWS",
+    "Terraform",
+    "CloudFormation",
+    "Docker",
+    "Kubernetes",
+    "Ansible",
+    "Chef",
+    "Puppet",
+    "Backend",
+    "Data"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1789750220567,
+  "description": "Required skills: Go, Python, DynamoDB, Kinesis, Kafka, SQS, S3, GraphQL, Hive, AWS, Terraform, CloudFormation, Docker, Kubernetes, Ansible, Chef, Puppet, Backend, Data | Seniority: Senior | Salary: $136k–$170k USD | Employment type: full_time",
+  "char_count": 242,
+  "source": "jobdatalake.com/CA"
+}

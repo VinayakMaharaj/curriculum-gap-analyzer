@@ -1,0 +1,25 @@
+{
+  "job_id": "jobgether-founding-data-engineer-pricing-comps-gx001",
+  "url": "https://jobs.lever.co/jobgether/7973eaa6-149e-43ce-b51c-eced90d82295",
+  "title": "Founding Data Engineer",
+  "company": "Jobgether",
+  "location": "United States",
+  "country": "Canada",
+  "salary": "$160k–$220k",
+  "skills": [
+    "SQL",
+    "dbt",
+    "Airflow",
+    "Spark",
+    "ETL",
+    "Data"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1792474901351,
+  "description": "Required skills: SQL, dbt, Airflow, Spark, ETL, Data | Seniority: Senior | Salary: $160k–$220k USD | Employment type: full_time",
+  "char_count": 127,
+  "source": "jobdatalake.com/CA"
+}

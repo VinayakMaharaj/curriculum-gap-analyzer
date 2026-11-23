@@ -1,0 +1,31 @@
+{
+  "job_id": "grafana-labs-senior-backend-software-engineer-loki-nasa-remote-kxmdb",
+  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6229350004",
+  "title": "Senior Backend Software Engineer",
+  "company": "Grafana Labs",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$154k–$185k",
+  "skills": [
+    "Go",
+    "Python",
+    "C",
+    "C++",
+    "Rust",
+    "Kubernetes",
+    "Kafka",
+    "Grafana",
+    "Prometheus",
+    "Microservices",
+    "DevOps",
+    "Backend"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793046982474,
+  "description": "Required skills: Go, Python, C, C++, Rust, Kubernetes, Kafka, Grafana, Prometheus, Microservices, DevOps, Backend | Seniority: Senior | Salary: $154k–$185k USD | Employment type: full_time",
+  "char_count": 188,
+  "source": "jobdatalake.com/CA"
+}

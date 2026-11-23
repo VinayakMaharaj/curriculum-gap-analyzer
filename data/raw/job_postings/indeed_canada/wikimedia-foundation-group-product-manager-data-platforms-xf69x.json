@@ -1,0 +1,27 @@
+{
+  "job_id": "wikimedia-foundation-group-product-manager-data-platforms-xf69x",
+  "url": "https://job-boards.greenhouse.io/wikimedia/jobs/8346045",
+  "title": "Group Product Manager, Data Platforms",
+  "company": "Wikimedia Foundation",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$132k–$206k",
+  "skills": [
+    "Data Engineering",
+    "Kafka",
+    "Hadoop",
+    "Spark",
+    "Airflow",
+    "Kubernetes",
+    "dbt"
+  ],
+  "seniority": [
+    "Manager",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1794291892852,
+  "description": "Required skills: Data Engineering, Kafka, Hadoop, Spark, Airflow, Kubernetes, dbt | Seniority: Manager, Senior | Salary: $132k–$206k USD | Employment type: full_time",
+  "char_count": 165,
+  "source": "jobdatalake.com/CA"
+}

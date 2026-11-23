@@ -1,0 +1,33 @@
+{
+  "job_id": "jobgether-senior-data-engineer-ads-data-ai-native-az963",
+  "url": "https://jobs.lever.co/jobgether/4dbabc84-aada-4c7a-949a-2b70ae99364d",
+  "title": "Senior Data Engineer, Ads Data",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$150k–$178k",
+  "skills": [
+    "Spark",
+    "Scala",
+    "SQL",
+    "Python",
+    "Databricks",
+    "dbt",
+    "Terraform",
+    "AWS",
+    "Airflow",
+    "Git",
+    "CI/CD",
+    "GDPR",
+    "Tableau",
+    "Looker"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1794444103948,
+  "description": "Required skills: Spark, Scala, SQL, Python, Databricks, dbt, Terraform, AWS, Airflow, Git, CI/CD, GDPR, Tableau, Looker | Seniority: Senior | Salary: $150k–$178k USD | Employment type: full_time",
+  "char_count": 194,
+  "source": "jobdatalake.com/CA"
+}

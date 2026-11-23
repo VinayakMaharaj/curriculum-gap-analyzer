@@ -1,0 +1,32 @@
+{
+  "job_id": "magnet-forensics-staff-software-engineer-0qf9g",
+  "url": "https://jobs.lever.co/magnetforensics/a0581183-feff-4d92-8c63-6390aa50841a",
+  "title": "Staff Software Engineer",
+  "company": "Magnet Forensics",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$140k–$190k",
+  "skills": [
+    "C#",
+    "ASP.NET",
+    "Python",
+    "PowerShell",
+    "AWS",
+    "Docker",
+    "Kubernetes",
+    "OpenTelemetry",
+    "SQL",
+    "Elasticsearch",
+    "Terraform",
+    "CloudFormation"
+  ],
+  "seniority": [
+    "Staff",
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1793194243307,
+  "description": "Required skills: C#, ASP.NET, Python, PowerShell, AWS, Docker, Kubernetes, OpenTelemetry, SQL, Elasticsearch, Terraform, CloudFormation | Seniority: Staff, Senior | Salary: $140k–$190k USD | Employment type: full_time",
+  "char_count": 217,
+  "source": "jobdatalake.com/CA"
+}

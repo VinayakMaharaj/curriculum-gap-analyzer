@@ -1,0 +1,31 @@
+{
+  "job_id": "jobgether-software-engineer-iii-d1sxc",
+  "url": "https://jobs.lever.co/jobgether/b72e82c4-97a4-46ee-9814-6fa096ff936f",
+  "title": "Software Engineer",
+  "company": "Jobgether",
+  "location": "US",
+  "country": "Canada",
+  "salary": "$135k–$160k",
+  "skills": [
+    "C#",
+    ".NET",
+    "Angular",
+    "TypeScript",
+    "Azure",
+    "SQL",
+    "AI",
+    "Datadog",
+    "Terraform",
+    "GitHub Actions",
+    "Backend",
+    "Frontend"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793134337997,
+  "description": "Required skills: C#, .NET, Angular, TypeScript, Azure, SQL, AI, Datadog, Terraform, GitHub Actions, Backend, Frontend | Seniority: Senior | Salary: $135k–$160k USD | Employment type: full_time",
+  "char_count": 192,
+  "source": "jobdatalake.com/CA"
+}

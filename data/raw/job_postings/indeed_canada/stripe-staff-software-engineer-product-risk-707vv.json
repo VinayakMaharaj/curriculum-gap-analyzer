@@ -1,0 +1,34 @@
+{
+  "job_id": "stripe-staff-software-engineer-product-risk-707vv",
+  "url": "https://stripe.com/jobs/search?gh_jid=8112043",
+  "title": "Staff Software Engineer, Product Risk",
+  "company": "Stripe",
+  "location": "Toronto",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Data Warehousing",
+    "Airflow",
+    "Spark",
+    "Kafka",
+    "SQL",
+    "Scala",
+    "Java",
+    "Go",
+    "AWS",
+    "Machine Learning",
+    "AI",
+    "LLM",
+    "Backend",
+    "Data"
+  ],
+  "seniority": [
+    "Staff",
+    "Manager"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1787035724235,
+  "description": "Required skills: Data Warehousing, Airflow, Spark, Kafka, SQL, Scala, Java, Go, AWS, Machine Learning, AI, LLM, Backend, Data | Seniority: Staff, Manager | Employment type: full_time",
+  "char_count": 182,
+  "source": "jobdatalake.com/CA"
+}

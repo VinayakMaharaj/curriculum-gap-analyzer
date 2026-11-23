@@ -1,0 +1,34 @@
+{
+  "job_id": "jobgether-data-engineer-v92qn",
+  "url": "https://jobs.lever.co/jobgether/aa214f26-42d8-4af1-807b-dab3441d4bf8",
+  "title": "Data Engineer (Remote)",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Java",
+    "Python",
+    "AWS",
+    "SQL",
+    "Snowflake",
+    "BigQuery",
+    "Hive",
+    "Spark",
+    "Kafka",
+    "REST",
+    "Linux",
+    "ETL",
+    "CI/CD",
+    "Airflow"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1790503842826,
+  "description": "Required skills: Java, Python, AWS, SQL, Snowflake, BigQuery, Hive, Spark, Kafka, REST, Linux, ETL, CI/CD, Airflow | Seniority: Mid Level, Senior | Employment type: full_time",
+  "char_count": 174,
+  "source": "jobdatalake.com/CA"
+}

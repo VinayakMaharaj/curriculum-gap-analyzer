@@ -1,0 +1,34 @@
+{
+  "job_id": "swoopishiring-senior-data-engineer-nimblerx-uyj4x",
+  "url": "https://ats.rippling.com/swoopishiring/jobs/1178d1e9-747b-4b5e-a7db-db69fdff86e9",
+  "title": "Senior Data Engineer",
+  "company": "swoopishiring",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$195k–$228k",
+  "skills": [
+    "Python",
+    "Spark",
+    "SQL",
+    "EMR",
+    "Kinesis",
+    "Lambda",
+    "PostgreSQL",
+    "Salesforce",
+    "CI/CD",
+    "Terraform",
+    "Java",
+    "Spring Boot",
+    "S3",
+    "AI"
+  ],
+  "seniority": [
+    "Senior",
+    "Staff"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1791251419986,
+  "description": "Required skills: Python, Spark, SQL, EMR, Kinesis, Lambda, PostgreSQL, Salesforce, CI/CD, Terraform, Java, Spring Boot, S3, AI | Seniority: Senior, Staff | Salary: $195k–$228k USD | Employment type: full_time",
+  "char_count": 208,
+  "source": "jobdatalake.com/CA"
+}

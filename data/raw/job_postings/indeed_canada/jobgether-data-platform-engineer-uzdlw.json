@@ -1,0 +1,38 @@
+{
+  "job_id": "jobgether-data-platform-engineer-uzdlw",
+  "url": "https://jobs.lever.co/jobgether/d5b36608-60a0-4fb2-bc06-29cb69ac7924",
+  "title": "Data Platform Engineer (Remote)",
+  "company": "Jobgether",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "PostgreSQL",
+    "MongoDB",
+    "Kafka",
+    "Python",
+    "Bash",
+    "Terraform",
+    "Ansible",
+    "SQL",
+    "Azure",
+    "Kubernetes",
+    "GitLab CI",
+    "ArgoCD",
+    "Prometheus",
+    "Grafana",
+    "Linux",
+    "DevOps",
+    "Infrastructure",
+    "SRE"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793134296052,
+  "description": "Required skills: PostgreSQL, MongoDB, Kafka, Python, Bash, Terraform, Ansible, SQL, Azure, Kubernetes, GitLab CI, ArgoCD, Prometheus, Grafana, Linux, DevOps, Infrastructure, SRE | Seniority: Mid Level, Senior | Employment type: full_time",
+  "char_count": 237,
+  "source": "jobdatalake.com/CA"
+}

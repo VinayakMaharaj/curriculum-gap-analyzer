@@ -1,0 +1,29 @@
+{
+  "job_id": "kabam-lead-data-engineer-0oytz",
+  "url": "https://jobs.lever.co/kabam/8066cab3-6bad-4826-908b-13770db84213",
+  "title": "Lead Data Engineer",
+  "company": "Kabam",
+  "location": "Vancouver",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "dbt",
+    "GCP",
+    "BigQuery",
+    "Databricks",
+    "Spark",
+    "CI/CD",
+    "DevOps"
+  ],
+  "seniority": [
+    "Senior",
+    "Manager"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1792833121927,
+  "description": "Required skills: SQL, Python, dbt, GCP, BigQuery, Databricks, Spark, CI/CD, DevOps | Seniority: Senior, Manager | Employment type: full_time",
+  "char_count": 140,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,29 @@
+{
+  "job_id": "alpaca-software-engineer-securities-finance-8k8vs",
+  "url": "https://job-boards.greenhouse.io/alpaca/jobs/6207262004",
+  "title": "Software Engineer, Securities Finance",
+  "company": "Alpaca",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Go",
+    "PostgreSQL",
+    "Kubernetes",
+    "REST",
+    "gRPC",
+    "Kafka",
+    "Grafana",
+    "Helm",
+    "Docker",
+    "Backend"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1794705102505,
+  "description": "Required skills: Go, PostgreSQL, Kubernetes, REST, gRPC, Kafka, Grafana, Helm, Docker, Backend | Seniority: Mid Level | Employment type: full_time",
+  "char_count": 146,
+  "source": "jobdatalake.com/CA"
+}

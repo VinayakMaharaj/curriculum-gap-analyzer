@@ -1,0 +1,32 @@
+{
+  "job_id": "jobgether-software-engineer-storage-e0dp1",
+  "url": "https://jobs.lever.co/jobgether/c6996f73-6b05-4244-8e15-36cf291ce14c",
+  "title": "Software Engineer - Storage",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Node.js",
+    "OpenTelemetry",
+    "Prometheus",
+    "Grafana",
+    "PostgreSQL",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "GCP",
+    "Azure",
+    "React",
+    "Next.js",
+    "Backend"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793134337854,
+  "description": "Required skills: Node.js, OpenTelemetry, Prometheus, Grafana, PostgreSQL, Docker, Kubernetes, AWS, GCP, Azure, React, Next.js, Backend | Seniority: Senior | Employment type: full_time",
+  "char_count": 183,
+  "source": "jobdatalake.com/CA"
+}

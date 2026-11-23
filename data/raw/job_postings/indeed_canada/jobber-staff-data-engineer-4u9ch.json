@@ -1,0 +1,28 @@
+{
+  "job_id": "jobber-staff-data-engineer-4u9ch",
+  "url": "https://jobs.ashbyhq.com/jobber/12cc8a42-4e08-423d-803a-80a5972543b7",
+  "title": "Staff Data Engineer",
+  "company": "Jobber",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$169k–$229k",
+  "skills": [
+    "Data Engineering",
+    "Data Warehousing",
+    "AWS",
+    "CI/CD",
+    "Terraform",
+    "GraphQL",
+    "Ruby on Rails",
+    "TypeScript",
+    "React"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1789805242180,
+  "description": "Required skills: Data Engineering, Data Warehousing, AWS, CI/CD, Terraform, GraphQL, Ruby on Rails, TypeScript, React | Seniority: Staff | Salary: $169k–$229k USD | Employment type: full_time",
+  "char_count": 191,
+  "source": "jobdatalake.com/CA"
+}

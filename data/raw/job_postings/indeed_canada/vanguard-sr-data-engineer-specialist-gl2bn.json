@@ -1,0 +1,32 @@
+{
+  "job_id": "vanguard-sr-data-engineer-specialist-gl2bn",
+  "url": "https://vanguard.wd5.myworkdayjobs.com/en-US/vanguard_external/job/Sr-Data-Engineer--Specialist_181825-1",
+  "title": "Senior Data Engineer, Specialist",
+  "company": "Vanguard",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$90k–$140k",
+  "skills": [
+    "AWS",
+    "Databricks",
+    "Spark",
+    "SQL",
+    "Python",
+    "ETL",
+    "CI/CD",
+    "GitHub",
+    "DevOps",
+    "Redshift",
+    "Lambda",
+    "S3",
+    "IAM"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1788733480873,
+  "description": "Required skills: AWS, Databricks, Spark, SQL, Python, ETL, CI/CD, GitHub, DevOps, Redshift, Lambda, S3, IAM | Seniority: Senior | Salary: $90k–$140k USD | Employment type: full_time",
+  "char_count": 181,
+  "source": "jobdatalake.com/CA"
+}

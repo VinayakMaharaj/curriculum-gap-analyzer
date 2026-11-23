@@ -1,0 +1,28 @@
+{
+  "job_id": "match-group-senior-data-engineer-i55ia",
+  "url": "https://jobs.lever.co/matchgroup/98608e23-2878-4dd6-88e1-e6d1cd5eee59",
+  "title": "Senior Data Engineer",
+  "company": "Match Group",
+  "location": "Vancouver, BC",
+  "country": "Canada",
+  "salary": "$135k–$143k",
+  "skills": [
+    "SQL",
+    "Python",
+    "Redshift",
+    "Airflow",
+    "Databricks",
+    "Spark",
+    "SQL Server",
+    "AWS",
+    "Data"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1790391172140,
+  "description": "Required skills: SQL, Python, Redshift, Airflow, Databricks, Spark, SQL Server, AWS, Data | Seniority: Senior | Salary: $135k–$143k USD | Employment type: full_time",
+  "char_count": 164,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,28 @@
+{
+  "job_id": "jobgether-senior-data-engineer-3nfaf",
+  "url": "https://jobs.lever.co/jobgether/46bea157-dd4f-4d2a-9bee-1bac3219a8ed",
+  "title": "Senior Data Engineer",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "AWS",
+    "S3",
+    "Kinesis",
+    "Lambda",
+    "Redshift",
+    "Terraform",
+    "Kubernetes"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1795084126698,
+  "description": "Required skills: Python, SQL, AWS, S3, Kinesis, Lambda, Redshift, Terraform, Kubernetes | Seniority: Senior | Employment type: full_time",
+  "char_count": 136,
+  "source": "jobdatalake.com/CA"
+}

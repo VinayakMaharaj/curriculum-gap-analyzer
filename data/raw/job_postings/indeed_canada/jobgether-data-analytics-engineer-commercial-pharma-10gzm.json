@@ -1,0 +1,27 @@
+{
+  "job_id": "jobgether-data-analytics-engineer-commercial-pharma-10gzm",
+  "url": "https://jobs.lever.co/jobgether/1d5e5fce-6049-47de-ba9b-f5bbb7584e05",
+  "title": "Data & Analytics Engineer, Commercial Pharma",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "ETL",
+    "dbt",
+    "Snowflake",
+    "Databricks",
+    "CRM",
+    "Salesforce"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1789209039032,
+  "description": "Required skills: SQL, Python, ETL, dbt, Snowflake, Databricks, CRM, Salesforce | Seniority: Senior | Employment type: full_time",
+  "char_count": 127,
+  "source": "jobdatalake.com/CA"
+}

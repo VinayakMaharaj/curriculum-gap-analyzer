@@ -1,0 +1,30 @@
+{
+  "job_id": "jobgether-senior-staff-swe-backend-grader-nlruf",
+  "url": "https://jobs.lever.co/jobgether/48086484-46da-4b37-8ddf-cafc15159505",
+  "title": "Senior Backend Software Engineer",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$240k–$250k",
+  "skills": [
+    "Node.js",
+    "TypeScript",
+    "PostgreSQL",
+    "MongoDB",
+    "AWS",
+    "Datadog",
+    "API",
+    "Microservices",
+    "SQL",
+    "Backend"
+  ],
+  "seniority": [
+    "Senior",
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793798541574,
+  "description": "Required skills: Node.js, TypeScript, PostgreSQL, MongoDB, AWS, Datadog, API, Microservices, SQL, Backend | Seniority: Senior, Staff | Salary: $240k–$250k USD | Employment type: full_time",
+  "char_count": 187,
+  "source": "jobdatalake.com/CA"
+}

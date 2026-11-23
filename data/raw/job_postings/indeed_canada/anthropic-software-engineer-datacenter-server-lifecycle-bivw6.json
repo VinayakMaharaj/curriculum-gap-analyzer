@@ -1,0 +1,30 @@
+{
+  "job_id": "anthropic-software-engineer-datacenter-server-lifecycle-bivw6",
+  "url": "https://job-boards.greenhouse.io/anthropic/jobs/5484171008",
+  "title": "Staff Software Engineer, Datacenter Server Lifecycle",
+  "company": "Anthropic",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$405k–$485k",
+  "skills": [
+    "Python",
+    "Rust",
+    "Go",
+    "Java",
+    "Kubernetes",
+    "AWS",
+    "Azure",
+    "GCP",
+    "DevOps",
+    "Infrastructure"
+  ],
+  "seniority": [
+    "Staff",
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1794883887959,
+  "description": "Required skills: Python, Rust, Go, Java, Kubernetes, AWS, Azure, GCP, DevOps, Infrastructure | Seniority: Staff, Senior | Salary: $405k–$485k USD | Employment type: full_time",
+  "char_count": 174,
+  "source": "jobdatalake.com/CA"
+}

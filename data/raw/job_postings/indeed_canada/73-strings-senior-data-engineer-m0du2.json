@@ -1,0 +1,31 @@
+{
+  "job_id": "73-strings-senior-data-engineer-m0du2",
+  "url": "https://73strings.teamtailor.com/jobs/8710576-senior-data-engineer",
+  "title": "Senior Data Engineer",
+  "company": "73 Strings",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "Snowflake",
+    "Databricks",
+    "Azure",
+    "GitHub",
+    "CI/CD",
+    "Kafka",
+    "Spark",
+    "dbt",
+    "Airflow",
+    "API"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1794842709494,
+  "description": "Required skills: Python, SQL, Snowflake, Databricks, Azure, GitHub, CI/CD, Kafka, Spark, dbt, Airflow, API | Seniority: Senior | Employment type: full_time",
+  "char_count": 155,
+  "source": "jobdatalake.com/CA"
+}

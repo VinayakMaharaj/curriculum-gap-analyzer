@@ -1,0 +1,31 @@
+{
+  "job_id": "penn-entertainment-staff-data-engineer-89ab6",
+  "url": "https://job-boards.greenhouse.io/penninteractive/jobs/6179104004",
+  "title": "Staff Data Engineer",
+  "company": "theScore",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$160k–$205k",
+  "skills": [
+    "BigQuery",
+    "dbt",
+    "Airflow",
+    "Python",
+    "SQL",
+    "Data Warehousing",
+    "ETL",
+    "GCP",
+    "Git",
+    "CI/CD",
+    "Looker",
+    "Tableau"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1788776017251,
+  "description": "Required skills: BigQuery, dbt, Airflow, Python, SQL, Data Warehousing, ETL, GCP, Git, CI/CD, Looker, Tableau | Seniority: Staff | Salary: $160k–$205k USD | Employment type: full_time",
+  "char_count": 183,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,32 @@
+{
+  "job_id": "movable-ink-software-engineer-data-platform-jxnum",
+  "url": "https://movableink.com/job-listing?gh_jid=8127742",
+  "title": "Software Engineer, Data Platform",
+  "company": "Movable Ink",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$130k–$165k",
+  "skills": [
+    "SQL",
+    "Databricks",
+    "Redshift",
+    "AWS",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "Kafka",
+    "Airflow",
+    "Elixir",
+    "Backend",
+    "Data"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1786725694028,
+  "description": "Required skills: SQL, Databricks, Redshift, AWS, GCP, Docker, Kubernetes, Terraform, Kafka, Airflow, Elixir, Backend, Data | Seniority: Mid Level | Salary: $130k–$165k USD | Employment type: full_time",
+  "char_count": 200,
+  "source": "jobdatalake.com/CA"
+}

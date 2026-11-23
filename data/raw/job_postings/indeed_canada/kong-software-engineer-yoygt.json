@@ -1,0 +1,41 @@
+{
+  "job_id": "kong-software-engineer-yoygt",
+  "url": "https://jobs.ashbyhq.com/kong/e75c7ded-f94e-4ee8-9365-794bbd0e0e91",
+  "title": "Software Engineer",
+  "company": "Kong",
+  "location": "Toronto, Canada",
+  "country": "Canada",
+  "salary": "$118k–$140k",
+  "skills": [
+    "TypeScript",
+    "Node.js",
+    "PostgreSQL",
+    "REST",
+    "Kafka",
+    "SQS",
+    "Kubernetes",
+    "GitHub Actions",
+    "Jenkins",
+    "GitHub",
+    "JIRA",
+    "Confluence",
+    "Docker",
+    "Salesforce",
+    "Snowflake",
+    "AWS",
+    "Terraform",
+    "Datadog",
+    "Prometheus",
+    "Grafana",
+    "OpenTelemetry",
+    "Backend"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1793109712584,
+  "description": "Required skills: TypeScript, Node.js, PostgreSQL, REST, Kafka, SQS, Kubernetes, GitHub Actions, Jenkins, GitHub, JIRA, Confluence, Docker, Salesforce, Snowflake, AWS, Terraform, Datadog, Prometheus, Grafana, OpenTelemetry, Backend | Seniority: Mid Level | Salary: $118k–$140k USD | Employment type: full_time",
+  "char_count": 308,
+  "source": "jobdatalake.com/CA"
+}

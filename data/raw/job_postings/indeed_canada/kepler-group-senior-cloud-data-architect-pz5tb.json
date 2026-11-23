@@ -1,0 +1,39 @@
+{
+  "job_id": "kepler-group-senior-cloud-data-architect-pz5tb",
+  "url": "https://job-boards.greenhouse.io/keplergroup/jobs/8128741",
+  "title": "Senior Cloud Data Architect",
+  "company": "Kepler Group",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "GCP",
+    "AWS",
+    "Azure",
+    "Python",
+    "SQL",
+    "BigQuery",
+    "API",
+    "OAuth",
+    "ETL",
+    "Data Warehousing",
+    "Snowflake",
+    "Databricks",
+    "dbt",
+    "Kotlin",
+    "JavaScript",
+    "Data Engineering",
+    "Machine Learning",
+    "DevOps",
+    "QA"
+  ],
+  "seniority": [
+    "Senior",
+    "Manager"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1787940177529,
+  "description": "Required skills: GCP, AWS, Azure, Python, SQL, BigQuery, API, OAuth, ETL, Data Warehousing, Snowflake, Databricks, dbt, Kotlin, JavaScript, Data Engineering, Machine Learning, DevOps, QA | Seniority: Senior, Manager | Employment type: full_time",
+  "char_count": 244,
+  "source": "jobdatalake.com/CA"
+}

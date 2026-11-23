@@ -1,0 +1,36 @@
+{
+  "job_id": "sumersports-data-engineer-25fiq",
+  "url": "https://ats.rippling.com/sumersports/jobs/c6b975f4-f56f-411b-9c9d-bf33b64bb27d",
+  "title": "Data Engineer",
+  "company": "SumerSports",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$160k–$190k",
+  "skills": [
+    "Databricks",
+    "Airflow",
+    "Kubernetes",
+    "Python",
+    "SQL",
+    "ETL",
+    "Spark",
+    "RAG",
+    "CI/CD",
+    "GitHub Actions",
+    "Docker",
+    "Kafka",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Data"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1789283121438,
+  "description": "Required skills: Databricks, Airflow, Kubernetes, Python, SQL, ETL, Spark, RAG, CI/CD, GitHub Actions, Docker, Kafka, AWS, GCP, Azure, Data | Seniority: Mid Level, Senior | Salary: $160k–$190k USD | Employment type: full_time",
+  "char_count": 225,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,31 @@
+{
+  "job_id": "jobgether-staff-software-engineer-backend-observability-ff4a1",
+  "url": "https://jobs.lever.co/jobgether/6e58cc7a-c759-4695-92c6-1e00db904c1a",
+  "title": "Staff Software Engineer, Backend",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$181k–$241k",
+  "skills": [
+    "Python",
+    "Kotlin",
+    "AWS",
+    "MySQL",
+    "Kubernetes",
+    "OpenTelemetry",
+    "Kafka",
+    "Terraform",
+    "Backend",
+    "DevOps",
+    "Infrastructure"
+  ],
+  "seniority": [
+    "Staff",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793798562792,
+  "description": "Required skills: Python, Kotlin, AWS, MySQL, Kubernetes, OpenTelemetry, Kafka, Terraform, Backend, DevOps, Infrastructure | Seniority: Staff, Senior | Salary: $181k–$241k USD | Employment type: full_time",
+  "char_count": 203,
+  "source": "jobdatalake.com/CA"
+}

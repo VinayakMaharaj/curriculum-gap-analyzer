@@ -1,0 +1,29 @@
+{
+  "job_id": "nimble-gravity-senior-data-engineer-rex9v",
+  "url": "https://job-boards.greenhouse.io/nimblegravity/jobs/4740591005",
+  "title": "Senior Data Engineer",
+  "company": "Nimble Gravity",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "Snowflake",
+    "dbt",
+    "AWS",
+    "Azure",
+    "AI",
+    "LLM",
+    "CI/CD"
+  ],
+  "seniority": [
+    "Senior",
+    "Manager"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1791328964483,
+  "description": "Required skills: Python, SQL, Snowflake, dbt, AWS, Azure, AI, LLM, CI/CD | Seniority: Senior, Manager | Employment type: full_time",
+  "char_count": 130,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,34 @@
+{
+  "job_id": "citigroup-senior-data-engineer-python-bt2ey",
+  "url": "https://jobs.citi.com/job/mississauga/senior-data-engineer-python/287/100141254032",
+  "title": "Senior Data Engineer",
+  "company": "Citigroup",
+  "location": "Mississauga, ON",
+  "country": "Canada",
+  "salary": "$121k–$171k",
+  "skills": [
+    "Python",
+    "SQL",
+    "ETL",
+    "NoSQL",
+    "MongoDB",
+    "Spark",
+    "Databricks",
+    "Git",
+    "Airflow",
+    "JSON",
+    "PostgreSQL",
+    "Oracle",
+    "SQL Server",
+    "MySQL",
+    "Java"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1789029039654,
+  "description": "Required skills: Python, SQL, ETL, NoSQL, MongoDB, Spark, Databricks, Git, Airflow, JSON, PostgreSQL, Oracle, SQL Server, MySQL, Java | Seniority: Senior | Salary: $121k–$171k USD | Employment type: full_time",
+  "char_count": 208,
+  "source": "jobdatalake.com/CA"
+}

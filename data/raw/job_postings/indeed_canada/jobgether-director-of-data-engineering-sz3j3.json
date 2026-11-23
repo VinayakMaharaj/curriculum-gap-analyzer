@@ -1,0 +1,25 @@
+{
+  "job_id": "jobgether-director-of-data-engineering-sz3j3",
+  "url": "https://jobs.lever.co/jobgether/913595a9-4703-44e9-ac50-09500e693f2a",
+  "title": "Director of Data Engineering",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$200k–$200k",
+  "skills": [
+    "SQL",
+    "Python",
+    "dbt",
+    "BigQuery",
+    "ERP"
+  ],
+  "seniority": [
+    "Director",
+    "Manager"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1791809511649,
+  "description": "Required skills: SQL, Python, dbt, BigQuery, ERP | Seniority: Director, Manager | Salary: $200k–$200k USD | Employment type: full_time",
+  "char_count": 134,
+  "source": "jobdatalake.com/CA"
+}

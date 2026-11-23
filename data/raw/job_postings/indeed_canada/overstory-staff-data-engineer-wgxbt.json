@@ -1,0 +1,23 @@
+{
+  "job_id": "overstory-staff-data-engineer-wgxbt",
+  "url": "https://job-boards.eu.greenhouse.io/overstory/jobs/4976740101",
+  "title": "Staff Data Engineer",
+  "company": "Overstory",
+  "location": "United States",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "GCP",
+    "Machine Learning",
+    "BigQuery"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1789781122641,
+  "description": "Required skills: Python, GCP, Machine Learning, BigQuery | Seniority: Staff | Employment type: full_time",
+  "char_count": 104,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,37 @@
+{
+  "job_id": "athennian-senior-software-engineer-yv4sg",
+  "url": "https://ats.rippling.com/athennian/jobs/feddf8a8-d081-4d41-961c-8d6d00f1038a",
+  "title": "Senior Software Engineer (Remote)",
+  "company": "Athennian",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$110k–$150k",
+  "skills": [
+    "TypeScript",
+    "JavaScript",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Angular",
+    "Jest",
+    "Cypress",
+    "Playwright",
+    "CI/CD",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Docker",
+    "RAG",
+    "LLM",
+    "Backend",
+    "FullStack"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793377827611,
+  "description": "Required skills: TypeScript, JavaScript, Node.js, Express.js, MongoDB, Angular, Jest, Cypress, Playwright, CI/CD, AWS, GCP, Azure, Docker, RAG, LLM, Backend, FullStack | Seniority: Senior | Salary: $110k–$150k USD | Employment type: full_time",
+  "char_count": 242,
+  "source": "jobdatalake.com/CA"
+}

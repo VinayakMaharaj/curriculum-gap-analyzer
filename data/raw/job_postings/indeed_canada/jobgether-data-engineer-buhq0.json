@@ -1,0 +1,34 @@
+{
+  "job_id": "jobgether-data-engineer-buhq0",
+  "url": "https://jobs.lever.co/jobgether/e6cf941a-a790-47bc-b07a-aa667b1d3966",
+  "title": "Data Engineer",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "AWS",
+    "S3",
+    "Redshift",
+    "Lambda",
+    "Airflow",
+    "Data Warehousing",
+    "Git",
+    "CI/CD",
+    "GitLab",
+    "API",
+    "Kafka",
+    "SQL Server",
+    "Data"
+  ],
+  "seniority": [
+    "Entry"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1789209039968,
+  "description": "Required skills: SQL, Python, AWS, S3, Redshift, Lambda, Airflow, Data Warehousing, Git, CI/CD, GitLab, API, Kafka, SQL Server, Data | Seniority: Entry | Employment type: full_time",
+  "char_count": 180,
+  "source": "jobdatalake.com/CA"
+}

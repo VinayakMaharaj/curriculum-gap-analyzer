@@ -1,0 +1,29 @@
+{
+  "job_id": "citigroup-data-engineer-qcz4w",
+  "url": "https://jobs.citi.com/job/mississauga/data-engineer/287/99678065264",
+  "title": "Data Engineer",
+  "company": "Citigroup",
+  "location": "Mississauga, Ontario",
+  "country": "Canada",
+  "salary": "$121k–$171k",
+  "skills": [
+    "Scala",
+    "Python",
+    "SQL",
+    "Spark",
+    "Databricks",
+    "Kafka",
+    "AWS",
+    "GCP",
+    "Data Warehousing"
+  ],
+  "seniority": [
+    "Senior",
+    "Staff"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1789030280929,
+  "description": "Required skills: Scala, Python, SQL, Spark, Databricks, Kafka, AWS, GCP, Data Warehousing | Seniority: Senior, Staff | Salary: $121k–$171k USD | Employment type: full_time",
+  "char_count": 171,
+  "source": "jobdatalake.com/CA"
+}

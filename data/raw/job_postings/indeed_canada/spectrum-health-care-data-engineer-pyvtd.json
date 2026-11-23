@@ -1,0 +1,30 @@
+{
+  "job_id": "spectrum-health-care-data-engineer-pyvtd",
+  "url": "https://jobs.smartrecruiters.com/spectrumhealthcare/744000145551815",
+  "title": "Data Engineer",
+  "company": "Spectrum Health Care",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$95k–$105k",
+  "skills": [
+    "Databricks",
+    "Snowflake",
+    "Kafka",
+    "Epic",
+    "dbt",
+    "Python",
+    "Pandas",
+    "Spark",
+    "SQL",
+    "ETL"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1788869867680,
+  "description": "Required skills: Databricks, Snowflake, Kafka, Epic, dbt, Python, Pandas, Spark, SQL, ETL | Seniority: Mid Level, Senior | Salary: $95k–$105k USD | Employment type: full_time",
+  "char_count": 174,
+  "source": "jobdatalake.com/CA"
+}

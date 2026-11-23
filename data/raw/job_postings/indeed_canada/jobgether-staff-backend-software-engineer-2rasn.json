@@ -1,0 +1,31 @@
+{
+  "job_id": "jobgether-staff-backend-software-engineer-2rasn",
+  "url": "https://jobs.lever.co/jobgether/63b49f5c-c417-4068-9e07-2182b96fe3ee",
+  "title": "Staff Backend Software Engineer (Remote)",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$187k–$224k",
+  "skills": [
+    "Go",
+    "Kubernetes",
+    "Python",
+    "C",
+    "C++",
+    "Rust",
+    "Microservices",
+    "SRE",
+    "Prometheus",
+    "Grafana",
+    "AI",
+    "Backend"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793134339293,
+  "description": "Required skills: Go, Kubernetes, Python, C, C++, Rust, Microservices, SRE, Prometheus, Grafana, AI, Backend | Seniority: Staff | Salary: $187k–$224k USD | Employment type: full_time",
+  "char_count": 181,
+  "source": "jobdatalake.com/CA"
+}

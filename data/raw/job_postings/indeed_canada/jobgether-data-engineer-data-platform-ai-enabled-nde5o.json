@@ -1,0 +1,36 @@
+{
+  "job_id": "jobgether-data-engineer-data-platform-ai-enabled-nde5o",
+  "url": "https://jobs.lever.co/jobgether/a5244e99-7bf1-4280-a5d4-78431648b4de",
+  "title": "Data Engineer, Data Platform",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "Snowflake",
+    "dbt",
+    "Airflow",
+    "Terraform",
+    "Kubernetes",
+    "Helm",
+    "Azure",
+    "Kafka",
+    "GitLab",
+    "LangChain",
+    "LangGraph",
+    "DevOps",
+    "Machine Learning",
+    "API",
+    "Data Engineering"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1789856007871,
+  "description": "Required skills: SQL, Python, Snowflake, dbt, Airflow, Terraform, Kubernetes, Helm, Azure, Kafka, GitLab, LangChain, LangGraph, DevOps, Machine Learning, API, Data Engineering | Seniority: Mid Level | Employment type: full_time",
+  "char_count": 227,
+  "source": "jobdatalake.com/CA"
+}

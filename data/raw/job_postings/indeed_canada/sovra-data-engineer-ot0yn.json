@@ -1,0 +1,32 @@
+{
+  "job_id": "sovra-data-engineer-ot0yn",
+  "url": "https://jobs.ashbyhq.com/sovra/7aeceb6a-6914-459c-bd38-a501543a0730",
+  "title": "Data Engineer",
+  "company": "SOVRA",
+  "location": "Montreal, QC",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "dbt",
+    "AWS",
+    "S3",
+    "Terraform",
+    "ETL",
+    "Data Warehousing",
+    "NoSQL",
+    "Machine Learning",
+    "AI",
+    "Data"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1789959697956,
+  "description": "Required skills: SQL, Python, dbt, AWS, S3, Terraform, ETL, Data Warehousing, NoSQL, Machine Learning, AI, Data | Seniority: Mid Level, Senior | Employment type: full_time",
+  "char_count": 171,
+  "source": "jobdatalake.com/CA"
+}

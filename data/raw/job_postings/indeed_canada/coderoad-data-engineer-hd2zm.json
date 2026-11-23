@@ -1,0 +1,25 @@
+{
+  "job_id": "coderoad-data-engineer-hd2zm",
+  "url": "https://job-boards.greenhouse.io/coderoad/jobs/4456634009",
+  "title": "Data Engineer",
+  "company": "CodeRoad",
+  "location": "Latin America",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "PostgreSQL",
+    "dbt",
+    "ETL",
+    "Airflow",
+    "RAG"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793051136934,
+  "description": "Required skills: SQL, PostgreSQL, dbt, ETL, Airflow, RAG | Seniority: Mid Level | Employment type: full_time",
+  "char_count": 108,
+  "source": "jobdatalake.com/CA"
+}

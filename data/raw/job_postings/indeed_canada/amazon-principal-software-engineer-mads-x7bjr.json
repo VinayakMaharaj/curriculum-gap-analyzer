@@ -1,0 +1,36 @@
+{
+  "job_id": "amazon-principal-software-engineer-mads-x7bjr",
+  "url": "https://amazon.jobs//en/jobs/10431998/principal-software-engineer-mads/",
+  "title": "Principal Software Engineer",
+  "company": "Amazon",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$185k–$310k",
+  "skills": [
+    "Kafka",
+    "Kinesis",
+    "Spark",
+    "EMR",
+    "AWS",
+    "S3",
+    "SQS",
+    "SQL",
+    "Python",
+    "Java",
+    "C++",
+    "Data Engineering",
+    "Machine Learning",
+    "API",
+    "Backend",
+    "Data"
+  ],
+  "seniority": [
+    "Principal",
+    "Manager"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1787767323616,
+  "description": "Required skills: Kafka, Kinesis, Spark, EMR, AWS, S3, SQS, SQL, Python, Java, C++, Data Engineering, Machine Learning, API, Backend, Data | Seniority: Principal, Manager | Salary: $185k–$310k USD | Employment type: full_time",
+  "char_count": 224,
+  "source": "jobdatalake.com/CA"
+}

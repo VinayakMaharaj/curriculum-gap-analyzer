@@ -1,0 +1,25 @@
+{
+  "job_id": "alpaca-senior-data-platform-engineer-dqig0",
+  "url": "https://job-boards.greenhouse.io/alpaca/jobs/6167239004",
+  "title": "Senior Data Platform Engineer (Remote)",
+  "company": "Alpaca",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "Kubernetes",
+    "Kafka",
+    "Spark",
+    "MLflow"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1794705102117,
+  "description": "Required skills: Python, SQL, Kubernetes, Kafka, Spark, MLflow | Seniority: Senior | Employment type: full_time",
+  "char_count": 111,
+  "source": "jobdatalake.com/CA"
+}

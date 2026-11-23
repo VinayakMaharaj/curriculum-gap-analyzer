@@ -1,0 +1,35 @@
+{
+  "job_id": "grafana-labs-staff-software-engineer-application-core-services-us-remote-6n0jj",
+  "url": "https://job-boards.greenhouse.io/grafanalabs/jobs/6227875004",
+  "title": "Staff Software Engineer, Application Core Services (Remote)",
+  "company": "Grafana Labs",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$175k–$210k",
+  "skills": [
+    "Go",
+    "Node.js",
+    "TypeScript",
+    "React",
+    "Kubernetes",
+    "SQL",
+    "Terraform",
+    "GCP",
+    "MySQL",
+    "Grafana",
+    "Prometheus",
+    "OpenTelemetry",
+    "Salesforce",
+    "NetSuite",
+    "Backend",
+    "FullStack"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793046985186,
+  "description": "Required skills: Go, Node.js, TypeScript, React, Kubernetes, SQL, Terraform, GCP, MySQL, Grafana, Prometheus, OpenTelemetry, Salesforce, NetSuite, Backend, FullStack | Seniority: Staff | Salary: $175k–$210k USD | Employment type: full_time",
+  "char_count": 239,
+  "source": "jobdatalake.com/CA"
+}

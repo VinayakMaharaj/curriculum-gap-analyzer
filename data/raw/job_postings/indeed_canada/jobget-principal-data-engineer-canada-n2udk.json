@@ -1,0 +1,29 @@
+{
+  "job_id": "jobget-principal-data-engineer-canada-n2udk",
+  "url": "https://jobget.applytojob.com/apply/cgnA9IxAcI/Principal-Data-Engineer-Canada",
+  "title": "Principal Data Engineer",
+  "company": "JobGet",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Snowflake",
+    "dbt",
+    "AWS",
+    "Terraform",
+    "Python",
+    "SQL",
+    "Machine Learning",
+    "CI/CD",
+    "Databricks",
+    "Kafka"
+  ],
+  "seniority": [
+    "Principal"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1789508493341,
+  "description": "Required skills: Snowflake, dbt, AWS, Terraform, Python, SQL, Machine Learning, CI/CD, Databricks, Kafka | Seniority: Principal | Employment type: full_time",
+  "char_count": 156,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,37 @@
+{
+  "job_id": "betstamp-data-engineer-sports-prediction-markets-rf778",
+  "url": "https://jobs.lever.co/Betstamp/4e89bd3a-eae2-4f54-a915-78d597afef67",
+  "title": "Data Engineer",
+  "company": "Betstamp",
+  "location": "Toronto, Ontario",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Go",
+    "SQL",
+    "Linux",
+    "Docker",
+    "Kubernetes",
+    "PostgreSQL",
+    "RabbitMQ",
+    "Prometheus",
+    "Grafana",
+    "API",
+    "Python",
+    "Java",
+    "C#",
+    "Rust",
+    "C++",
+    "Kotlin",
+    "TypeScript"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1788519772925,
+  "description": "Required skills: Go, SQL, Linux, Docker, Kubernetes, PostgreSQL, RabbitMQ, Prometheus, Grafana, API, Python, Java, C#, Rust, C++, Kotlin, TypeScript | Seniority: Mid Level, Senior | Employment type: full_time",
+  "char_count": 208,
+  "source": "jobdatalake.com/CA"
+}

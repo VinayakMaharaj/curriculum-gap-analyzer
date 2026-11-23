@@ -1,0 +1,41 @@
+{
+  "job_id": "gomaterials-senior-software-engineer-data-ml-platform-mpamn",
+  "url": "https://jobs.lever.co/gomaterials/3c87f832-c52c-4089-b6b3-86adf84e1b1d",
+  "title": "Senior Software Engineer, Data & ML Platform",
+  "company": "GoMaterials",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "Azure",
+    "Terraform",
+    "CI/CD",
+    "Git",
+    "API",
+    "ETL",
+    "IAM",
+    "Machine Learning",
+    "Data Engineering",
+    "dbt",
+    "MLflow",
+    "Airflow",
+    "Kubernetes",
+    "DevOps",
+    "SRE",
+    "Backend",
+    "DevOps",
+    "Infrastructure",
+    "Machine Learning",
+    "Data"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1791034804809,
+  "description": "Required skills: Python, SQL, Azure, Terraform, CI/CD, Git, API, ETL, IAM, Machine Learning, Data Engineering, dbt, MLflow, Airflow, Kubernetes, DevOps, SRE, Backend, DevOps, Infrastructure, Machine Learning, Data | Seniority: Senior | Employment type: full_time",
+  "char_count": 262,
+  "source": "jobdatalake.com/CA"
+}

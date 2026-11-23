@@ -1,0 +1,28 @@
+{
+  "job_id": "stackadapt-staff-software-engineer-cl1rv",
+  "url": "https://job-boards.greenhouse.io/stackadapt/jobs/4509177009",
+  "title": "Staff Software Engineer",
+  "company": "StackAdapt",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$182k–$251k",
+  "skills": [
+    "Go",
+    "Kafka",
+    "gRPC",
+    "AWS",
+    "SQL",
+    "Python",
+    "Backend"
+  ],
+  "seniority": [
+    "Staff",
+    "Senior",
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1795261377036,
+  "description": "Required skills: Go, Kafka, gRPC, AWS, SQL, Python, Backend | Seniority: Staff, Senior, Mid Level | Salary: $182k–$251k USD | Employment type: full_time",
+  "char_count": 152,
+  "source": "jobdatalake.com/CA"
+}

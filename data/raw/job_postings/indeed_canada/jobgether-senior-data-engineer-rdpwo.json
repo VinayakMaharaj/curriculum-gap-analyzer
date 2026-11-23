@@ -1,0 +1,33 @@
+{
+  "job_id": "jobgether-senior-data-engineer-rdpwo",
+  "url": "https://jobs.lever.co/jobgether/ce3787d0-30fa-4897-b95a-28a0a71a435c",
+  "title": "Senior Data Engineer",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Data Engineering",
+    "Python",
+    "SQL",
+    "Kubernetes",
+    "Docker",
+    "Helm",
+    "Terraform",
+    "Ansible",
+    "ArgoCD",
+    "Kafka",
+    "Airflow",
+    "GCP",
+    "dbt",
+    "Looker"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1789209082761,
+  "description": "Required skills: Data Engineering, Python, SQL, Kubernetes, Docker, Helm, Terraform, Ansible, ArgoCD, Kafka, Airflow, GCP, dbt, Looker | Seniority: Senior | Employment type: full_time",
+  "char_count": 183,
+  "source": "jobdatalake.com/CA"
+}

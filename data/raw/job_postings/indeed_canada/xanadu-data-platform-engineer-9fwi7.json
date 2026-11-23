@@ -1,0 +1,26 @@
+{
+  "job_id": "xanadu-data-platform-engineer-9fwi7",
+  "url": "https://xanadu.applytojob.com/apply/JiheA5U375/Data-Platform-Engineer",
+  "title": "Data Platform Engineer",
+  "company": "Xanadu",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "CI/CD",
+    "Data Warehousing",
+    "dbt",
+    "Airflow"
+  ],
+  "seniority": [
+    "Senior",
+    "Staff"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1786769093815,
+  "description": "Required skills: Python, SQL, CI/CD, Data Warehousing, dbt, Airflow | Seniority: Senior, Staff | Employment type: full_time",
+  "char_count": 123,
+  "source": "jobdatalake.com/CA"
+}

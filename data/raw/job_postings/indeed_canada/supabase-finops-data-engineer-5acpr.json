@@ -1,0 +1,29 @@
+{
+  "job_id": "supabase-finops-data-engineer-5acpr",
+  "url": "https://jobs.ashbyhq.com/supabase/73ddf93b-fe0c-455d-ba27-cdde0d3fb94f",
+  "title": "FinOps Data Engineer (Remote)",
+  "company": "Supabase",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "AWS",
+    "GCP",
+    "BigQuery",
+    "dbt",
+    "SQL",
+    "Python",
+    "Terraform",
+    "Lambda",
+    "Bash",
+    "Data"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1792300088783,
+  "description": "Required skills: AWS, GCP, BigQuery, dbt, SQL, Python, Terraform, Lambda, Bash, Data | Seniority: Mid Level | Employment type: full_time",
+  "char_count": 136,
+  "source": "jobdatalake.com/CA"
+}

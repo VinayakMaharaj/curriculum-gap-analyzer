@@ -1,0 +1,27 @@
+{
+  "job_id": "sovra-ing-nierie-de-donn-es-jczsg",
+  "url": "https://jobs.ashbyhq.com/sovra/a58eef4e-000b-4837-8f02-417b1c104432",
+  "title": "Data Engineer (Remote)",
+  "company": "SOVRA",
+  "location": "Montreal, QC",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "dbt",
+    "Terraform",
+    "NoSQL",
+    "Data Warehousing",
+    "ETL",
+    "Data Engineering"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1789959697983,
+  "description": "Required skills: SQL, Python, dbt, Terraform, NoSQL, Data Warehousing, ETL, Data Engineering | Seniority: Mid Level | Employment type: full_time",
+  "char_count": 144,
+  "source": "jobdatalake.com/CA"
+}

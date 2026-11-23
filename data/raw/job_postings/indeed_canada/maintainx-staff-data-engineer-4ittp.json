@@ -1,0 +1,26 @@
+{
+  "job_id": "maintainx-staff-data-engineer-4ittp",
+  "url": "https://jobs.ashbyhq.com/maintainx/be04c0d6-651a-44b6-8c00-6e81841c248d",
+  "title": "Staff Data Engineer",
+  "company": "MaintainX",
+  "location": "San Francisco, CA",
+  "country": "Canada",
+  "salary": "$202k–$296k",
+  "skills": [
+    "Python",
+    "dbt",
+    "Terraform",
+    "Kafka",
+    "Databricks",
+    "GDPR",
+    "SOC 2"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1791324784197,
+  "description": "Required skills: Python, dbt, Terraform, Kafka, Databricks, GDPR, SOC 2 | Seniority: Staff | Salary: $202k–$296k USD | Employment type: full_time",
+  "char_count": 145,
+  "source": "jobdatalake.com/CA"
+}

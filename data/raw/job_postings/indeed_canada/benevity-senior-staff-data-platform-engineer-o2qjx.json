@@ -1,0 +1,30 @@
+{
+  "job_id": "benevity-senior-staff-data-platform-engineer-o2qjx",
+  "url": "https://jobs.ashbyhq.com/benevity/497ae70c-a9f9-463e-8039-7656da2b0380",
+  "title": "Senior Staff Data Platform Engineer",
+  "company": "Benevity",
+  "location": "Calgary, Alberta",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "AWS",
+    "dbt",
+    "Kafka",
+    "Airflow",
+    "Looker",
+    "BigQuery",
+    "GitHub Actions",
+    "Jenkins",
+    "Python",
+    "SQL"
+  ],
+  "seniority": [
+    "Senior",
+    "Staff"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1790506810458,
+  "description": "Required skills: AWS, dbt, Kafka, Airflow, Looker, BigQuery, GitHub Actions, Jenkins, Python, SQL | Seniority: Senior, Staff | Employment type: full_time",
+  "char_count": 153,
+  "source": "jobdatalake.com/CA"
+}

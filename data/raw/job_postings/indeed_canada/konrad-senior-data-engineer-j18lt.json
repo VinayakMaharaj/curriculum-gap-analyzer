@@ -1,0 +1,27 @@
+{
+  "job_id": "konrad-senior-data-engineer-j18lt",
+  "url": "https://www.konrad.com/careers/job/7894916003?gh_jid=7894916003",
+  "title": "Data Engineer",
+  "company": "Konrad ",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$120k–$145k",
+  "skills": [
+    "Databricks",
+    "Snowflake",
+    "SQL",
+    "Python",
+    "Spark",
+    "Hadoop",
+    "Kafka",
+    "ETL"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1787940028345,
+  "description": "Required skills: Databricks, Snowflake, SQL, Python, Spark, Hadoop, Kafka, ETL | Seniority: Senior | Salary: $120k–$145k USD | Employment type: full_time",
+  "char_count": 153,
+  "source": "jobdatalake.com/CA"
+}

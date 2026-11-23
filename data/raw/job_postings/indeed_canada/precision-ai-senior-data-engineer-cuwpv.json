@@ -1,0 +1,33 @@
+{
+  "job_id": "precision-ai-senior-data-engineer-cuwpv",
+  "url": "https://jobs.gem.com/precision-ai/am9icG9zdDo7VtKCHXmD3zDimGss8Ncg",
+  "title": "Senior Data Engineer",
+  "company": "Precision AI",
+  "location": "Calgary",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "AWS",
+    "S3",
+    "IAM",
+    "Airflow",
+    "Data Warehousing",
+    "dbt",
+    "CI/CD",
+    "Git",
+    "Terraform",
+    "Kubernetes",
+    "MLflow",
+    "Spark"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1790252417394,
+  "description": "Required skills: Python, SQL, AWS, S3, IAM, Airflow, Data Warehousing, dbt, CI/CD, Git, Terraform, Kubernetes, MLflow, Spark | Seniority: Senior | Employment type: full_time",
+  "char_count": 173,
+  "source": "jobdatalake.com/CA"
+}

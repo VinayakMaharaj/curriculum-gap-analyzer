@@ -1,0 +1,29 @@
+{
+  "job_id": "docebo-data-engineer-i-a1vy2",
+  "url": "https://jobs.ashbyhq.com/docebo/b9a3b29d-cf7f-4760-aa21-5795c0f32bb1",
+  "title": "Data Engineer",
+  "company": "Docebo",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$69k–$92k",
+  "skills": [
+    "SQL",
+    "Python",
+    "Git",
+    "dbt",
+    "Airflow",
+    "Snowflake",
+    "BigQuery",
+    "Databricks",
+    "ETL"
+  ],
+  "seniority": [
+    "Entry",
+    "Mid Level"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1789916549786,
+  "description": "Required skills: SQL, Python, Git, dbt, Airflow, Snowflake, BigQuery, Databricks, ETL | Seniority: Entry, Mid Level | Salary: $69k–$92k USD | Employment type: full_time",
+  "char_count": 168,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,30 @@
+{
+  "job_id": "jobgether-senior-analytics-engineer-finance-gvyp9",
+  "url": "https://jobs.lever.co/jobgether/b6fe646b-aed3-4378-8d90-2e8c812a510c",
+  "title": "Senior Analytics Engineer, Finance",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "dbt",
+    "Spark",
+    "Airflow",
+    "Git",
+    "API",
+    "Data Engineering",
+    "Data Warehousing",
+    "ETL",
+    "AI"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1792474921284,
+  "description": "Required skills: SQL, Python, dbt, Spark, Airflow, Git, API, Data Engineering, Data Warehousing, ETL, AI | Seniority: Senior | Employment type: full_time",
+  "char_count": 153,
+  "source": "jobdatalake.com/CA"
+}

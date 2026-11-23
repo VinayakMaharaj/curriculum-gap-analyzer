@@ -1,0 +1,36 @@
+{
+  "job_id": "jobgether-software-engineer-data-systems-python-3ssgf",
+  "url": "https://jobs.lever.co/jobgether/1b76f4a2-858f-4dbe-a0cb-17cdcf2dad4f",
+  "title": "Software Engineer, Data Systems",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$140k–$155k",
+  "skills": [
+    "Python",
+    "ETL",
+    "API",
+    "REST",
+    "GraphQL",
+    "SQL",
+    "BigQuery",
+    "Snowflake",
+    "Redshift",
+    "Airflow",
+    "Docker",
+    "OAuth",
+    "Kubernetes",
+    "ERP",
+    "CRM",
+    "GDPR",
+    "SOC 2"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1790503901226,
+  "description": "Required skills: Python, ETL, API, REST, GraphQL, SQL, BigQuery, Snowflake, Redshift, Airflow, Docker, OAuth, Kubernetes, ERP, CRM, GDPR, SOC 2 | Seniority: Mid Level | Salary: $140k–$155k USD | Employment type: full_time",
+  "char_count": 221,
+  "source": "jobdatalake.com/CA"
+}

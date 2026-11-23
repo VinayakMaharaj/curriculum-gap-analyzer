@@ -1,0 +1,28 @@
+{
+  "job_id": "later-senior-data-platform-engineer-6zlb3",
+  "url": "https://job-boards.greenhouse.io/later/jobs/8863354002",
+  "title": "Senior Data Platform Engineer",
+  "company": "Later",
+  "location": "Boston, MA",
+  "country": "Canada",
+  "salary": "$125k–$205k",
+  "skills": [
+    "Python",
+    "SQL",
+    "dbt",
+    "GCP",
+    "BigQuery",
+    "AWS",
+    "CI/CD",
+    "Kubernetes",
+    "Data Engineering"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1791050555711,
+  "description": "Required skills: Python, SQL, dbt, GCP, BigQuery, AWS, CI/CD, Kubernetes, Data Engineering | Seniority: Senior | Salary: $125k–$205k USD | Employment type: full_time",
+  "char_count": 165,
+  "source": "jobdatalake.com/CA"
+}

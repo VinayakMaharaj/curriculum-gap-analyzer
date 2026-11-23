@@ -1,0 +1,38 @@
+{
+  "job_id": "ericsson-ing-nieur-e-en-gestion-de-donn-es-ml-tw18z",
+  "url": "https://jobs.ericsson.com/careers/job/563121777048253",
+  "title": "Machine Learning Data Management Engineer",
+  "company": "Ericsson",
+  "location": "Montreal, QC",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "Go",
+    "SQL",
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "Airflow",
+    "Spark",
+    "Kafka",
+    "AWS",
+    "Azure",
+    "GCP",
+    "ETL",
+    "CI/CD",
+    "MLOps",
+    "IAM",
+    "Machine Learning",
+    "Data Engineering"
+  ],
+  "seniority": [
+    "Senior",
+    "Staff"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1786906914941,
+  "description": "Required skills: Python, Go, SQL, Docker, Kubernetes, Helm, Airflow, Spark, Kafka, AWS, Azure, GCP, ETL, CI/CD, MLOps, IAM, Machine Learning, Data Engineering | Seniority: Senior, Staff | Employment type: full_time",
+  "char_count": 214,
+  "source": "jobdatalake.com/CA"
+}

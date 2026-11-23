@@ -1,0 +1,30 @@
+{
+  "job_id": "jobgether-senior-staff-data-engineer-fdvd7",
+  "url": "https://jobs.lever.co/jobgether/5695ff46-7f02-4c5d-9f27-cb35e2aae6f6",
+  "title": "Senior Data Engineer",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$195k–$268k",
+  "skills": [
+    "Python",
+    "SQL",
+    "BigQuery",
+    "Databricks",
+    "Snowflake",
+    "Airflow",
+    "Terraform",
+    "API",
+    "CI/CD",
+    "dbt"
+  ],
+  "seniority": [
+    "Senior",
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1790503897889,
+  "description": "Required skills: Python, SQL, BigQuery, Databricks, Snowflake, Airflow, Terraform, API, CI/CD, dbt | Seniority: Senior, Staff | Salary: $195k–$268k USD | Employment type: full_time",
+  "char_count": 180,
+  "source": "jobdatalake.com/CA"
+}

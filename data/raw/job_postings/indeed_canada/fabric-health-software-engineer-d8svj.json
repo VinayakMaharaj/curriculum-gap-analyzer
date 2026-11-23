@@ -1,0 +1,38 @@
+{
+  "job_id": "fabric-health-software-engineer-d8svj",
+  "url": "https://jobs.gem.com/fabrichealth/am9icG9zdDrKZLE0RJZSuwGo6vRt2-eD",
+  "title": "Software Engineer (Remote)",
+  "company": "Fabric Health",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$70k–$100k",
+  "skills": [
+    "Python",
+    "Django",
+    "TypeScript",
+    "SQL",
+    "PostgreSQL",
+    "AWS",
+    "S3",
+    "Docker",
+    "Kubernetes",
+    "Helm",
+    "Terraform",
+    "GitHub Actions",
+    "OpenTelemetry",
+    "Redis",
+    "Elasticsearch",
+    "RabbitMQ",
+    "Kafka",
+    "HIPAA",
+    "CI/CD"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793062656431,
+  "description": "Required skills: Python, Django, TypeScript, SQL, PostgreSQL, AWS, S3, Docker, Kubernetes, Helm, Terraform, GitHub Actions, OpenTelemetry, Redis, Elasticsearch, RabbitMQ, Kafka, HIPAA, CI/CD | Seniority: Mid Level | Salary: $70k–$100k USD | Employment type: full_time",
+  "char_count": 267,
+  "source": "jobdatalake.com/CA"
+}

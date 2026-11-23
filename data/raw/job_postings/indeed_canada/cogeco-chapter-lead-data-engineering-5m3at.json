@@ -1,0 +1,33 @@
+{
+  "job_id": "cogeco-chapter-lead-data-engineering-5m3at",
+  "url": "https://cogeco.wd3.myworkdayjobs.com/en-US/Cogeco_Careers/job/Chapter-Lead--Data-Engineering_JR9905",
+  "title": "Chapter Lead, Data Engineering",
+  "company": "Cogeco",
+  "location": "Montreal, QC",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "Pandas",
+    "Spark",
+    "Airflow",
+    "GCP",
+    "AWS",
+    "Azure",
+    "BigQuery",
+    "Snowflake",
+    "Redshift",
+    "ETL",
+    "Agile"
+  ],
+  "seniority": [
+    "Manager",
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1792131208237,
+  "description": "Required skills: SQL, Python, Pandas, Spark, Airflow, GCP, AWS, Azure, BigQuery, Snowflake, Redshift, ETL, Agile | Seniority: Manager, Senior | Employment type: full_time",
+  "char_count": 170,
+  "source": "jobdatalake.com/CA"
+}

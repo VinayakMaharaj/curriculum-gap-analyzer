@@ -1,0 +1,38 @@
+{
+  "job_id": "citigroup-senior-data-engineer-databricks-aws-fc5wt",
+  "url": "https://jobs.citi.com/job/mississauga/senior-data-engineer-databricks-aws/287/103394929936",
+  "title": "Senior Data Engineer",
+  "company": "Citigroup",
+  "location": "Mississauga, ON",
+  "country": "Canada",
+  "salary": "$94k–$142k",
+  "skills": [
+    "AWS",
+    "Databricks",
+    "Hadoop",
+    "Hive",
+    "Kafka",
+    "Spark",
+    "Scala",
+    "SQL",
+    "CI/CD",
+    "Angular",
+    "React",
+    "S3",
+    "Git",
+    "Jenkins",
+    "GitHub Actions",
+    "Airflow",
+    "Grafana",
+    "Prometheus",
+    "Splunk"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1794919300089,
+  "description": "Required skills: AWS, Databricks, Hadoop, Hive, Kafka, Spark, Scala, SQL, CI/CD, Angular, React, S3, Git, Jenkins, GitHub Actions, Airflow, Grafana, Prometheus, Splunk | Seniority: Senior | Salary: $94k–$142k USD | Employment type: full_time",
+  "char_count": 241,
+  "source": "jobdatalake.com/CA"
+}

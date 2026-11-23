@@ -1,0 +1,33 @@
+{
+  "job_id": "quandri-senior-data-engineer-3fgs8",
+  "url": "https://jobs.lever.co/quandri/eaeee943-f9a3-4d02-9462-6648181a33cc",
+  "title": "Senior Data Engineer",
+  "company": "Quandri",
+  "location": "Vancouver, BC",
+  "country": "Canada",
+  "salary": "$140k–$170k",
+  "skills": [
+    "Python",
+    "SQL",
+    "Databricks",
+    "dbt",
+    "AWS",
+    "Azure",
+    "GCP",
+    "Airflow",
+    "Tableau",
+    "Power BI",
+    "API",
+    "PostgreSQL",
+    "DynamoDB",
+    "HubSpot"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1791143479242,
+  "description": "Required skills: Python, SQL, Databricks, dbt, AWS, Azure, GCP, Airflow, Tableau, Power BI, API, PostgreSQL, DynamoDB, HubSpot | Seniority: Senior | Salary: $140k–$170k USD | Employment type: full_time",
+  "char_count": 201,
+  "source": "jobdatalake.com/CA"
+}

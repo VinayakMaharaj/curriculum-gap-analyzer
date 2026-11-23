@@ -1,0 +1,30 @@
+{
+  "job_id": "citigroup-etl-data-engineer-assistant-vice-president-yw1pw",
+  "url": "https://jobs.citi.com/job/mississauga/etl-data-engineer-assistant-vice-president/287/102161055216",
+  "title": "ETL Data Engineer",
+  "company": "Citigroup",
+  "location": "Mississauga, ON",
+  "country": "Canada",
+  "salary": "$94k–$142k",
+  "skills": [
+    "ETL",
+    "Data Warehousing",
+    "SQL",
+    "Oracle",
+    "MySQL",
+    "Kafka",
+    "Spark",
+    "Scala",
+    "Java",
+    "Python",
+    "Agile"
+  ],
+  "seniority": [
+    "Manager"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1792956803515,
+  "description": "Required skills: ETL, Data Warehousing, SQL, Oracle, MySQL, Kafka, Spark, Scala, Java, Python, Agile | Seniority: Manager | Salary: $94k–$142k USD | Employment type: full_time",
+  "char_count": 175,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,37 @@
+{
+  "job_id": "marqeta-staff-software-engineer-onboarding-and-migrations-14l6c",
+  "url": "https://jobs.ashbyhq.com/marqeta-inc/c40ef81e-3489-486c-bba6-e3ab7f64c89a",
+  "title": "Staff Software Engineer",
+  "company": "Marqeta",
+  "location": "Ontario, CA",
+  "country": "Canada",
+  "salary": "$157k–$196k",
+  "skills": [
+    "Java",
+    "Python",
+    "AWS",
+    "API",
+    "Microservices",
+    "ETL",
+    "CI/CD",
+    "Kubernetes",
+    "Scala",
+    "Airflow",
+    "Cassandra",
+    "DynamoDB",
+    "Snowflake",
+    "Data Warehousing",
+    "Backend",
+    "DevOps",
+    "Data"
+  ],
+  "seniority": [
+    "Staff",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1794970986489,
+  "description": "Required skills: Java, Python, AWS, API, Microservices, ETL, CI/CD, Kubernetes, Scala, Airflow, Cassandra, DynamoDB, Snowflake, Data Warehousing, Backend, DevOps, Data | Seniority: Staff, Senior | Salary: $157k–$196k USD | Employment type: full_time",
+  "char_count": 249,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,25 @@
+{
+  "job_id": "jobgether-senior-data-engineer-lh5o4",
+  "url": "https://jobs.lever.co/jobgether/f8a2e29d-1393-42bd-9d1b-f55807494efb",
+  "title": "Senior Data Engineer",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$130k–$175k",
+  "skills": [
+    "SQL",
+    "dbt",
+    "BigQuery",
+    "Airflow",
+    "Python",
+    "Looker"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793134329340,
+  "description": "Required skills: SQL, dbt, BigQuery, Airflow, Python, Looker | Seniority: Senior | Salary: $130k–$175k USD | Employment type: full_time",
+  "char_count": 135,
+  "source": "jobdatalake.com/CA"
+}

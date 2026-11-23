@@ -1,0 +1,27 @@
+{
+  "job_id": "dept-senior-data-engineer-fixed-term-toronto-ph6b7",
+  "url": "https://job-boards.greenhouse.io/dept/jobs/8016502",
+  "title": "Senior Data Engineer",
+  "company": "DEPT®",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$135k–$135k",
+  "skills": [
+    "SQL",
+    "Python",
+    "ETL",
+    "Airflow",
+    "dbt",
+    "AWS",
+    "GCP",
+    "Azure"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1791904268388,
+  "description": "Required skills: SQL, Python, ETL, Airflow, dbt, AWS, GCP, Azure | Seniority: Senior | Salary: $135k–$135k USD | Employment type: contract",
+  "char_count": 138,
+  "source": "jobdatalake.com/CA"
+}

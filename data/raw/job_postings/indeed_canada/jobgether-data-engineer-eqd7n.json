@@ -1,0 +1,31 @@
+{
+  "job_id": "jobgether-data-engineer-eqd7n",
+  "url": "https://jobs.lever.co/jobgether/8c370b46-7bad-4e7c-8ddd-fe3d469526d7",
+  "title": "Data Engineer",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "Scala",
+    "dbt",
+    "Airflow",
+    "Snowflake",
+    "CI/CD",
+    "GitHub",
+    "Terraform",
+    "REST",
+    "Datadog",
+    "GCP"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1786534712255,
+  "description": "Required skills: SQL, Python, Scala, dbt, Airflow, Snowflake, CI/CD, GitHub, Terraform, REST, Datadog, GCP | Seniority: Mid Level | Employment type: full_time",
+  "char_count": 158,
+  "source": "jobdatalake.com/CA"
+}

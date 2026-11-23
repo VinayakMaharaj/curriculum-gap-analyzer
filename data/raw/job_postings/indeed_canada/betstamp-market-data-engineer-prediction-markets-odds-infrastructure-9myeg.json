@@ -1,0 +1,34 @@
+{
+  "job_id": "betstamp-market-data-engineer-prediction-markets-odds-infrastructure-9myeg",
+  "url": "https://jobs.lever.co/Betstamp/34bd9fa2-a87f-45ad-89db-5cc521b750e5",
+  "title": "Market Data Engineer, Prediction Markets & Odds Infrastructure",
+  "company": "Betstamp",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Go",
+    "PostgreSQL",
+    "RabbitMQ",
+    "Kubernetes",
+    "Docker",
+    "GitHub Actions",
+    "SQL",
+    "Prometheus",
+    "Grafana",
+    "API",
+    "AI",
+    "LLM",
+    "Backend",
+    "Infrastructure"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1788519773015,
+  "description": "Required skills: Go, PostgreSQL, RabbitMQ, Kubernetes, Docker, GitHub Actions, SQL, Prometheus, Grafana, API, AI, LLM, Backend, Infrastructure | Seniority: Mid Level, Senior | Employment type: full_time",
+  "char_count": 202,
+  "source": "jobdatalake.com/CA"
+}

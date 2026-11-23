@@ -1,0 +1,32 @@
+{
+  "job_id": "movable-ink-data-engineer-bpem0",
+  "url": "https://movableink.com/job-listing?gh_jid=8188477",
+  "title": "Data Engineer",
+  "company": "Movable Ink",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$125k–$170k",
+  "skills": [
+    "Python",
+    "Java",
+    "SQL",
+    "dbt",
+    "Airflow",
+    "Git",
+    "Terraform",
+    "API",
+    "AWS",
+    "Redshift",
+    "Tableau",
+    "CI/CD",
+    "Agile"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1789615265951,
+  "description": "Required skills: Python, Java, SQL, dbt, Airflow, Git, Terraform, API, AWS, Redshift, Tableau, CI/CD, Agile | Seniority: Mid Level | Salary: $125k–$170k USD | Employment type: full_time",
+  "char_count": 185,
+  "source": "jobdatalake.com/CA"
+}
