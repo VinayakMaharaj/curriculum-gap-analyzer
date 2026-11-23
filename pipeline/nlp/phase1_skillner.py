@@ -84,7 +84,7 @@ def extract_skills(extractor, text: str) -> list[str]:
 
 
 def process_corpus(extractor, corpus_path: pathlib.Path, label: str):
-    data = json.loads(corpus_path.read_text())
+    data = json.loads(corpus_path.read_text(encoding="utf-8"))
     docs = data.get("courses") or data.get("jobs") or []
 
     # job corpus uses a flat list; course corpus has {"courses": [...]}
@@ -140,10 +140,10 @@ def main():
 
     # ── Jobs ──────────────────────────────────────────────────────────────────
     # job _corpus.json is a flat list
-    job_data = json.loads(JOB_CORPUS.read_text())
+    job_data = json.loads(JOB_CORPUS.read_text(encoding="utf-8"))
     # wrap in a dict so process_corpus handles it
     JOB_CORPUS_TMP = PROCESSED / "_job_corpus_tmp.json"
-    JOB_CORPUS_TMP.write_text(json.dumps(job_data))
+    JOB_CORPUS_TMP.write_text(json.dumps(job_data), encoding="utf-8")
 
     job_results, job_freq = process_corpus(extractor, JOB_CORPUS_TMP, "jobs")
     save(job_results, PROCESSED / "skills_jobs.json")
