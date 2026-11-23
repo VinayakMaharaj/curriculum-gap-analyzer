@@ -1,0 +1,29 @@
+{
+  "job_id": "kraken-sr-data-analyst-compliance-6dwx0",
+  "url": "https://jobs.ashbyhq.com/kraken.com/b4137bcd-3a22-42aa-b22b-456f1ed9be93",
+  "title": "Senior Data Analyst, Compliance",
+  "company": "Kraken",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "dbt",
+    "Tableau",
+    "Power BI",
+    "Kafka",
+    "Kubernetes",
+    "Airflow",
+    "S3",
+    "Machine Learning"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793030594459,
+  "description": "Required skills: Python, SQL, dbt, Tableau, Power BI, Kafka, Kubernetes, Airflow, S3, Machine Learning | Seniority: Senior | Employment type: full_time",
+  "char_count": 151,
+  "source": "jobdatalake.com/CA"
+}

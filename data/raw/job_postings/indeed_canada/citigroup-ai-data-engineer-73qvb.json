@@ -1,0 +1,39 @@
+{
+  "job_id": "citigroup-ai-data-engineer-73qvb",
+  "url": "https://jobs.citi.com/job/mississauga/ai-data-engineer/287/102309789712",
+  "title": "AI Data Engineer",
+  "company": "Citigroup",
+  "location": "Mississauga, ON",
+  "country": "Canada",
+  "salary": "$94k–$142k",
+  "skills": [
+    "Python",
+    "SQL",
+    "Java",
+    "Generative AI",
+    "LLM",
+    "RAG",
+    "LangChain",
+    "LangGraph",
+    "OpenAI",
+    "Azure",
+    "AWS",
+    "GCP",
+    "Docker",
+    "Kubernetes",
+    "Data Engineering",
+    "Machine Learning",
+    "Microservices",
+    "Data",
+    "Machine Learning",
+    "AI"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1792956083189,
+  "description": "Required skills: Python, SQL, Java, Generative AI, LLM, RAG, LangChain, LangGraph, OpenAI, Azure, AWS, GCP, Docker, Kubernetes, Data Engineering, Machine Learning, Microservices, Data, Machine Learning, AI | Seniority: Senior | Salary: $94k–$142k USD | Employment type: full_time",
+  "char_count": 279,
+  "source": "jobdatalake.com/CA"
+}

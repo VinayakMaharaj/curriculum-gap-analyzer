@@ -1,0 +1,35 @@
+{
+  "job_id": "jobgether-senior-mlops-engineer-38q21",
+  "url": "https://jobs.lever.co/jobgether/d6c1becc-2503-4404-a7bc-647f4bded41d",
+  "title": "Senior MLOps Engineer",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$150k–$200k",
+  "skills": [
+    "Python",
+    "C",
+    "C++",
+    "Bash",
+    "Docker",
+    "Kubernetes",
+    "AWS",
+    "GCP",
+    "Azure",
+    "GitHub Actions",
+    "Jenkins",
+    "MLflow",
+    "Terraform",
+    "CloudFormation",
+    "DevOps",
+    "Machine Learning"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1792474926801,
+  "description": "Required skills: Python, C, C++, Bash, Docker, Kubernetes, AWS, GCP, Azure, GitHub Actions, Jenkins, MLflow, Terraform, CloudFormation, DevOps, Machine Learning | Seniority: Senior | Salary: $150k–$200k USD | Employment type: full_time",
+  "char_count": 235,
+  "source": "jobdatalake.com/CA"
+}

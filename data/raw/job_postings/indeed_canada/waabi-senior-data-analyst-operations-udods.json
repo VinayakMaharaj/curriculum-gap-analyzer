@@ -1,0 +1,27 @@
+{
+  "job_id": "waabi-senior-data-analyst-operations-udods",
+  "url": "https://jobs.lever.co/waabi/48faca52-f7c5-4f01-8ee2-2d05b9fd44cb",
+  "title": "Senior Data Analyst, Operations",
+  "company": "Waabi",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "R",
+    "Pandas",
+    "dbt",
+    "Data Warehousing",
+    "ETL",
+    "API"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1792757016222,
+  "description": "Required skills: SQL, Python, R, Pandas, dbt, Data Warehousing, ETL, API | Seniority: Senior | Employment type: full_time",
+  "char_count": 121,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,29 @@
+{
+  "job_id": "hercules-staff-software-engineer-ai-agent-kn7g0",
+  "url": "https://jobs.ashbyhq.com/hercules/9ee9a087-9c1b-40e3-ab15-f28d42802314",
+  "title": "Staff Software Engineer, AI Agent",
+  "company": "Hercules",
+  "location": "San Francisco, CA",
+  "country": "Canada",
+  "salary": "$100k–$350k",
+  "skills": [
+    "TypeScript",
+    "React",
+    "PostgreSQL",
+    "Redis",
+    "Docker",
+    "Terraform",
+    "OpenAI",
+    "RAG",
+    "AI",
+    "Machine Learning"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1791677741617,
+  "description": "Required skills: TypeScript, React, PostgreSQL, Redis, Docker, Terraform, OpenAI, RAG, AI, Machine Learning | Seniority: Staff | Salary: $100k–$350k USD | Employment type: full_time",
+  "char_count": 181,
+  "source": "jobdatalake.com/CA"
+}

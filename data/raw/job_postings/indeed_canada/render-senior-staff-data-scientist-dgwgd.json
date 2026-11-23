@@ -1,0 +1,25 @@
+{
+  "job_id": "render-senior-staff-data-scientist-dgwgd",
+  "url": "https://jobs.ashbyhq.com/render/8685ba32-883a-42e5-b98b-f3c51a77bceb",
+  "title": "Senior Data Scientist",
+  "company": "Render",
+  "location": "San Francisco, CA",
+  "country": "Canada",
+  "salary": "$195k–$268k",
+  "skills": [
+    "SQL",
+    "dbt",
+    "BigQuery",
+    "Git",
+    "AI"
+  ],
+  "seniority": [
+    "Senior",
+    "Staff"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1790219010443,
+  "description": "Required skills: SQL, dbt, BigQuery, Git, AI | Seniority: Senior, Staff | Salary: $195k–$268k USD | Employment type: full_time",
+  "char_count": 126,
+  "source": "jobdatalake.com/CA"
+}

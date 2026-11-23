@@ -1,0 +1,25 @@
+{
+  "job_id": "doppel-data-scientist-pri5k",
+  "url": "https://jobs.ashbyhq.com/doppel/ff2b9ffa-2f87-4f43-a22e-f1a78523f639",
+  "title": "Data Scientist",
+  "company": "doppel",
+  "location": "San Francisco, CA",
+  "country": "Canada",
+  "salary": "$175k–$250k",
+  "skills": [
+    "SQL",
+    "BigQuery",
+    "dbt",
+    "Python",
+    "AI",
+    "GCP"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1795118423351,
+  "description": "Required skills: SQL, BigQuery, dbt, Python, AI, GCP | Seniority: Senior | Salary: $175k–$250k USD | Employment type: full_time",
+  "char_count": 127,
+  "source": "jobdatalake.com/CA"
+}

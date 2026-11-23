@@ -1,0 +1,38 @@
+{
+  "job_id": "later-senior-mlops-engineer-5s1kj",
+  "url": "https://job-boards.greenhouse.io/later/jobs/8552308002",
+  "title": "Senior MLOps Engineer",
+  "company": "Later",
+  "location": "Boston, MA",
+  "country": "Canada",
+  "salary": "$125k–$205k",
+  "skills": [
+    "Kubernetes",
+    "Helm",
+    "AWS",
+    "GCP",
+    "Terraform",
+    "CI/CD",
+    "Airflow",
+    "LLM",
+    "CloudWatch",
+    "Prometheus",
+    "Grafana",
+    "MLflow",
+    "BigQuery",
+    "S3",
+    "Python",
+    "DevOps",
+    "Infrastructure",
+    "Machine Learning",
+    "AI"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1794345723735,
+  "description": "Required skills: Kubernetes, Helm, AWS, GCP, Terraform, CI/CD, Airflow, LLM, CloudWatch, Prometheus, Grafana, MLflow, BigQuery, S3, Python, DevOps, Infrastructure, Machine Learning, AI | Seniority: Senior | Salary: $125k–$205k USD | Employment type: full_time",
+  "char_count": 259,
+  "source": "jobdatalake.com/CA"
+}

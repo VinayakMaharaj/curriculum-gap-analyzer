@@ -1,0 +1,31 @@
+{
+  "job_id": "konrad-associate-data-analyst-ru1n0",
+  "url": "https://www.konrad.com/careers/job/8043218003?gh_jid=8043218003",
+  "title": "Associate Data Analyst",
+  "company": "Konrad ",
+  "location": "Toronto",
+  "country": "Canada",
+  "salary": "$70k–$80k",
+  "skills": [
+    "Python",
+    "R",
+    "SQL",
+    "Snowflake",
+    "Databricks",
+    "Redshift",
+    "BigQuery",
+    "Looker",
+    "Tableau",
+    "Power BI",
+    "AI",
+    "Data"
+  ],
+  "seniority": [
+    "Entry"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1793044862902,
+  "description": "Required skills: Python, R, SQL, Snowflake, Databricks, Redshift, BigQuery, Looker, Tableau, Power BI, AI, Data | Seniority: Entry | Salary: $70k–$80k USD | Employment type: full_time",
+  "char_count": 183,
+  "source": "jobdatalake.com/CA"
+}

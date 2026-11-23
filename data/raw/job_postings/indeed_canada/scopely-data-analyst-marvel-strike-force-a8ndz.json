@@ -1,0 +1,27 @@
+{
+  "job_id": "scopely-data-analyst-marvel-strike-force-a8ndz",
+  "url": "https://job-boards.greenhouse.io/scopely/jobs/5301857008?gh_jid=5301857008",
+  "title": "Data Analyst",
+  "company": "Scopely",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$91k–$140k",
+  "skills": [
+    "SQL",
+    "Python",
+    "Tableau",
+    "Looker",
+    "dbt",
+    "Snowflake",
+    "BigQuery",
+    "Git"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1785193253569,
+  "description": "Required skills: SQL, Python, Tableau, Looker, dbt, Snowflake, BigQuery, Git | Seniority: Mid Level | Salary: $91k–$140k USD | Employment type: full_time",
+  "char_count": 153,
+  "source": "jobdatalake.com/CA"
+}

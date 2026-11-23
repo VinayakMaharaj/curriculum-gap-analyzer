@@ -1,0 +1,31 @@
+{
+  "job_id": "gitlab-data-scientist-enterprise-analytics-tdub4",
+  "url": "https://job-boards.greenhouse.io/gitlab/jobs/8922013002",
+  "title": "Data Scientist, Enterprise Analytics",
+  "company": "GitLab",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$86k–$176k",
+  "skills": [
+    "Python",
+    "SQL",
+    "Snowflake",
+    "Looker",
+    "Tableau",
+    "Pandas",
+    "NumPy",
+    "Scikit-learn",
+    "MLflow",
+    "Machine Learning",
+    "Data"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793847278433,
+  "description": "Required skills: Python, SQL, Snowflake, Looker, Tableau, Pandas, NumPy, Scikit-learn, MLflow, Machine Learning, Data | Seniority: Mid Level, Senior | Salary: $86k–$176k USD | Employment type: full_time",
+  "char_count": 202,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,42 @@
+{
+  "job_id": "conga-staff-ai-data-scientist-9lbwi",
+  "url": "https://job-boards.greenhouse.io/conga/jobs/5266158007",
+  "title": "Staff AI Data Scientist (Remote)",
+  "company": "Conga",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "NLP",
+    "Machine Learning",
+    "Deep Learning",
+    "Generative AI",
+    "LLM",
+    "RAG",
+    "SQL",
+    "Spark",
+    "Databricks",
+    "BigQuery",
+    "GCP",
+    "AWS",
+    "Azure",
+    "MLflow",
+    "Docker",
+    "Kubernetes",
+    "Elasticsearch",
+    "LangChain",
+    "Machine Learning",
+    "AI"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1792677031627,
+  "description": "Required skills: Python, PyTorch, TensorFlow, NLP, Machine Learning, Deep Learning, Generative AI, LLM, RAG, SQL, Spark, Databricks, BigQuery, GCP, AWS, Azure, MLflow, Docker, Kubernetes, Elasticsearch, LangChain, Machine Learning, AI | Seniority: Staff | Employment type: full_time",
+  "char_count": 282,
+  "source": "jobdatalake.com/CA"
+}

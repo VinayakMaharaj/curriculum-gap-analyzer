@@ -1,0 +1,25 @@
+{
+  "job_id": "jobgether-data-analyst-regulatory-analytics-and-reporting-dhdnd",
+  "url": "https://jobs.lever.co/jobgether/03c03e7e-f1a2-4dae-ab9e-3174a54314dc",
+  "title": "Data Analyst, Regulatory Analytics and Reporting",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "dbt",
+    "Airflow",
+    "Pandas",
+    "Power BI"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1792474895037,
+  "description": "Required skills: SQL, Python, dbt, Airflow, Pandas, Power BI | Seniority: Senior | Employment type: full_time",
+  "char_count": 109,
+  "source": "jobdatalake.com/CA"
+}

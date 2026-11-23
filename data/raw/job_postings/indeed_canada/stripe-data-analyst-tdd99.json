@@ -1,0 +1,23 @@
+{
+  "job_id": "stripe-data-analyst-tdd99",
+  "url": "https://stripe.com/jobs/search?gh_jid=5416444",
+  "title": "Data Analyst",
+  "company": "Stripe",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Spark",
+    "Python",
+    "AI"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1788012170133,
+  "description": "Required skills: SQL, Spark, Python, AI | Seniority: Mid Level | Employment type: full_time",
+  "char_count": 91,
+  "source": "jobdatalake.com/CA"
+}

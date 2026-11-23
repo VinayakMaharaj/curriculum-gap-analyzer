@@ -1,0 +1,26 @@
+{
+  "job_id": "mercury-senior-data-scientist-cmdtb",
+  "url": "https://job-boards.greenhouse.io/mercury/jobs/6179231004",
+  "title": "Senior Data Scientist",
+  "company": "Mercury",
+  "location": "San Francisco, CA",
+  "country": "Canada",
+  "salary": "$167k–$251k",
+  "skills": [
+    "SQL",
+    "Python",
+    "Machine Learning",
+    "LLM",
+    "Generative AI",
+    "dbt",
+    "Machine Learning"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1788411616603,
+  "description": "Required skills: SQL, Python, Machine Learning, LLM, Generative AI, dbt, Machine Learning | Seniority: Senior | Salary: $167k–$251k USD | Employment type: full_time",
+  "char_count": 164,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,39 @@
+{
+  "job_id": "jobgether-senior-software-engineer-infrastructure-58fwx",
+  "url": "https://jobs.lever.co/jobgether/11cdf48c-7b40-4653-a76b-0c80586dfb11",
+  "title": "Senior Software Engineer, Infrastructure",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$250k–$325k",
+  "skills": [
+    "Terraform",
+    "Docker",
+    "Kubernetes",
+    "Azure",
+    "AWS",
+    "GCP",
+    "Linux",
+    "Node.js",
+    "TypeScript",
+    "MongoDB",
+    "Elasticsearch",
+    "Prometheus",
+    "Grafana",
+    "Datadog",
+    "API",
+    "Machine Learning",
+    "AI",
+    "Backend",
+    "DevOps",
+    "Infrastructure"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793798555014,
+  "description": "Required skills: Terraform, Docker, Kubernetes, Azure, AWS, GCP, Linux, Node.js, TypeScript, MongoDB, Elasticsearch, Prometheus, Grafana, Datadog, API, Machine Learning, AI, Backend, DevOps, Infrastructure | Seniority: Senior | Salary: $250k–$325k USD | Employment type: full_time",
+  "char_count": 280,
+  "source": "jobdatalake.com/CA"
+}

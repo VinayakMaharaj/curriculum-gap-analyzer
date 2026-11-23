@@ -1,0 +1,29 @@
+{
+  "job_id": "konrad-senior-data-analyst-pbq3d",
+  "url": "https://www.konrad.com/careers/job/8109518003?gh_jid=8109518003",
+  "title": "Senior Data Analyst",
+  "company": "Konrad ",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$105k–$115k",
+  "skills": [
+    "SQL",
+    "Snowflake",
+    "Databricks",
+    "Redshift",
+    "BigQuery",
+    "Python",
+    "R",
+    "Looker",
+    "Tableau",
+    "Power BI"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1793706067764,
+  "description": "Required skills: SQL, Snowflake, Databricks, Redshift, BigQuery, Python, R, Looker, Tableau, Power BI | Seniority: Senior | Salary: $105k–$115k USD | Employment type: full_time",
+  "char_count": 176,
+  "source": "jobdatalake.com/CA"
+}

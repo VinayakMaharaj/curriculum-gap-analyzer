@@ -1,0 +1,28 @@
+{
+  "job_id": "agiloft-staff-data-engineer-ey4bs",
+  "url": "https://jobs.lever.co/agiloft/b45d3ba3-cd49-4247-aebb-fae74b4e20c1",
+  "title": "Staff Data Engineer",
+  "company": "Agiloft",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Spark",
+    "Kafka",
+    "Airflow",
+    "AWS",
+    "Data Warehousing",
+    "Machine Learning",
+    "AI",
+    "LLM"
+  ],
+  "seniority": [
+    "Staff",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1794863512603,
+  "description": "Required skills: Spark, Kafka, Airflow, AWS, Data Warehousing, Machine Learning, AI, LLM | Seniority: Staff, Senior | Employment type: full_time",
+  "char_count": 144,
+  "source": "jobdatalake.com/CA"
+}

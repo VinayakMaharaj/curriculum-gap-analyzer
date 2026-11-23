@@ -1,0 +1,22 @@
+{
+  "job_id": "felix-sr-data-analyst-cmed9",
+  "url": "https://jobs.ashbyhq.com/felix/6eab0e9a-4619-4627-ace8-ed324ea13628",
+  "title": "Senior Data Analyst",
+  "company": "Felix",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "dbt",
+    "Git"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1786129401794,
+  "description": "Required skills: SQL, dbt, Git | Seniority: Senior | Employment type: full_time",
+  "char_count": 79,
+  "source": "jobdatalake.com/CA"
+}

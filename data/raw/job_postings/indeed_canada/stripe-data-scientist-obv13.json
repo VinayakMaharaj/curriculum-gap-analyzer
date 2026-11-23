@@ -1,0 +1,28 @@
+{
+  "job_id": "stripe-data-scientist-obv13",
+  "url": "https://stripe.com/jobs/search?gh_jid=5895430",
+  "title": "Data Scientist",
+  "company": "Stripe",
+  "location": "Toronto",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "R",
+    "Machine Learning",
+    "Spark",
+    "Hadoop",
+    "AI",
+    "Machine Learning",
+    "AI"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1791331332449,
+  "description": "Required skills: SQL, Python, R, Machine Learning, Spark, Hadoop, AI, Machine Learning, AI | Seniority: Senior | Employment type: full_time",
+  "char_count": 139,
+  "source": "jobdatalake.com/CA"
+}

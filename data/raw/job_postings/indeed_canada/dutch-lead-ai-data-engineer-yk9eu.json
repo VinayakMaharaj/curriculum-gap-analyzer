@@ -1,0 +1,33 @@
+{
+  "job_id": "dutch-lead-ai-data-engineer-yk9eu",
+  "url": "https://jobs.lever.co/dutch/8e2fb978-db7a-4b3a-91a3-ed109327d813",
+  "title": "Lead AI/Data Engineer",
+  "company": "Dutch",
+  "location": "Vancouver",
+  "country": "Canada",
+  "salary": "$185k–$220k",
+  "skills": [
+    "Python",
+    "SQL",
+    "AWS",
+    "GCP",
+    "Azure",
+    "Snowflake",
+    "dbt",
+    "Airflow",
+    "LLM",
+    "CI/CD",
+    "AI",
+    "Machine Learning",
+    "Data Engineering"
+  ],
+  "seniority": [
+    "Lead",
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1792227062062,
+  "description": "Required skills: Python, SQL, AWS, GCP, Azure, Snowflake, dbt, Airflow, LLM, CI/CD, AI, Machine Learning, Data Engineering | Seniority: Lead, Senior | Salary: $185k–$220k USD | Employment type: full_time",
+  "char_count": 203,
+  "source": "jobdatalake.com/CA"
+}

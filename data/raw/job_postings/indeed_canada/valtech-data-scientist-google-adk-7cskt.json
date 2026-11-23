@@ -1,0 +1,32 @@
+{
+  "job_id": "valtech-data-scientist-google-adk-7cskt",
+  "url": "https://job-boards.eu.greenhouse.io/valtech/jobs/4927887101",
+  "title": "Data Scientist",
+  "company": "Valtech",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$140k–$160k",
+  "skills": [
+    "ETL",
+    "Python",
+    "R",
+    "SQL",
+    "Databricks",
+    "Azure",
+    "GCP",
+    "AWS",
+    "Hadoop",
+    "Spark",
+    "Kafka",
+    "Elasticsearch",
+    "Data"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1787907876187,
+  "description": "Required skills: ETL, Python, R, SQL, Databricks, Azure, GCP, AWS, Hadoop, Spark, Kafka, Elasticsearch, Data | Seniority: Senior | Salary: $140k–$160k USD | Employment type: full_time",
+  "char_count": 183,
+  "source": "jobdatalake.com/CA"
+}

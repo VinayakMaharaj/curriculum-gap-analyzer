@@ -1,0 +1,37 @@
+{
+  "job_id": "jobgether-senior-software-engineer-ai-tuvoy",
+  "url": "https://jobs.lever.co/jobgether/b23979ca-333f-438c-9a2c-808f7dd683b6",
+  "title": "Senior Software Engineer, AI",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "TypeScript",
+    "Docker",
+    "Kubernetes",
+    "Terraform",
+    "CI/CD",
+    "Datadog",
+    "SQL",
+    "PostgreSQL",
+    "Databricks",
+    "Confluence",
+    "SharePoint",
+    "JIRA",
+    "Slack",
+    "Azure",
+    "AWS",
+    "AI",
+    "Machine Learning"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1794444113489,
+  "description": "Required skills: Python, TypeScript, Docker, Kubernetes, Terraform, CI/CD, Datadog, SQL, PostgreSQL, Databricks, Confluence, SharePoint, JIRA, Slack, Azure, AWS, AI, Machine Learning | Seniority: Senior | Employment type: full_time",
+  "char_count": 231,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,29 @@
+{
+  "job_id": "jobgether-senior-games-data-analyst-kelym",
+  "url": "https://jobs.lever.co/jobgether/333e5ea8-ac6a-4639-855c-4d30de16bc33",
+  "title": "Senior Games Data Analyst",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "R",
+    "Tableau",
+    "Power BI",
+    "Looker",
+    "Redshift",
+    "Snowflake",
+    "BigQuery",
+    "Databricks"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1785140124956,
+  "description": "Required skills: SQL, Python, R, Tableau, Power BI, Looker, Redshift, Snowflake, BigQuery, Databricks | Seniority: Senior | Employment type: full_time",
+  "char_count": 150,
+  "source": "jobdatalake.com/CA"
+}

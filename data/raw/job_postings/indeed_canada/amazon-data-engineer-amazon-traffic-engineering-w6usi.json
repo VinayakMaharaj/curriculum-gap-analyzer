@@ -1,0 +1,35 @@
+{
+  "job_id": "amazon-data-engineer-amazon-traffic-engineering-w6usi",
+  "url": "https://amazon.jobs//en/jobs/10573527/data-engineer-amazon-traffic-engineering/",
+  "title": "Data Engineer",
+  "company": "Amazon",
+  "location": "Vancouver, BC",
+  "country": "Canada",
+  "salary": "$103k–$173k",
+  "skills": [
+    "ETL",
+    "SQL",
+    "Oracle",
+    "Data Warehousing",
+    "AWS",
+    "Redshift",
+    "S3",
+    "EMR",
+    "Kinesis",
+    "Lambda",
+    "IAM",
+    "Python",
+    "Spark",
+    "Airflow",
+    "Machine Learning",
+    "Cybersecurity"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1791624092901,
+  "description": "Required skills: ETL, SQL, Oracle, Data Warehousing, AWS, Redshift, S3, EMR, Kinesis, Lambda, IAM, Python, Spark, Airflow, Machine Learning, Cybersecurity | Seniority: Mid Level | Salary: $103k–$173k USD | Employment type: full_time",
+  "char_count": 232,
+  "source": "jobdatalake.com/CA"
+}

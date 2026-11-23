@@ -1,0 +1,31 @@
+{
+  "job_id": "jobgether-sr-data-analyst-compliance-h2r1q",
+  "url": "https://jobs.lever.co/jobgether/4d3b17be-69d5-4f0f-81ae-abce24393741",
+  "title": "Senior Data Analyst, Compliance",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "dbt",
+    "Tableau",
+    "Power BI",
+    "Machine Learning",
+    "Kafka",
+    "Kubernetes",
+    "Airflow",
+    "S3",
+    "CI/CD",
+    "Git"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1793134338581,
+  "description": "Required skills: Python, SQL, dbt, Tableau, Power BI, Machine Learning, Kafka, Kubernetes, Airflow, S3, CI/CD, Git | Seniority: Senior | Employment type: full_time",
+  "char_count": 163,
+  "source": "jobdatalake.com/CA"
+}

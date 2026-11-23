@@ -1,0 +1,25 @@
+{
+  "job_id": "jobgether-data-analyst-intermediate-senior-credit-2k5dq",
+  "url": "https://jobs.lever.co/jobgether/bcd5cc85-24c4-4210-89e7-f1365a4ad07e",
+  "title": "Data Analyst, Credit",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$85k–$130k",
+  "skills": [
+    "SQL",
+    "dbt",
+    "Git",
+    "AI",
+    "Redshift"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1785139042666,
+  "description": "Required skills: SQL, dbt, Git, AI, Redshift | Seniority: Mid Level, Senior | Salary: $85k–$130k USD | Employment type: full_time",
+  "char_count": 129,
+  "source": "jobdatalake.com/CA"
+}

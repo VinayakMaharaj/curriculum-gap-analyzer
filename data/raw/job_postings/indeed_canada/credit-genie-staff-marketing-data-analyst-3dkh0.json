@@ -1,0 +1,26 @@
+{
+  "job_id": "credit-genie-staff-marketing-data-analyst-3dkh0",
+  "url": "https://jobs.ashbyhq.com/creditgenie/b680e1b2-437b-4f0c-9264-fa1a67230350",
+  "title": "Staff Marketing Data Analyst",
+  "company": "Credit Genie",
+  "location": "New York, NY",
+  "country": "Canada",
+  "salary": "$200k–$230k",
+  "skills": [
+    "SQL",
+    "Python",
+    "Tableau",
+    "Looker",
+    "Snowflake",
+    "AWS",
+    "dbt"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "on_site",
+  "posted_at": 1789063261374,
+  "description": "Required skills: SQL, Python, Tableau, Looker, Snowflake, AWS, dbt | Seniority: Staff | Salary: $200k–$230k USD | Employment type: full_time",
+  "char_count": 140,
+  "source": "jobdatalake.com/CA"
+}

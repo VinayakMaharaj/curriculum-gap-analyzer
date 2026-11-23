@@ -1,0 +1,27 @@
+{
+  "job_id": "greenhouse-data-scientist-xy3sj",
+  "url": "https://job-boards.greenhouse.io/greenhouse/jobs/8017323?gh_jid=8017323",
+  "title": "Data Scientist",
+  "company": "Greenhouse",
+  "location": "Ontario",
+  "country": "Canada",
+  "salary": "$106k–$132k",
+  "skills": [
+    "Python",
+    "SQL",
+    "Git",
+    "Snowflake",
+    "Redshift",
+    "BigQuery",
+    "Data"
+  ],
+  "seniority": [
+    "Mid Level",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1784208610661,
+  "description": "Required skills: Python, SQL, Git, Snowflake, Redshift, BigQuery, Data | Seniority: Mid Level, Senior | Salary: $106k–$132k USD | Employment type: full_time",
+  "char_count": 156,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,33 @@
+{
+  "job_id": "beyondtrust-staff-ai-data-scientist-ng2ls",
+  "url": "https://job-boards.greenhouse.io/beyondtrust/jobs/7885501",
+  "title": "AI Data Scientist",
+  "company": "BeyondTrust",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "Scikit-learn",
+    "AWS",
+    "GCP",
+    "Azure",
+    "LLM",
+    "Cybersecurity",
+    "Machine Learning",
+    "Deep Learning",
+    "AI",
+    "Machine Learning"
+  ],
+  "seniority": [
+    "Staff",
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1782247324319,
+  "description": "Required skills: Python, PyTorch, TensorFlow, Scikit-learn, AWS, GCP, Azure, LLM, Cybersecurity, Machine Learning, Deep Learning, AI, Machine Learning | Seniority: Staff, Senior | Employment type: full_time",
+  "char_count": 206,
+  "source": "jobdatalake.com/CA"
+}

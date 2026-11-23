@@ -1,0 +1,34 @@
+{
+  "job_id": "doximity-senior-software-engineer-data-platform-wqvi1",
+  "url": "https://job-boards.greenhouse.io/doximity/jobs/8395571",
+  "title": "Senior Software Engineer, Data Platform",
+  "company": "Doximity",
+  "location": "San Francisco, CA",
+  "country": "Canada",
+  "salary": "$165k–$227k",
+  "skills": [
+    "Python",
+    "SQL",
+    "Snowflake",
+    "Kafka",
+    "Airflow",
+    "AWS",
+    "Kubernetes",
+    "Docker",
+    "HIPAA",
+    "SOC 2",
+    "Data Engineering",
+    "Machine Learning",
+    "GDPR",
+    "Backend",
+    "Data"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1795371294896,
+  "description": "Required skills: Python, SQL, Snowflake, Kafka, Airflow, AWS, Kubernetes, Docker, HIPAA, SOC 2, Data Engineering, Machine Learning, GDPR, Backend, Data | Seniority: Senior | Salary: $165k–$227k USD | Employment type: full_time",
+  "char_count": 226,
+  "source": "jobdatalake.com/CA"
+}

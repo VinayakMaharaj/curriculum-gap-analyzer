@@ -1,0 +1,28 @@
+{
+  "job_id": "goody-data-analyst-89dz3",
+  "url": "https://jobs.ashbyhq.com/goody/df70c3ea-1233-463c-8a7f-70e4ebe3342d",
+  "title": "Data Analyst",
+  "company": "goody",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$80k–$140k",
+  "skills": [
+    "SQL",
+    "Snowflake",
+    "BigQuery",
+    "Redshift",
+    "Tableau",
+    "Looker",
+    "dbt",
+    "Python",
+    "Data"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1775668399896,
+  "description": "Required skills: SQL, Snowflake, BigQuery, Redshift, Tableau, Looker, dbt, Python, Data | Seniority: Senior | Salary: $80k–$140k USD | Employment type: full_time",
+  "char_count": 161,
+  "source": "jobdatalake.com/CA"
+}

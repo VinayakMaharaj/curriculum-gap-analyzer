@@ -1,0 +1,27 @@
+{
+  "job_id": "jane-staff-product-data-analyst-wshbn",
+  "url": "https://jobs.ashbyhq.com/jane/50006239-8506-4b56-b78c-a8c1114bd2da",
+  "title": "Staff Product Data Analyst",
+  "company": "Jane",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "$126k–$196k",
+  "skills": [
+    "SQL",
+    "dbt",
+    "Looker",
+    "Snowflake",
+    "BigQuery",
+    "Redshift",
+    "AI",
+    "Python"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1786309235803,
+  "description": "Required skills: SQL, dbt, Looker, Snowflake, BigQuery, Redshift, AI, Python | Seniority: Staff | Salary: $126k–$196k USD | Employment type: full_time",
+  "char_count": 150,
+  "source": "jobdatalake.com/CA"
+}

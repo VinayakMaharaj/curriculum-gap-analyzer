@@ -1,0 +1,30 @@
+{
+  "job_id": "brother-usa-data-analyst-dqwe0",
+  "url": "https://careers-can-brother.icims.com/jobs/2224/login",
+  "title": "Data Analyst",
+  "company": "Brother USA",
+  "location": "Dollard-des-Ormeaux, QC",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "SQL",
+    "Pandas",
+    "Tableau",
+    "AWS",
+    "Git",
+    "Bash",
+    "TensorFlow",
+    "Spark",
+    "MySQL",
+    "ETL"
+  ],
+  "seniority": [
+    "Entry"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1790160047222,
+  "description": "Required skills: Python, SQL, Pandas, Tableau, AWS, Git, Bash, TensorFlow, Spark, MySQL, ETL | Seniority: Entry | Employment type: full_time",
+  "char_count": 140,
+  "source": "jobdatalake.com/CA"
+}

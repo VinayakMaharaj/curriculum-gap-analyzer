@@ -1,0 +1,28 @@
+{
+  "job_id": "zestyai-data-scientist-analytics-remote-canada-melpa",
+  "url": "http://www.zesty.ai/open-jobs?gh_jid=7809591003",
+  "title": "Data Scientist, Analytics (Remote)",
+  "company": "ZestyAI",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "SQL",
+    "Python",
+    "R",
+    "GCP",
+    "AWS",
+    "ETL",
+    "dbt",
+    "Airflow",
+    "Data"
+  ],
+  "seniority": [
+    "Mid Level"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1784883803297,
+  "description": "Required skills: SQL, Python, R, GCP, AWS, ETL, dbt, Airflow, Data | Seniority: Mid Level | Employment type: full_time",
+  "char_count": 118,
+  "source": "jobdatalake.com/CA"
+}

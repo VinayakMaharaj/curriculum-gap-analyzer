@@ -1,0 +1,42 @@
+{
+  "job_id": "jobgether-ai-data-scientist-1c1ja",
+  "url": "https://jobs.lever.co/jobgether/fd99b2ed-e8db-4999-b221-f098f610125c",
+  "title": "AI Data Scientist",
+  "company": "Jobgether",
+  "location": "Canada",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "PyTorch",
+    "TensorFlow",
+    "SQL",
+    "Spark",
+    "Databricks",
+    "BigQuery",
+    "GCP",
+    "AWS",
+    "Azure",
+    "MLflow",
+    "Docker",
+    "Kubernetes",
+    "Elasticsearch",
+    "LangChain",
+    "Machine Learning",
+    "NLP",
+    "Generative AI",
+    "Deep Learning",
+    "RAG",
+    "LLM",
+    "Machine Learning",
+    "AI"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1792474890075,
+  "description": "Required skills: Python, PyTorch, TensorFlow, SQL, Spark, Databricks, BigQuery, GCP, AWS, Azure, MLflow, Docker, Kubernetes, Elasticsearch, LangChain, Machine Learning, NLP, Generative AI, Deep Learning, RAG, LLM, Machine Learning, AI | Seniority: Senior | Employment type: full_time",
+  "char_count": 283,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,25 @@
+{
+  "job_id": "mercury-senior-data-scientist-growth-xqch3",
+  "url": "https://job-boards.greenhouse.io/mercury/jobs/6221254004",
+  "title": "Senior Data Scientist - Growth",
+  "company": "Mercury",
+  "location": "San Francisco, CA",
+  "country": "Canada",
+  "salary": "$201k–$251k",
+  "skills": [
+    "SQL",
+    "Python",
+    "R",
+    "Snowflake",
+    "dbt",
+    "Data"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1791991360377,
+  "description": "Required skills: SQL, Python, R, Snowflake, dbt, Data | Seniority: Senior | Salary: $201k–$251k USD | Employment type: full_time",
+  "char_count": 128,
+  "source": "jobdatalake.com/CA"
+}

@@ -1,0 +1,41 @@
+{
+  "job_id": "babylist-staff-software-engineer-search-4kz0m",
+  "url": "https://job-boards.greenhouse.io/babylist/jobs/6238429004",
+  "title": "Staff Software Engineer, Search",
+  "company": "Babylist",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "$234k–$291k",
+  "skills": [
+    "Machine Learning",
+    "Deep Learning",
+    "MLflow",
+    "LangChain",
+    "Ruby on Rails",
+    "React",
+    "TypeScript",
+    "Swift",
+    "Kotlin",
+    "MySQL",
+    "Snowflake",
+    "dbt",
+    "Airflow",
+    "AWS",
+    "Kubernetes",
+    "Terraform",
+    "GitHub Actions",
+    "Datadog",
+    "SQL",
+    "Backend",
+    "Machine Learning",
+    "AI"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1795044554102,
+  "description": "Required skills: Machine Learning, Deep Learning, MLflow, LangChain, Ruby on Rails, React, TypeScript, Swift, Kotlin, MySQL, Snowflake, dbt, Airflow, AWS, Kubernetes, Terraform, GitHub Actions, Datadog, SQL, Backend, Machine Learning, AI | Seniority: Staff | Salary: $234k–$291k USD | Employment type: full_time",
+  "char_count": 311,
+  "source": "jobdatalake.com/CA"
+}

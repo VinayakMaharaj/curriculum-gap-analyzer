@@ -16,6 +16,7 @@ Output:
 import json
 import time
 import re
+import hashlib
 from pathlib import Path
 import requests
 
@@ -36,7 +37,6 @@ SEARCH_KEYWORDS = [
 PER_PAGE     = 100
 MAX_PAGES    = 3        # 15 credits total for search calls
 COUNTRY      = "CA"
-JOB_FUNCTION = "data"  # narrows to data/analytics roles
 
 OUTPUT_DIR   = Path("data/raw/job_postings/indeed_canada")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -44,7 +44,7 @@ MANIFEST_PATH = OUTPUT_DIR / "_manifest.json"
 
 HEADERS = {"X-API-Key": JDL_API_KEY}
 
-DELAY = 0.15   # 10 req/sec rate limit → stay safe at ~6/sec
+DELAY = 0.15   # 10 req/sec rate limit → safe at ~6/sec
 
 
 # ---------------------------------------------------------------------------
@@ -64,17 +64,29 @@ def is_ds_relevant(title: str) -> bool:
     return any(kw in t for kw in DS_TITLE_KEYWORDS)
 
 
+def safe_filename(handle: str) -> str:
+    """Return a filename-safe version of a job handle.
+    Windows MAX_PATH is 260; keep it short by hashing long handles."""
+    if len(handle) <= 80:
+        # Sanitize any characters Windows dislikes
+        safe = re.sub(r'[\\/:*?"<>|]', '_', handle)
+        return safe + ".json"
+    # Hash long handles to 16-char hex
+    short = hashlib.md5(handle.encode()).hexdigest()[:16]
+    return short + ".json"
+
+
 # ---------------------------------------------------------------------------
 # API calls
 # ---------------------------------------------------------------------------
 
 def search_jobs(keyword: str, page: int) -> dict:
     params = {
-        "q":          keyword,
-        "countries":  COUNTRY,
-        "page":       page,
-        "per_page":   PER_PAGE,
-        "sort_by":    "posted_at:desc",
+        "q":         keyword,
+        "countries": COUNTRY,
+        "page":      page,
+        "per_page":  PER_PAGE,
+        "sort_by":   "posted_at:desc",
     }
     try:
         r = requests.get(f"{JDL_BASE}/jobs", headers=HEADERS, params=params, timeout=15)
@@ -107,7 +119,6 @@ def get_job_detail(handle: str) -> dict | None:
 def build_job_record(listing: dict, detail: dict | None = None) -> dict:
     src = detail if detail else listing
 
-    # Description: detail call returns full text; listing has none
     description = src.get("description", "") or ""
 
     # Strip HTML if present
@@ -115,7 +126,7 @@ def build_job_record(listing: dict, detail: dict | None = None) -> dict:
         description = re.sub(r"<[^>]+>", " ", description)
         description = re.sub(r"\s+", " ", description).strip()
 
-    # Build a pseudo-description from structured fields if detail missing
+    # Build pseudo-description from structured fields if no detail
     if not description:
         parts = []
         skills = listing.get("required_skills", [])
@@ -143,7 +154,7 @@ def build_job_record(listing: dict, detail: dict | None = None) -> dict:
         "company":     listing.get("company_name", ""),
         "location":    location,
         "country":     "Canada",
-        "salary":      (
+        "salary": (
             f"${listing['salary_min_usd']}k–${listing['salary_max_usd']}k"
             if listing.get("salary_min_usd") else ""
         ),
@@ -191,42 +202,38 @@ def run_scrape() -> list[dict]:
                 if handle and handle not in all_listings:
                     if is_ds_relevant(j.get("title", "")):
                         all_listings[handle] = j
-                    else:
-                        pass  # silently skip off-topic
 
-            # Stop early if we've seen all results
-            total_pages = -(-data.get("found", 0) // PER_PAGE)  # ceil div
+            total_pages = -(-data.get("found", 0) // PER_PAGE)
             if page >= total_pages:
                 break
 
     print(f"\n  Search phase done. Credits used: {credits_used}")
     print(f"  Unique DS-relevant listings: {len(all_listings)}")
 
-    # Phase 2: fetch full descriptions for jobs missing skill data
+    # Phase 2: fetch full descriptions where needed
     print("\nPhase 2: Fetching full descriptions...")
     jobs_out = []
     handles = list(all_listings.keys())
 
     for i, handle in enumerate(handles, 1):
-        out_path = OUTPUT_DIR / f"{handle}.json"
+        fname    = safe_filename(handle)          # ← short, safe filename
+        out_path = OUTPUT_DIR / fname
 
-        # Use cache if already fetched
+        # Use cache if already fetched and has content
         if out_path.exists():
             with open(out_path, encoding="utf-8") as f:
                 job = json.load(f)
             if job.get("char_count", 0) > 50:
                 jobs_out.append(job)
-                print(f"  [{i}/{len(handles)}] {handle} — cached ({job['char_count']} chars)")
+                print(f"  [{i}/{len(handles)}] {handle[:60]} — cached ({job['char_count']} chars)")
                 continue
 
         listing = all_listings[handle]
 
-        # Only burn a credit on detail call if listing has no description
-        # and has fewer than 3 skills (not enough for NLP)
+        # Only fetch detail if listing is thin (< 3 skills)
         needs_detail = len(listing.get("required_skills", [])) < 3
-
         detail = None
-        if needs_detail and credits_used < 950:   # leave buffer
+        if needs_detail and credits_used < 950:
             detail = get_job_detail(handle)
             credits_used += 1
             time.sleep(DELAY)

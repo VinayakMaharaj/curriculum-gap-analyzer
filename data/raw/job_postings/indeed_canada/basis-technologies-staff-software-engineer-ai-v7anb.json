@@ -1,0 +1,31 @@
+{
+  "job_id": "basis-technologies-staff-software-engineer-ai-v7anb",
+  "url": "https://jobs.lever.co/basis/edae0098-def4-4b91-b8a3-212244439120",
+  "title": "Staff Software Engineer, AI",
+  "company": "Basis Technologies",
+  "location": "Remote",
+  "country": "Canada",
+  "salary": "",
+  "skills": [
+    "Python",
+    "LLM",
+    "API",
+    "LangChain",
+    "FastAPI",
+    "Microservices",
+    "REST",
+    "Snowflake",
+    "S3",
+    "RAG",
+    "AI",
+    "Machine Learning"
+  ],
+  "seniority": [
+    "Staff"
+  ],
+  "remote_type": "fully_remote",
+  "posted_at": 1792677798848,
+  "description": "Required skills: Python, LLM, API, LangChain, FastAPI, Microservices, REST, Snowflake, S3, RAG, AI, Machine Learning | Seniority: Staff | Employment type: full_time",
+  "char_count": 164,
+  "source": "jobdatalake.com/CA"
+}

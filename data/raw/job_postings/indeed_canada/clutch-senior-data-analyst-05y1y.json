@@ -1,0 +1,26 @@
+{
+  "job_id": "clutch-senior-data-analyst-05y1y",
+  "url": "https://job-boards.greenhouse.io/clutch/jobs/6212017004",
+  "title": "Senior Data Analyst",
+  "company": "Clutch",
+  "location": "Toronto, ON",
+  "country": "Canada",
+  "salary": "$100k–$125k",
+  "skills": [
+    "SQL",
+    "Tableau",
+    "Power BI",
+    "dbt",
+    "Airflow",
+    "Snowflake",
+    "Python"
+  ],
+  "seniority": [
+    "Senior"
+  ],
+  "remote_type": "hybrid",
+  "posted_at": 1791356490554,
+  "description": "Required skills: SQL, Tableau, Power BI, dbt, Airflow, Snowflake, Python | Seniority: Senior | Salary: $100k–$125k USD | Employment type: full_time",
+  "char_count": 147,
+  "source": "jobdatalake.com/CA"
+}
