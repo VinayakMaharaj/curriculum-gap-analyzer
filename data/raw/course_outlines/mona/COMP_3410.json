@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP3410",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 3410",
+  "title": "Human-Computer Interaction",
+  "credits": 3,
+  "description": "User-centred design, task analysis, interface prototyping, usability evaluation, and accessibility standards.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 109
+}

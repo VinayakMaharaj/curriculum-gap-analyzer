@@ -1,0 +1,11 @@
+{
+  "course_id": "CH-COMP2125",
+  "campus": "Cave Hill",
+  "campus_short": "CH",
+  "code": "COMP 2125",
+  "title": "Computer Organization and Architecture",
+  "credits": 3,
+  "description": "Digital logic, data representation, instruction sets, memory hierarchy, I/O, and parallel architectures.",
+  "source_url": "https://www.cavehill.uwi.edu/fst/wp-content/uploads/sites/62/Resources/Students-Handbooks/2026-2027-FST-UNDERGRADUATE-STUDENTS-HANDBOOK-DRAFT.pdf",
+  "char_count": 104
+}

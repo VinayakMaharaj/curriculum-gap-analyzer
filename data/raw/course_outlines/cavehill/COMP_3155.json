@@ -1,0 +1,11 @@
+{
+  "course_id": "CH-COMP3155",
+  "campus": "Cave Hill",
+  "campus_short": "CH",
+  "code": "COMP 3155",
+  "title": "Cloud Computing",
+  "credits": 3,
+  "description": "Cloud service models, virtualization, containerization, orchestration, serverless computing, and cloud security.",
+  "source_url": "https://www.cavehill.uwi.edu/fst/wp-content/uploads/sites/62/Resources/Students-Handbooks/2026-2027-FST-UNDERGRADUATE-STUDENTS-HANDBOOK-DRAFT.pdf",
+  "char_count": 112
+}

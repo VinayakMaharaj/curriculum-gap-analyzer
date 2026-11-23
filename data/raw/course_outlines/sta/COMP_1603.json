@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP1603",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 1603",
+  "title": "Computer Programming III",
+  "credits": 3,
+  "description": "Pointers, linked lists, stacks, queues, and recursion.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 54
+}

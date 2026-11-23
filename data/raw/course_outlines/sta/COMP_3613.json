@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP3613",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 3613",
+  "title": "Software Engineering II",
+  "credits": 3,
+  "description": "Rigorous specification, design, development, and maintenance of quality code, team process methodologies, and challenges in safety-critical and web-based systems.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 162
+}

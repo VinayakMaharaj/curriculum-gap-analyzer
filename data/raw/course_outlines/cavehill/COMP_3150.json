@@ -1,0 +1,11 @@
+{
+  "course_id": "CH-COMP3150",
+  "campus": "Cave Hill",
+  "campus_short": "CH",
+  "code": "COMP 3150",
+  "title": "Software Architecture",
+  "credits": 3,
+  "description": "Architectural styles, design patterns, component-based development, microservices, and quality attributes.",
+  "source_url": "https://www.cavehill.uwi.edu/fst/wp-content/uploads/sites/62/Resources/Students-Handbooks/2026-2027-FST-UNDERGRADUATE-STUDENTS-HANDBOOK-DRAFT.pdf",
+  "char_count": 106
+}

@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP2601",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 2601",
+  "title": "Database Management",
+  "credits": 3,
+  "description": "Relational databases, SQL, schema design, normalization, transactions, concurrency, and introduction to NoSQL.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 110
+}

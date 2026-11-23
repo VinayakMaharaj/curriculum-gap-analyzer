@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP1161",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 1161",
+  "title": "Object-Oriented Programming",
+  "credits": 3,
+  "description": "Introduction to object-oriented programming using Java: classes, objects, inheritance, polymorphism, interfaces, and exception handling.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 136
+}

@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP2211",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 2211",
+  "title": "Analysis of Algorithms",
+  "credits": 3,
+  "description": "Asymptotic analysis, sorting, searching, dynamic programming, greedy algorithms, graph algorithms, and NP-completeness.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 119
+}

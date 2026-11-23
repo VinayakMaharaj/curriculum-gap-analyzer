@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP3200",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 3200",
+  "title": "Artificial Intelligence",
+  "credits": 3,
+  "description": "Problem solving, search, constraint satisfaction, knowledge representation, reasoning, planning, and machine learning foundations.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 130
+}

@@ -1,0 +1,11 @@
+{
+  "course_id": "CH-COMP2150",
+  "campus": "Cave Hill",
+  "campus_short": "CH",
+  "code": "COMP 2150",
+  "title": "Software Engineering",
+  "credits": 3,
+  "description": "Software lifecycle models, requirements engineering, design patterns, testing, project management, and professional practice.",
+  "source_url": "https://www.cavehill.uwi.edu/fst/wp-content/uploads/sites/62/Resources/Students-Handbooks/2026-2027-FST-UNDERGRADUATE-STUDENTS-HANDBOOK-DRAFT.pdf",
+  "char_count": 125
+}

@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP3320",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 3320",
+  "title": "Cloud Computing",
+  "credits": 3,
+  "description": "Virtualization, cloud architectures, IaaS/PaaS/SaaS, container orchestration, serverless, and cloud-native development.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 119
+}

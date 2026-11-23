@@ -1,0 +1,11 @@
+{
+  "course_id": "CH-COMP2160",
+  "campus": "Cave Hill",
+  "campus_short": "CH",
+  "code": "COMP 2160",
+  "title": "Computer Networks",
+  "credits": 3,
+  "description": "OSI and TCP/IP models, protocols, error detection, routing, network programming, and security.",
+  "source_url": "https://www.cavehill.uwi.edu/fst/wp-content/uploads/sites/62/Resources/Students-Handbooks/2026-2027-FST-UNDERGRADUATE-STUDENTS-HANDBOOK-DRAFT.pdf",
+  "char_count": 94
+}

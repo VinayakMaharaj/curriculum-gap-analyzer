@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP3603",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 3603",
+  "title": "Human-Computer Interaction",
+  "credits": 3,
+  "description": "HCI theory and methods, with a group project on designing and evaluating prototypes.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 84
+}

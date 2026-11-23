@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP0100",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 0100",
+  "title": "N1 Computer Science I",
+  "credits": 0,
+  "description": "Introduces computer hardware and programming, focusing on problem-solving, algorithm design, and implementation.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 112
+}

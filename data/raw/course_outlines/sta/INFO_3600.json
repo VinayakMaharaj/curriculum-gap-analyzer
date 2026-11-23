@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO3600",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 3600",
+  "title": "Business Information Systems",
+  "credits": 3,
+  "description": "Information systems for business processes including revenue, expenditure, production, HR, core application frameworks such as CRM and ERP, and e-business.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 155
+}

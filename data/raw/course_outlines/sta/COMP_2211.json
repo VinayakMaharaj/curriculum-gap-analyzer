@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP2211",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 2211",
+  "title": "Analysis of Algorithms",
+  "credits": 3,
+  "description": "Algorithm analysis and design strategies, numerical methods, RSA cryptography, heaps, sorting, search trees, hashing, graphs, and computability.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 144
+}

@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO1601",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 1601",
+  "title": "Introduction to WWW Programming",
+  "credits": 3,
+  "description": "Introduction to web technologies including hypertext, web page design, navigation, and markup and scripting languages.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 118
+}

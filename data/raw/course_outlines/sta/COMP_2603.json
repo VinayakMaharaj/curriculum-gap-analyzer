@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP2603",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 2603",
+  "title": "Object-Oriented Programming I",
+  "credits": 3,
+  "description": "Introduction to OO concepts for students with a procedural programming background.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 82
+}

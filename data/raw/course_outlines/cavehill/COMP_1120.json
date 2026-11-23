@@ -1,0 +1,11 @@
+{
+  "course_id": "CH-COMP1120",
+  "campus": "Cave Hill",
+  "campus_short": "CH",
+  "code": "COMP 1120",
+  "title": "Mathematics for Computer Science I",
+  "credits": 3,
+  "description": "Discrete mathematics: logic, sets, relations, functions, induction, combinatorics, and graph theory for computing.",
+  "source_url": "https://www.cavehill.uwi.edu/fst/wp-content/uploads/sites/62/Resources/Students-Handbooks/2026-2027-FST-UNDERGRADUATE-STUDENTS-HANDBOOK-DRAFT.pdf",
+  "char_count": 114
+}

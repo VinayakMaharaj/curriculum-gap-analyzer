@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO2600",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 2600",
+  "title": "Information Systems Development",
+  "credits": 3,
+  "description": "Information systems concepts, business process automation, and the technical foundations and development of information systems including web-based ones.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 153
+}

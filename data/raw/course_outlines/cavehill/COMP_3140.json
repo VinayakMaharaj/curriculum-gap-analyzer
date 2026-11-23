@@ -1,0 +1,11 @@
+{
+  "course_id": "CH-COMP3140",
+  "campus": "Cave Hill",
+  "campus_short": "CH",
+  "code": "COMP 3140",
+  "title": "Information Security",
+  "credits": 3,
+  "description": "Cryptography, authentication, access control, network security, vulnerability analysis, and ethical hacking fundamentals.",
+  "source_url": "https://www.cavehill.uwi.edu/fst/wp-content/uploads/sites/62/Resources/Students-Handbooks/2026-2027-FST-UNDERGRADUATE-STUDENTS-HANDBOOK-DRAFT.pdf",
+  "char_count": 121
+}

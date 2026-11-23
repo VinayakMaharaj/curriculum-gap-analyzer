@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP2201",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 2201",
+  "title": "Discrete Mathematics",
+  "credits": 3,
+  "description": "Advanced discrete mathematics: recurrences, generating functions, graph algorithms, automata, and formal languages.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 115
+}

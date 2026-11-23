@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP3610",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 3610",
+  "title": "Big Data Analytics",
+  "credits": 3,
+  "description": "Data warehouses, Hadoop, NoSQL systems, and MapReduce compared with parallel databases.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 87
+}

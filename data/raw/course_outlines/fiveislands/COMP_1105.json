@@ -1,0 +1,11 @@
+{
+  "course_id": "FI-COMP1105",
+  "campus": "Five Islands",
+  "campus_short": "FI",
+  "code": "COMP 1105",
+  "title": "Computer Programming I",
+  "credits": 3,
+  "description": "Programming problem solving using sequence, selection, repetition, functions, and basic data structures.",
+  "source_url": "https://fiveislands.uwi.edu/sites/default/files/files/docs/Handbooks2025/UWI%202025%20Student%20Handbook%20SoSCAI.pdf",
+  "char_count": 104
+}

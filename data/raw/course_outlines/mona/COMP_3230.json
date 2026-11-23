@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP3230",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 3230",
+  "title": "Data Mining",
+  "credits": 3,
+  "description": "Data preprocessing, pattern discovery, association rules, classification, clustering, anomaly detection, and visualization.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 123
+}

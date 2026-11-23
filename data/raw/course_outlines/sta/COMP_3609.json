@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP3609",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 3609",
+  "title": "Game Programming",
+  "credits": 3,
+  "description": "Two-dimensional game development covering the game loop, sprites, sound, animation, physics, and input.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 103
+}

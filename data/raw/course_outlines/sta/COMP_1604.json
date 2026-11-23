@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP1604",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 1604",
+  "title": "Mathematics for Computing",
+  "credits": 3,
+  "description": "Logic, sets, relations, functions, and proof techniques.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 56
+}

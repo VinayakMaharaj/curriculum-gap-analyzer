@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO2604",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 2604",
+  "title": "Information Systems Security",
+  "credits": 3,
+  "description": "Processes for information assurance including operational issues, policies, attack and defense mechanisms, and risk analysis.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 125
+}

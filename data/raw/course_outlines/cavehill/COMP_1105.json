@@ -1,0 +1,11 @@
+{
+  "course_id": "CH-COMP1105",
+  "campus": "Cave Hill",
+  "campus_short": "CH",
+  "code": "COMP 1105",
+  "title": "Computer Programming I",
+  "credits": 3,
+  "description": "Introduction to programming using a high-level language; problem solving, algorithms, variables, control structures, functions, and arrays.",
+  "source_url": "https://www.cavehill.uwi.edu/fst/wp-content/uploads/sites/62/Resources/Students-Handbooks/2026-2027-FST-UNDERGRADUATE-STUDENTS-HANDBOOK-DRAFT.pdf",
+  "char_count": 139
+}

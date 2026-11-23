@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP3220",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 3220",
+  "title": "Natural Language Processing",
+  "credits": 3,
+  "description": "NLP pipeline, text classification, language models, sequence modeling, information extraction, and question answering.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 118
+}

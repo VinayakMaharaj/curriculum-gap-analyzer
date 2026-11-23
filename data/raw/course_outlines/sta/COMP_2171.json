@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP2171",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 2171",
+  "title": "Object Oriented Design and Implementation",
+  "credits": 3,
+  "description": "OO fundamentals, class identification, UML modelling, modelling tools, and software architecture.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 97
+}

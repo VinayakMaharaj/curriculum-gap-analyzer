@@ -1,0 +1,11 @@
+{
+  "course_id": "CH-COMP2120",
+  "campus": "Cave Hill",
+  "campus_short": "CH",
+  "code": "COMP 2120",
+  "title": "Mathematics for Computer Science II",
+  "credits": 3,
+  "description": "Probability, statistics, linear algebra, and numerical methods applied to computer science.",
+  "source_url": "https://www.cavehill.uwi.edu/fst/wp-content/uploads/sites/62/Resources/Students-Handbooks/2026-2027-FST-UNDERGRADUATE-STUDENTS-HANDBOOK-DRAFT.pdf",
+  "char_count": 91
+}

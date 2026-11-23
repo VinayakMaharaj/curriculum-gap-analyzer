@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP1210",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 1210",
+  "title": "Mathematics for Computing",
+  "credits": 3,
+  "description": "Logic, sets, functions, relations, induction, combinatorics, and graph theory for computer scientists.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 102
+}

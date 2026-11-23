@@ -1,0 +1,11 @@
+{
+  "course_id": "CH-COMP2115",
+  "campus": "Cave Hill",
+  "campus_short": "CH",
+  "code": "COMP 2115",
+  "title": "Data Structures and Algorithms",
+  "credits": 3,
+  "description": "Lists, stacks, queues, trees, heaps, hash tables, graphs; algorithm analysis and design strategies.",
+  "source_url": "https://www.cavehill.uwi.edu/fst/wp-content/uploads/sites/62/Resources/Students-Handbooks/2026-2027-FST-UNDERGRADUATE-STUDENTS-HANDBOOK-DRAFT.pdf",
+  "char_count": 99
+}

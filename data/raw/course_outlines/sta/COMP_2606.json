@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP2606",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 2606",
+  "title": "Software Engineering I",
+  "credits": 3,
+  "description": "Software specification, development, management, and evolution, with a team development project.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 96
+}

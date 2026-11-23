@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP2601",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 2601",
+  "title": "Computer Architecture",
+  "credits": 3,
+  "description": "Computer organization from a programmer's viewpoint: digital logic, data representation, assembly, memory, I/O, multiprocessing, and performance.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 145
+}

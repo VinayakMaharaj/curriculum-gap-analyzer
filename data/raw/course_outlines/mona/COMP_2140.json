@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP2140",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 2140",
+  "title": "Software Engineering",
+  "credits": 3,
+  "description": "Software development lifecycle, requirements engineering, design principles, testing strategies, and team-based project development.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 132
+}

@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO3606",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 3606",
+  "title": "Cloud Computing",
+  "credits": 3,
+  "description": "Virtualization and the management of private and public cloud technologies.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 75
+}

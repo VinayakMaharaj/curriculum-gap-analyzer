@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP3161",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 3161",
+  "title": "Database Management Systems",
+  "credits": 3,
+  "description": "Database architecture, relational and other data models, normalization, SQL, indexing, transactions, NoSQL, and query optimization.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 131
+}

@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP2340",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 2340",
+  "title": "Computer Organization",
+  "credits": 3,
+  "description": "Digital logic, assembly language, instruction sets, memory, caches, I/O, and performance optimization.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 102
+}

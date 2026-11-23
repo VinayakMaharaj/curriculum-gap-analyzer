@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP2611",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 2611",
+  "title": "Data Structures",
+  "credits": 3,
+  "description": "Linked lists, stacks, queues, trees, balanced trees, heaps, hash tables, graphs, and algorithm analysis.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 104
+}

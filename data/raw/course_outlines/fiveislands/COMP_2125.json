@@ -1,0 +1,11 @@
+{
+  "course_id": "FI-COMP2125",
+  "campus": "Five Islands",
+  "campus_short": "FI",
+  "code": "COMP 2125",
+  "title": "Database Systems",
+  "credits": 3,
+  "description": "Relational model, ER diagrams, SQL, normalization, transactions, and introduction to NoSQL databases.",
+  "source_url": "https://fiveislands.uwi.edu/sites/default/files/files/docs/Handbooks2025/UWI%202025%20Student%20Handbook%20SoSCAI.pdf",
+  "char_count": 101
+}

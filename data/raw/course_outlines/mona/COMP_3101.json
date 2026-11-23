@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP3101",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 3101",
+  "title": "Operating Systems Design",
+  "credits": 3,
+  "description": "Process management, threading, CPU scheduling, synchronization, memory management, virtual memory, and file systems.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 116
+}

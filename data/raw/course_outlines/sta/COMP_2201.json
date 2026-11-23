@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP2201",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 2201",
+  "title": "Discrete Mathematics for Computer Science",
+  "credits": 3,
+  "description": "Counting, asymptotic analysis, graph theory, probability, generating functions, recurrences, and automata and grammars.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 119
+}

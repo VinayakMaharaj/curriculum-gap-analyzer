@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP3602",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 3602",
+  "title": "Theory of Computing",
+  "credits": 3,
+  "description": "Regular and context-free languages, finite automata, computability, Turing machines, and complexity classes.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 108
+}

@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO3601",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 3601",
+  "title": "Platform Technologies II",
+  "credits": 3,
+  "description": "Advanced platform management including administration of operating systems, cluster systems, and mobile platforms.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 114
+}

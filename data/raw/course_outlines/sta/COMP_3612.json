@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP3612",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 3612",
+  "title": "Special Topics in Computer Science",
+  "credits": 3,
+  "description": "Rotating topics such as graphics, robotics, CAD, and image processing.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 70
+}

@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP3161",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 3161",
+  "title": "Database Management Systems",
+  "credits": 3,
+  "description": "Advanced database topics: query optimization, storage, distributed databases, data warehousing, and NoSQL systems.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 114
+}

@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO3602",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 3602",
+  "title": "Web Programming and Technologies II",
+  "credits": 3,
+  "description": "Development of web services and use of software tools to solve common business problems.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 88
+}

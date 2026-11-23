@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP2604",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 2604",
+  "title": "Operating Systems",
+  "credits": 3,
+  "description": "Processes, threads, CPU scheduling, memory management, file systems, disk scheduling, and protection and security.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 114
+}

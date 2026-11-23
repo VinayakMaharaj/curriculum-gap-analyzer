@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP1011",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 1011",
+  "title": "Introduction to Information Technology",
+  "credits": 3,
+  "description": "Overview of hardware, software, networks, and the internet, with hands-on Microsoft Office practice.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 100
+}

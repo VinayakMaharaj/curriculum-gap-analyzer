@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP2605",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 2605",
+  "title": "Enterprise Database Systems",
+  "credits": 3,
+  "description": "Relational database design using ER modelling, SQL, transactions, concurrency, recovery, XML databases, and DBA responsibilities.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 129
+}

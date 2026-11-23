@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP2190",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 2190",
+  "title": "Net-Centric Computing",
+  "credits": 3,
+  "description": "Internet architecture, protocols, client-server and peer-to-peer models, web technologies, and distributed computing.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 117
+}

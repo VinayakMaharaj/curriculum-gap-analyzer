@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP3801",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 3801",
+  "title": "Final Year Project",
+  "credits": 6,
+  "description": "Independent research or engineering project under supervision; includes literature review, design, implementation, and thesis.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 126
+}

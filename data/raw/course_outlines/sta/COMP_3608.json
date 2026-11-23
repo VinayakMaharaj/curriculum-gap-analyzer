@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP3608",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 3608",
+  "title": "Intelligent Systems",
+  "credits": 3,
+  "description": "Expert systems, reasoning under uncertainty, search, neural networks, genetic algorithms, and data mining.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 106
+}

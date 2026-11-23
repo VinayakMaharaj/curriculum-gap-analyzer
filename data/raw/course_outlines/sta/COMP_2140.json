@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP2140",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 2140",
+  "title": "Software Engineering",
+  "credits": 3,
+  "description": "Software design, APIs, tools, process models, requirements, verification and validation, evolution, project management, professional ethics, and risk.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 150
+}

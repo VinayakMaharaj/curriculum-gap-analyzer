@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP1601",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 1601",
+  "title": "Computer Programming I",
+  "credits": 3,
+  "description": "Fundamental programming concepts: sequence, selection, repetition, strings, functions, and basic arrays.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 104
+}

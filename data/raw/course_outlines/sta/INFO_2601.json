@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO2601",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 2601",
+  "title": "Networking Technologies Fundamentals",
+  "credits": 3,
+  "description": "Data communication principles, network architecture models, and practical networking including basic network setup and router configuration.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 140
+}

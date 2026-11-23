@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP3605",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 3605",
+  "title": "Introduction to Data Analytics",
+  "credits": 3,
+  "description": "Data mining and computational intelligence techniques, applied with Python-based tools including classification, clustering, and regression.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 140
+}

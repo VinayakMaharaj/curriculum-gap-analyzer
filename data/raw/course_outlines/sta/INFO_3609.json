@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO3609",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 3609",
+  "title": "Internship",
+  "credits": 3,
+  "description": "Practical application of computer science concepts in a supervised setting, with development of a software artifact.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 116
+}

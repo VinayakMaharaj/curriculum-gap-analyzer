@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO2602",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 2602",
+  "title": "Web Programming and Technologies I",
+  "credits": 3,
+  "description": "Design, implementation, and testing of web applications, covering client-side and server-side technologies and digital media.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 125
+}

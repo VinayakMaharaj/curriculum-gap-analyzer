@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP3310",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 3310",
+  "title": "Information Security",
+  "credits": 3,
+  "description": "Cryptography, authentication, network security, secure protocols, vulnerability assessment, and digital forensics.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 114
+}

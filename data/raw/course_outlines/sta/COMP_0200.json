@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP0200",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 0200",
+  "title": "N1 Computer Science II",
+  "credits": 0,
+  "description": "Covers data structures, software engineering, operating systems, networks, and IT tools, including software process models.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 123
+}

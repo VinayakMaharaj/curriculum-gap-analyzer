@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP3240",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 3240",
+  "title": "Big Data Systems",
+  "credits": 3,
+  "description": "Distributed file systems, MapReduce, Spark, stream processing, NoSQL, and large-scale data management.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 102
+}

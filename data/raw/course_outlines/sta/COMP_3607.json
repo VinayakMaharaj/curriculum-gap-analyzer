@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP3607",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 3607",
+  "title": "Object-Oriented Programming II",
+  "credits": 3,
+  "description": "Design patterns and IDE tools for OO project design.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 52
+}

@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO1600",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 1600",
+  "title": "Introduction to Information Technology Concepts",
+  "credits": 3,
+  "description": "Foundation course introducing IT as a discipline, its relation to other computing fields, organizational uses, and overview of the BSc IT programme.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 148
+}

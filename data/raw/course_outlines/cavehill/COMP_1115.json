@@ -1,0 +1,11 @@
+{
+  "course_id": "CH-COMP1115",
+  "campus": "Cave Hill",
+  "campus_short": "CH",
+  "code": "COMP 1115",
+  "title": "Computer Programming II",
+  "credits": 3,
+  "description": "Advanced programming concepts including object-oriented design, inheritance, polymorphism, file I/O, and exception handling.",
+  "source_url": "https://www.cavehill.uwi.edu/fst/wp-content/uploads/sites/62/Resources/Students-Handbooks/2026-2027-FST-UNDERGRADUATE-STUDENTS-HANDBOOK-DRAFT.pdf",
+  "char_count": 124
+}

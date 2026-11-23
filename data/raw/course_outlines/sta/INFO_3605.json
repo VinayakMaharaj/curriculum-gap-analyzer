@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO3605",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 3605",
+  "title": "Fundamentals of LAN Technologies",
+  "credits": 3,
+  "description": "LAN switching, topologies, and routing protocols, with lab work on VLANs, VLSM, OSPF, and EIGRP.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 96
+}

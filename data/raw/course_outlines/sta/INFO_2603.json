@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO2603",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 2603",
+  "title": "Platform Technologies I",
+  "credits": 3,
+  "description": "Operating system and networking fundamentals including installation, configuration, administration, and troubleshooting.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 120
+}

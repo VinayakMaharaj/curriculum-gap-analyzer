@@ -1,0 +1,11 @@
+{
+  "course_id": "MON-COMP3210",
+  "campus": "Mona",
+  "campus_short": "MON",
+  "code": "COMP 3210",
+  "title": "Machine Learning",
+  "credits": 3,
+  "description": "Statistical learning, regression, classification, clustering, neural networks, deep learning, and model evaluation.",
+  "source_url": "https://www.mona.uwi.edu/fpas/category/progcategory/computing",
+  "char_count": 115
+}

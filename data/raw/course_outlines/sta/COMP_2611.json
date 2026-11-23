@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP2611",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 2611",
+  "title": "Data Structures",
+  "credits": 3,
+  "description": "Stacks, queues, linked lists, binary trees, heaps, and graphs for efficient storage and algorithms.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 99
+}

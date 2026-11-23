@@ -1,0 +1,11 @@
+{
+  "course_id": "FI-COMP3100",
+  "campus": "Five Islands",
+  "campus_short": "FI",
+  "code": "COMP 3100",
+  "title": "Artificial Intelligence",
+  "credits": 3,
+  "description": "Search, knowledge representation, planning, machine learning, and neural networks with practical projects.",
+  "source_url": "https://fiveislands.uwi.edu/sites/default/files/files/docs/Handbooks2025/UWI%202025%20Student%20Handbook%20SoSCAI.pdf",
+  "char_count": 106
+}

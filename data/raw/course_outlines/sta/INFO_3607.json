@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-INFO3607",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "INFO 3607",
+  "title": "Fundamentals of WAN Technologies",
+  "credits": 3,
+  "description": "WAN theory and design, PPP, ISDN, Frame Relay, TCP/IP transport and network protocols, and advanced routing.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 108
+}

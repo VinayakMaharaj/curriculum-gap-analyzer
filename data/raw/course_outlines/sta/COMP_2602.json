@@ -1,0 +1,11 @@
+{
+  "course_id": "STA-COMP2602",
+  "campus": "St. Augustine",
+  "campus_short": "STA",
+  "code": "COMP 2602",
+  "title": "Computer Networks",
+  "credits": 3,
+  "description": "Network concepts, the ISO and TCP/IP models, protocols, error control, and writing networking programs.",
+  "source_url": "https://sta.uwi.edu/resources/documents/facultybooklets/ScienceTechUndergrad.pdf",
+  "char_count": 103
+}
