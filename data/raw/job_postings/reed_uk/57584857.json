@@ -1,0 +1,13 @@
+{
+  "job_id": "57584857",
+  "url": "https://www.reed.co.uk/jobs/57584857",
+  "title": "Lead Data Engineer",
+  "company": "Oliver James",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": "£550.00 - £600.00 per day",
+  "description": " <p><strong>Lead Data Engineer - Databricks</strong><br /><strong>Contract:</strong> 12 months, renewable<br /><strong>Location:</strong> Hybrid, 1 day a week in the office (London or Brussels)<br /><strong>Rate:</strong> Competitive day rate, depending on experience</p> <p>A major international travel business is looking for a Lead Data Engineer to run a team of 5-7 engineers building its Databricks data platform and data products.</p> <p>The role is split evenly: half leading people, half leading the engineering. You'll stay hands-on in code, design and review while coaching the team and acting as the main technical contact for business areas such as Commercial, Operations and Customer.</p> <p><strong>What you'll do</strong></p> <ul> <li>Lead, coach and develop a team of data engineers, and work with the Engineering Manager, Scrum Master and product owners on priorities and delivery</li><li>Set and enforce coding, testing, review and CI/CD standards</li><li>Build reusable project templates (Databricks Asset Bundles), shared libraries and CI/CD pipelines that every new data product follows</li><li>Make data AI-ready: rich metadata, semantic definitions and curated Genie spaces</li><li>Set standards for, and review the work of, analytics engineers in the business</li></ul> <p><strong>What you'll need</strong></p> <ul> <li>7&#43; years in data engineering, including at least 2 years leading or mentoring engineers</li><li>Deep hands-on experience with Databricks and Spark (Unity Catalog, Delta Lake, Lakeflow / DLT), plus strong Python and SQL</li><li>Strong data modelling skills and experience building data as a product</li><li>A track record of building templates, libraries or CI/CD that other engineers adopted</li><li>Working knowledge of AI data agents such as Databricks Genie</li><li>Clear communication with both technical and business stakeholders</li></ul> <p><strong>Nice to have:</strong> dbt, Azure, FinOps on Databricks, data contracts, AI agent architecture (LLM, RAG, MCP), and experience leading teams across the UK and Europe. French is an advantage but not required.</p> <p><br /></p> ",
+  "char_count": 2130,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

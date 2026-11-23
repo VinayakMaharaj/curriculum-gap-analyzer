@@ -1,0 +1,13 @@
+{
+  "job_id": "57557006",
+  "url": "https://www.reed.co.uk/jobs/57557006",
+  "title": "Data Scientist",
+  "company": "SR2",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": "£650.00 - £750.00 per day",
+  "description": " <p><strong>Senior Data Scientist - SC Cleared</strong><br /><strong>Location: London - 1 - 2 days per week onsite</strong><br /><strong>Rate: &#163;650 - &#163;750 per day (Inside IR35)</strong><br /><strong>Contract: 6 months initially, long term programme</strong><br /><strong>Start: ASAP</strong><br /><strong>Clearance: Active SC Clearance required</strong></p> <p><strong>The Opportunity</strong><br />We're looking for a Senior Data Scientist with strong engineering skills to join a major government programme. You'll work on a large-scale data matching platform that supports national security outcomes, improving its accuracy, performance and reliability  in production.</p> <p>This role suits someone who is as comfortable working in AWS, Kubernetes and the command line as they are analysing data. Direct matching experience isn't essential. If you've worked on classification, deduplication, fraud detection, search or similar problems  where precision and recall matter, we'd like to hear from you.</p> <p><strong>Key Responsibilities</strong></p> <ul> <li>Analyse and improve the performance of a production data matching platform</li><li>Build, test and deploy data-driven improvements to matching logic</li><li>Work across AWS and Kubernetes environments, automating with Bash and Python</li><li>Improve accuracy and reduce false positives to increase operational efficiency</li><li>Partner with engineering teams to take improvements into production</li><li>Support performance testing and ongoing optimisation</li></ul> <p><strong>Essential Skills &amp; Experience</strong></p> <ul> <li>Strong Python (pandas, NumPy, scikit-learn)</li><li>Hands-on AWS experience</li><li>Kubernetes and Docker in a production setting</li><li>Confident with Bash scripting and Linux</li><li>Solid SQL and experience with large datasets</li><li>Good grasp of model evaluation: precision, recall and false-positive tuning</li></ul> <p><strong>Nice to Have</strong></p> <ul> <li>Entity resolution, record linkage or fuzzy matching</li><li>Elasticsearch or OpenSearch</li><li>Kafka, PostgreSQL, Jenkins or Ansible</li><li>Government, defence, security, fraud or identity environments</li></ul> <p><strong>Security Clearance:</strong> Active SC clearance is required.</p> ",
+  "char_count": 2269,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

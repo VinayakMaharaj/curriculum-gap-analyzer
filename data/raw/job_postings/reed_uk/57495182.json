@@ -1,0 +1,13 @@
+{
+  "job_id": "57495182",
+  "url": "https://www.reed.co.uk/jobs/57495182",
+  "title": "Senior Data Scientist",
+  "company": "SR2",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": "£650.00 - £725.00 per day",
+  "description": " <p><strong>Senior Data Scientist - SC Cleared<br /></strong><strong>Location:</strong> London - 2 days per week onsite<br /><strong>Rate:</strong> &#163;650 - &#163;725 per day (Inside IR35)<br /><strong>Contract:</strong> 6 months&#43;, long term programme (3 years)<br /><strong>Start:</strong> ASAP within 1 month<br /><strong>Clearance:</strong> Active SC Clearance required</p> <p><strong>The Opportunity</strong></p> <p>We're looking for an experienced Data Scientist to join a major government programme, working on a large-scale data matching engine used to identify potential national security risks.</p> <p>You'll focus on improving the accuracy and performance of an existing matching engine, analysing how personal data is matched across multiple systems and refining the rules to reduce false positives and improve operational efficiency.</p> <p><strong>Key Responsibilities</strong></p> <ul> <li>Analyse and optimise entity resolution and data matching performance.</li><li>Refine, test and implement matching rules using data-driven insights.</li><li>Improve matching accuracy, precision and recall.</li><li>Work closely with engineering teams to deliver improvements into production.</li><li>Support performance testing and ongoing optimisation.</li></ul> <p><strong>Key Skills &amp; Experience</strong></p> <ul> <li>Entity resolution, record linkage or fuzzy matching experience.</li><li>Strong Python experience, including pandas, NumPy and scikit-learn.</li><li>Solid SQL skills and experience working with large datasets.</li><li>Experience with Elasticsearch, Kubernetes and Docker.</li><li>Understanding of precision, recall and false-positive optimisation.</li><li>Exposure to Kafka, AWS, PostgreSQL, Bash, Jenkins or Ansible would be beneficial.</li><li>Previous experience in government, defence, security or identity matching environments is advantageous.</li></ul> <p><strong>Security Clearance:</strong> Candidates must hold active SC clearance.</p> <p>If you're an SC-cleared Data Scientist with strong entity resolution or matching experience, please get in touch to discuss further.</p> ",
+  "char_count": 2119,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

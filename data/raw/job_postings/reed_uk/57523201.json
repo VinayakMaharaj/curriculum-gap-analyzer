@@ -1,0 +1,13 @@
+{
+  "job_id": "57523201",
+  "url": "https://www.reed.co.uk/jobs/57523201",
+  "title": "Data Engineer",
+  "company": "Lynx Recruitment Ltd",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": null,
+  "description": " <p><strong>Data Engineer</strong></p> <p><strong>Location:</strong> UK (Hybrid)</p> <p><strong>Type:</strong> Permanent - &#163;60k - &#163;80k base &#43; benefits </p> <p><strong>Sector:</strong> Consultancy / Financial Services</p> <p>Are you a Data Engineer looking to work on cutting-edge cloud data platforms that drive analytics, AI and business-critical decision-making?</p> <p>We're working with a growing consultancy that specialises in delivering modern data solutions for leading financial services organisations. This is an excellent opportunity to join a high-performing team where you'll be involved in designing, building and  deploying scalable, cloud-first data platforms while developing your skills in a collaborative and innovative environment. </p> <p><strong>The Role</strong></p> <p>As a Data Engineer, you will:</p> <ul> <li>Design and develop scalable data pipelines and modern data platforms.</li><li>Build and maintain ETL/ELT solutions to support analytics and AI initiatives.</li><li>Deliver clean, reliable and well-governed datasets for business and technical stakeholders.</li><li>Work closely with both technical and non-technical teams to translate requirements into scalable solutions.</li><li>Contribute to deployment, monitoring and optimisation of production data platforms. </li></ul> <p><strong>Required Skills &amp; Experience</strong></p> <ul> <li>Strong SQL skills and experience with cloud-based analytics platforms, ideally Snowflake. </li><li>Strong software engineering background with hands-on Python development experience. </li><li>Experience designing and deploying ETL/ELT data pipelines. </li><li>Knowledge of data modelling techniques and modern data architecture patterns, including medallion architecture. </li><li>Experience with data transformation tools such as dbt. </li><li>Understanding of CI/CD, DevOps practices and production deployments. </li><li>Familiarity with monitoring, observability and alerting tools. </li><li>Strong understanding of data governance, security and access control principles. </li></ul> <p><strong>Desirable Experience</strong></p> <ul> <li>Financial services experience.</li><li>Distributed computing environments.</li><li>Streaming and low-latency data processing.</li><li>Containerisation and orchestration technologies.</li><li>Infrastructure-as-Code tooling.</li><li>Exposure to AI-focused technologies, semantic layers or agentic architectures.</li></ul> <p><br /></p> ",
+  "char_count": 2466,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

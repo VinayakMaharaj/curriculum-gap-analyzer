@@ -1,0 +1,13 @@
+{
+  "job_id": "57594295",
+  "url": "https://www.reed.co.uk/jobs/57594295",
+  "title": "Data Scientist - SC Cleared",
+  "company": "SR2",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": "£550.00 - £650.00 per day",
+  "description": " <p><strong>Data Scientist - SC Cleared</strong></p> <p>We're looking for an experienced, hands-on Data Scientist to support a high-profile government programme focused on improving data matching capabilities, analytical processes and operational performance.</p> <p>You'll join an established technical team, working on the development, optimisation and refinement of a sophisticated matching engine.</p> <p><strong>Key Responsibilities</strong></p> <ul> <li>Develop, refine and optimise data matching and entity resolution processes.</li><li>Work hands-on with <strong>Elasticsearch</strong>, including querying, data retrieval and performance optimisation.</li><li>Develop and maintain Python-based data processing and analytical solutions.</li><li>Support the deployment and operation of applications within <strong>Kubernetes</strong> environments.</li><li>Use <strong>Bash scripting</strong> to automate workflows, troubleshoot issues and support operational processes.</li><li>Investigate data quality issues, improve matching accuracy and identify opportunities for operational efficiencies.</li></ul> <p><strong>Essential Skills &amp; Experience</strong></p> <ul> <li>Strong AWS experience</li><li>Strong commercial experience with <strong>Python</strong> and production data processing.</li><li><strong>Hands-on Elasticsearch experience</strong>, ideally including implementation, querying and optimisation.</li><li>Practical experience working with <strong>Kubernetes and Bash</strong>.</li><li>Experience with <strong>entity resolution, record linkage, data matching or complex data integration</strong>.</li><li>Strong SQL skills and experience working with complex datasets.</li><li>Ability to operate independently and contribute quickly within an established engineering team.</li><li>Active UK SC security clearance.</li></ul> ",
+  "char_count": 1844,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

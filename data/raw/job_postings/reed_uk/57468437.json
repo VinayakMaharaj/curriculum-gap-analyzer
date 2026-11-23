@@ -1,0 +1,13 @@
+{
+  "job_id": "57468437",
+  "url": "https://www.reed.co.uk/jobs/57468437",
+  "title": "Data Scientist",
+  "company": "Hays Specialist Recruitment Limited",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": null,
+  "description": " <p><strong>Your New Company<br /></strong>Our client is delivering a secure, enterprise-scale AI and analytics platform within a regulated public sector environment. The programme aims to enable scalable and production-ready AI and machine learning capabilities through modern cloud technologies  and engineering best practices. <br /><strong><br />Your New Role<br /></strong>As a Data Engineer, you will design and develop integrations, event-driven ingestion pipelines, and data migration solutions to support a large-scale AI platform. Working within a cloud-native AWS environment, you will build reliable data movement  processes, implement reconciliation mechanisms, and ensure data quality, scalability, and security throughout the platform. <br /><strong><br />What You'll Need to Succeed</strong></p> <ul> <li>Strong experience building integrations using APIs, webhooks, REST services, and event streams.</li><li>Hands-on experience with AWS services including API Gateway, Lambda, EventBridge, SQS, and DynamoDB.</li><li>Strong Python development skills for automation and data engineering.</li><li>Experience implementing reconciliation processes and state tracking.</li><li>Practical experience delivering data migration projects using AWS DMS or similar technologies.</li><li>Experience with Apache Airflow, dbt, Jira, or Confluence would be beneficial.</li></ul> <p><br /><strong>What You'll Get in Return</strong></p> <ul> <li>Opportunity to contribute to an innovative enterprise AI programme.</li><li>Exposure to modern cloud, data engineering, and AI technologies.</li><li>Flexible hybrid working environment.</li><li>Collaborative team focused on delivering secure and scalable solutions within a high-profile programme<br /><br /></li></ul> <p><strong>What you need to do now</strong><br />If you're interested in this role, click 'apply now' to forward an up-to-date copy of your CV, or call us now.<br />If this job isn't quite right for you, but you are looking for a new position, please contact us for a confidential discussion about your career.</p> <p>Hays Talent Solutions is a trading division of Hays Specialist Recruitment Limited and acts as an employment agency for permanent recruitment and employment business for the supply of temporary workers. By applying for this job you accept the T&amp;C's, Privacy  Policy and Disclaimers which can be found at hays.co.uk</p> ",
+  "char_count": 2405,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

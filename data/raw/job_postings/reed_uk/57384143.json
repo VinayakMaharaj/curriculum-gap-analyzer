@@ -1,0 +1,13 @@
+{
+  "job_id": "57384143",
+  "url": "https://www.reed.co.uk/jobs/57384143",
+  "title": "Senior AI Engineer",
+  "company": "Lynx Recruitment Ltd",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": "£60,000 - £80,000 per annum",
+  "description": " <p>Lynx Recruitment is working with a specialist technology and AI consultancy that is looking for a Senior AI Engineer to lead the design and delivery of production-grade Generative AI and agentic systems.</p> <p>This is a hands-on technical role where you’ll take ownership from architecture and prototyping through to deployment, monitoring and continuous evaluation.</p> <p>Key responsibilities:</p> <ul> <li>Design and deliver production GenAI and multi-agent systems</li><li>Build agentic workflows, RAG solutions, tool use and multi-step orchestration</li><li>Define evaluation strategies and implement AI observability</li><li>Design secure AWS deployment architectures</li><li>Build CI/CD pipelines and production-ready AI applications</li><li>Lead technical discussions with clients and senior stakeholders</li><li>Mentor engineers and provide technical leadership</li><li>Establish best practices around prompt design, guardrails and responsible AI</li></ul> <p>Key experience:</p> <ul> <li>3&#43; years of software or machine learning engineering experience</li><li>2&#43; years building and deploying GenAI/LLM applications in production</li><li>Strong Python development skills</li><li>Hands-on experience with LangGraph, LangChain, LlamaIndex, CrewAI or similar</li><li>Experience with AWS, particularly Bedrock, Lambda, ECS, EKS or SageMaker</li><li>Strong understanding of RAG, agentic AI and multi-agent architectures</li><li>Experience with CI/CD, cloud infrastructure and application deployment</li><li>Comfortable working directly with clients and senior stakeholders</li><li>Experience leading technical workstreams or small engineering teams</li><li><strong>2:1 or above in an IT/Tech/Business related degree </strong></li></ul> ",
+  "char_count": 1753,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

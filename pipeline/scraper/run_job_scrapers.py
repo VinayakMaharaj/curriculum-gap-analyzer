@@ -37,6 +37,28 @@ MARKET_LABELS = {
     "uk":        "UK",
 }
 
+# ---------------------------------------------------------------------------
+# Relevance filter — keeps only DS/ML/SWE-relevant jobs by title
+# ---------------------------------------------------------------------------
+DS_TITLE_KEYWORDS = {
+    "data", "analyst", "scientist", "machine learning", "ml", "ai",
+    "artificial intelligence", "analytics", "business intelligence", "bi",
+    "python", "nlp", "deep learning", "llm", "software engineer",
+    "software developer", "systems analyst", "platform engineer",
+    "data platform", "databricks", "snowflake", "spark", "etl",
+    "data warehouse", "data lake", "data architect", "mlops",
+    "decision science", "quantitative", "quant", "research engineer",
+    "applied scientist", "computer vision", "data science",
+}
+
+def is_ds_relevant(job: dict) -> bool:
+    title = job.get("title", "").lower()
+    return any(kw in title for kw in DS_TITLE_KEYWORDS)
+
+
+# ---------------------------------------------------------------------------
+# Corpus builder
+# ---------------------------------------------------------------------------
 
 def run_scraper(source: str):
     script = SCRAPERS[source]
@@ -50,6 +72,9 @@ def run_scraper(source: str):
 
 def build_corpus():
     corpus = []
+    skipped_empty = 0
+    skipped_irrelevant = 0
+
     for source, dir_path in SOURCE_DIRS.items():
         if not dir_path.exists():
             print(f"  [SKIP] {dir_path} not found")
@@ -67,22 +92,29 @@ def build_corpus():
                 continue
 
             if job.get("char_count", 0) < 150:
+                skipped_empty += 1
+                continue
+
+            # Caribbean jobs: skip relevance filter — corpus is small and
+            # keywords were already targeted; keep everything with content.
+            if market != "Caribbean" and not is_ds_relevant(job):
+                skipped_irrelevant += 1
                 continue
 
             corpus.append({
-                "job_id":    job.get("job_id", f.stem),
-                "source":    job.get("source", source),
-                "market":    market,
-                "title":     job.get("title", ""),
-                "company":   job.get("company", ""),
-                "location":  job.get("location", ""),
-                "country":   job.get("country", ""),
+                "job_id":      job.get("job_id", f.stem),
+                "source":      job.get("source", source),
+                "market":      market,
+                "title":       job.get("title", ""),
+                "company":     job.get("company", ""),
+                "location":    job.get("location", ""),
+                "country":     job.get("country", ""),
                 "description": job.get("description", ""),
-                "char_count": job.get("char_count", 0),
-                "url":       job.get("url", ""),
+                "char_count":  job.get("char_count", 0),
+                "url":         job.get("url", ""),
             })
 
-    by_market = {}
+    by_market: dict[str, int] = {}
     for job in corpus:
         m = job["market"]
         by_market[m] = by_market.get(m, 0) + 1
@@ -92,9 +124,11 @@ def build_corpus():
 
     print(f"\n{'='*60}")
     print(f"Unified corpus: {CORPUS_PATH}")
-    print(f"  Total: {len(corpus)}")
+    print(f"  Total kept       : {len(corpus)}")
     for market, count in sorted(by_market.items()):
         print(f"    {market}: {count}")
+    print(f"  Skipped (empty)  : {skipped_empty}")
+    print(f"  Skipped (off-topic): {skipped_irrelevant}")
 
 
 if __name__ == "__main__":

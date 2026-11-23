@@ -1,0 +1,13 @@
+{
+  "job_id": "57162422",
+  "url": "https://www.reed.co.uk/jobs/57162422",
+  "title": "AI Engineer",
+  "company": "Lynx Recruitment Ltd",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": "£30,000 - £55,000 per annum",
+  "description": " <p>Lynx Recruitment are recruiting for a specialist technology consultancy delivering cloud-based AI and analytics solutions to global clients. We are looking for an experienced AI Engineer to design, build, and deploy production-ready Generative AI systems.</p> <p><strong>Role</strong></p> <p>You will own the full lifecycle of GenAI applications, working with LLMs, RAG architectures, and agentic frameworks to deliver scalable, business-focused solutions.</p> <p><strong>Responsibilities</strong></p> <ul> <li>Build and deploy GenAI and RAG systems</li><li>Develop agentic AI workflows</li><li>Design prompts and safety guardrails</li><li>Implement monitoring and CI/CD pipelines</li><li>Collaborate with clients and technical teams</li></ul> <p><strong>Requirements</strong></p> <ul> <li>1-3 years deploying LLM/GenAI systems in production</li><li>Strong Python skills</li><li>Experience with cloud platforms</li><li>Knowledge of RAG, vector databases, and LLM frameworks</li><li>Git and CI/CD experience</li><li>Experience with LangChain and LangGraph</li><li>AWS experience </li><li><strong>IT/Technology-related university degree (minimum 2.1)</strong></li></ul> ",
+  "char_count": 1172,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

@@ -1,0 +1,13 @@
+{
+  "job_id": "57496339",
+  "url": "https://www.reed.co.uk/jobs/57496339",
+  "title": "Contract MLOps Engineer - Outside IR35",
+  "company": "Harnham - Data &amp; Analytics Recruitment",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": "£400.00 - £600.00 per day",
+  "description": " <p><br /></p> <p><strong>Rate:</strong> &#163;600 per day (Outside IR35)<br /><strong>Contract Length:</strong> 3 Months<br /><strong>Location:</strong> Hybrid / Remote</p> <p>We're supporting a business looking for an experienced <strong>MLOps Engineer</strong> to help scale and productionise machine learning solutions. You'll be responsible for building robust deployment pipelines, improving model monitoring, and ensuring ML  systems are reliable, secure, and performant in production.</p> <strong>Key Responsibilities</strong> <ul> <li>Build and maintain ML deployment pipelines.</li><li>Develop CI/CD processes for machine learning models.</li><li>Implement model monitoring, observability, and alerting.</li><li>Manage cloud-based infrastructure and containerised environments.</li><li>Collaborate with Data Scientists and Engineers to productionise models.</li><li>Improve platform scalability, reliability, and automation.</li></ul> <strong>Key Skills</strong> <ul> <li>Strong Python experience.</li><li>MLOps tooling (MLflow, Kubeflow, SageMaker, or similar).</li><li>Docker and Kubernetes.</li><li>CI/CD tooling (GitHub Actions, GitLab CI, Azure DevOps).</li><li>Cloud platforms (AWS, Azure, or GCP).</li><li>Infrastructure as Code (Terraform preferred).</li><li>Monitoring tools such as Prometheus or Grafana.</li></ul> <p><strong>Contract:</strong> 3 Months | &#163;600/day Outside IR35</p> <p><br /></p> ",
+  "char_count": 1421,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

@@ -1,0 +1,13 @@
+{
+  "job_id": "57560868",
+  "url": "https://www.reed.co.uk/jobs/57560868",
+  "title": "Data Engineer - Senior Analyst",
+  "company": "Opus Recruitment Solutions Ltd",
+  "location": "Newcastle Upon Tyne",
+  "country": "United Kingdom",
+  "salary": "£35,000 - £55,000 per annum",
+  "description": " <ul> <li>Build and optimise data pipelines using Java (preferred) or Python.</li><li>Develop real-time streaming and batch data pipelines.</li><li>Work with Kafka, Flink or Spark, with Kafka/Flink preferred.</li><li>Develop AWS-based data solutions using Kinesis, MSK, Lambda and Glue.</li><li>Implement data governance, lineage, security and quality controls.</li><li>Support CI/CD using Azure DevOps, GitHub Actions or Jenkins.</li><li>Use Terraform and Infrastructure as Code practices.</li><li>Deploy containerised workloads using Docker, Kubernetes and AWS EKS.</li><li>Collaborate with analytics, AI/ML, product and engineering teams.</li></ul> ",
+  "char_count": 652,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

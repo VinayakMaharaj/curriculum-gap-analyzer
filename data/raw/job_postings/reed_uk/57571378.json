@@ -1,0 +1,13 @@
+{
+  "job_id": "57571378",
+  "url": "https://www.reed.co.uk/jobs/57571378",
+  "title": "Data Engineer (AWS)",
+  "company": "SR2",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": "£475.00 - £476.00 per day",
+  "description": "<strong>Senior Data Engineer - Contract</strong> <p><strong>Rate:</strong> &#163;475 per day<br /><strong>IR35:</strong> Outside IR35<br /><strong>Location:</strong> Fully Remote (UK)<br /><strong>Start:</strong> ASAP</p> <strong>The Role</strong> <p>We are looking for an experienced <strong>Senior Data Engineer</strong> to support a major digital transformation programme.</p> <p>You will be responsible for designing, building and optimising scalable data pipelines and cloud-based data solutions.</p> <strong>Key Responsibilities</strong> <ul> <li> <p>Build and maintain data pipelines using AWS and Apache Spark.</p> </li><li> <p>Develop and optimise ETL/ELT processes.</p> </li><li> <p>Design data models and improve data warehouse performance.</p> </li><li> <p>Ensure data quality, security and governance.</p> </li><li> <p>Collaborate with engineering and technical teams.</p> </li></ul> <strong>Essential Skills</strong> <ul> <li> <p>Strong AWS experience (Glue, S3, Lambda, Redshift, Athena, Step Functions).</p> </li><li> <p>Apache Spark, Apache Iceberg and dbt.</p> </li><li> <p>Advanced SQL and data warehousing.</p> </li><li> <p>ETL/ELT pipeline development.</p> </li><li> <p>Java and relational databases (Oracle, PostgreSQL, SQL Server).</p> </li><li> <p>Experience with Git and Agile delivery.</p> </li><li> <p><strong>Previous UK Government / Public Sector experience (essential).</strong></p> </li><li> <p><strong>Must be eligible for SC Clearance.</strong></p> </li></ul> ",
+  "char_count": 1493,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

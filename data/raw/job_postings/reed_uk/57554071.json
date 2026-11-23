@@ -1,0 +1,13 @@
+{
+  "job_id": "57554071",
+  "url": "https://www.reed.co.uk/jobs/57554071",
+  "title": "MLOps Engineer",
+  "company": "Harnham - Data &amp; Analytics Recruitment",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": "£75,000 - £95,000 per annum",
+  "description": " <p><br /></p> <p><strong>Senior MLOps Engineer</strong><br />London (Hybrid) | &#163;75,000 - &#163;95,000 &#43; Bonus &#43; Benefits</p> <p>This is an opportunity to take ownership of the infrastructure powering a growing AI platform. You'll work across machine learning, NLP, and emerging AI technologies, helping build scalable systems that support real-world impact.</p> <p><strong>The Company</strong></p> <p>A growing AI and data consultancy helping organisations use data and machine learning to improve decision-making and deliver better outcomes. They are investing heavily in their AI platform and expanding their engineering capability.</p> <p><strong>The Role</strong></p> <ul> <li>Own and develop the MLOps infrastructure supporting AI services.</li><li>Build and maintain orchestration pipelines using Dagster, Airflow, or Prefect.</li><li>Deploy and manage ML workloads on Kubernetes and cloud platforms.</li><li>Implement CI/CD, observability, and monitoring across production systems.</li><li>Develop infrastructure using Terraform, Bicep, or similar IaC tools.</li><li>Work closely with Data Scientists, ML Engineers, and AI teams to scale deployments.</li></ul> <p><strong>Your Skills &amp; Experience</strong></p> <ul> <li>Strong Python software engineering skills.</li><li>Commercial MLOps experience in production environments.</li><li>Hands-on Kubernetes expertise.</li><li>Experience with workflow orchestration platforms.</li><li>Infrastructure as Code and CI/CD experience.</li><li>Understanding of production ML, NLP, or AI systems.</li></ul> <p><br /></p> ",
+  "char_count": 1585,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

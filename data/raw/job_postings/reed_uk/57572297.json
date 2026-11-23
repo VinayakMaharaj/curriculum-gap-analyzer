@@ -1,0 +1,13 @@
+{
+  "job_id": "57572297",
+  "url": "https://www.reed.co.uk/jobs/57572297",
+  "title": "Data Engineer",
+  "company": "VIA MATCH LIMITED",
+  "location": "London",
+  "country": "United Kingdom",
+  "salary": "£70,000 - £85,000 per annum",
+  "description": " <p><em>After clicking Apply, you'll be invited to create a profile on the Via website to complete your application. This doesn't guarantee you'll be matched to this specific role - Via reviews every application (AI first, then a human checks the fit) and shortlists  the right candidates. Your profile also stays active for other relevant roles on the platform, and stays anonymous until you match. It takes just a few minutes.</em></p> <p><strong>Salary: &#163;70,000–&#163;85,000 per year</strong></p> <p><strong>Location: Hybrid working from any of their 35 locations across the UK</strong></p> <strong>About the opportunity</strong> <p>Via is partnering with a leading UK professional services firm looking for a Data Engineer to develop and support its Microsoft Fabric-based enterprise data platform.</p> <p>You'll build reliable data pipelines, dimensional models and analytics solutions, helping the business make better use of its data.</p> <strong>What you'll be doing</strong> <ul> <li>Develop and maintain data pipelines using Microsoft Fabric</li><li>Build dimensional models and data transformations using dbt</li><li>Support enterprise data warehousing and Medallion architecture</li><li>Develop Power BI semantic models, reports and dashboards</li><li>Implement data quality, testing and monitoring standards</li><li>Collaborate with stakeholders to deliver reporting and analytics solutions</li><li>Support CI/CD, automation and platform improvements</li></ul> <strong>What we're looking for</strong> <ul> <li>Strong Microsoft Fabric data engineering experience</li><li>Advanced SQL and experience with PySpark</li><li>Experience with dbt and Kimball dimensional modelling</li><li>Knowledge of ETL/ELT pipelines and Medallion architecture</li><li>Experience with Git, Azure DevOps and CI/CD</li><li>Understanding of enterprise data warehousing and data quality</li><li>Strong communication and problem-solving skills</li></ul> <p>Experience with Power BI, Python, APIs or professional services would be advantageous.</p> <strong>Why apply?</strong> <ul> <li>&#163;70,000–&#163;85,000 annual salary</li><li>Flexible remote/hybrid working</li><li>Opportunity to develop a modern Microsoft Fabric data platform</li><li>Significant ownership of technical delivery</li><li>Training, certifications and career development</li><li>Exposure to enterprise-scale data and analytics projects</li></ul> ",
+  "char_count": 2409,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

@@ -1,0 +1,13 @@
+{
+  "job_id": "57558264",
+  "url": "https://www.reed.co.uk/jobs/57558264",
+  "title": "Data Engineer",
+  "company": "Proactive Appointments",
+  "location": "Exeter",
+  "country": "United Kingdom",
+  "salary": "£400.00 - £450.00 per day",
+  "description": " <p>Data Engineer</p> <p>Contract - Outside IR35 | &#163;400-&#163;450 per day | 6 Weeks Inital Contract Length | Remote (Inital 2-3 days on-site to kick start the project)</p> <p>Our client is looking for an experienced <strong>Data Engineer</strong> with strong Microsoft Fabric, PySpark and Splink experience. You'll be responsible for developing data matching pipelines, cleansing and standardising customer data, tuning matching  models and building accurate master customer records across multiple systems.</p> <ul> <li>Experience building and supporting data pipelines in a cloud data platform, ideally Microsoft Fabric.</li><li>Strong Python, including pandas and PySpark.</li><li>Strong SQL, including Spark SQL or T-SQL.</li><li>Experience cleaning and standardising data</li><li>Experience matching, deduplicating or reconciling records across systems, whether rule-based or probabilistic.</li><li>Understanding of how to measure data quality and match accuracy, including false positives and missed matches.</li><li>Good working knowledge of UK GDPR and handling personal data securely.</li><li>Use of version control (Git) and writing readable, documented, tested code.</li><li>Ability to explain technical decisions and trade-offs clearly to non-technical colleagues.</li></ul> <p><br /></p> <p>Due to the volume of applications received for positions, it will not be possible to respond to all applications and only applicants who are considered suitable for interview will be contacted. </p> <p>Proactive Appointments Limited operates as an employment agency and employment business and is an equal opportunities organisation</p> <p>We take our obligations to protect your personal data very seriously. Any information provided to us will be processed as detailed in our Privacy Notice, a copy of which can be found on our website http://proactive.it/privacy-notice/</p> ",
+  "char_count": 1887,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}

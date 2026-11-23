@@ -1,0 +1,13 @@
+{
+  "job_id": "57449587",
+  "url": "https://www.reed.co.uk/jobs/57449587",
+  "title": "AI Engineer",
+  "company": "Ronald James",
+  "location": "Newcastle Upon Tyne",
+  "country": "United Kingdom",
+  "salary": "£60,000 - £85,000 per annum",
+  "description": "<strong>AI Engineer</strong> <p><br /></p> <p><strong>Salary:</strong> Up to &#163;85,000</p> <p><strong>Location:</strong> Fully remote – UK</p> <strong>The Role</strong> <p>We’re looking for an AI Engineer to build and deliver AI-powered features for a large-scale enterprise SaaS platform. You’ll work closely with Product, Design and Engineering to turn ideas into reliable, production-ready solutions that improve the user experience.</p> <p>This is a hands-on role for someone who enjoys experimenting with AI, building prototypes and taking them through to production.</p> <strong>Key Responsibilities</strong> <ul> <li>Build and deploy AI-powered features from prototype to production.</li><li>Develop LLM integrations, agents, tool use and orchestration workflows.</li><li>Build and maintain scalable backend services and APIs.</li><li>Work with Product and Engineering to identify meaningful AI opportunities.</li><li>Contribute to AI development practices, internal tooling and technical decisions.</li></ul> <strong>Essential Skills</strong> <ul> <li>Hands-on experience building applications with LLMs, using tools such as OpenAI, Anthropic, LangChain or LlamaIndex.</li><li>Strong backend development skills, ideally with <strong>TypeScript and Node.js</strong>.</li><li>Full-stack experience, with some familiarity with React.</li><li>Experience with REST APIs, asynchronous programming and databases.</li><li>Understanding of software testing, deployment and production-ready development.</li><li>A practical, hands-on approach to AI experimentation and AI-assisted coding.</li></ul> <strong>Desirable Experience</strong> <ul> <li>Model Context Protocol (<strong>MCP</strong>) and AI agents.</li><li>AWS, particularly Lambda, SQS/SNS, Bedrock or S3.</li><li>Vector databases, embeddings and retrieval-augmented generation (RAG).</li><li>Prompt engineering and LLM evaluation.</li><li>Docker, CI/CD and multi-tenant SaaS platforms.</li><li>AI safety, governance and responsible AI practices.</li></ul> <p><strong>Interested in building practical AI solutions that make a real difference?</strong> We’re keen to hear from engineers who enjoy experimenting with emerging technologies and turning them into useful, scalable products.</p> ",
+  "char_count": 2250,
+  "source": "reed.co.uk",
+  "date_posted": ""
+}
