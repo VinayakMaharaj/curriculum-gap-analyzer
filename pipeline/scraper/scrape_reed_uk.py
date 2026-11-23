@@ -5,6 +5,8 @@ Falls back to HTML scraping if no key is set.
 
 Usage:
   REED_API_KEY=your_key python scrape_reed_uk.py
+  # Windows PowerShell:
+  $env:REED_API_KEY = "your-key-here"; python scrape_reed_uk.py
 
 Output:
   data/raw/job_postings/reed_uk/  *.json
@@ -50,6 +52,8 @@ HEADERS_HTML = {
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/120.0.0.0 Safari/537.36"
     ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-GB,en;q=0.9",
 }
 
 # ---------------------------------------------------------------------------
@@ -121,33 +125,118 @@ def html_get_job(job_id: str, url: str) -> dict | None:
     soup = BeautifulSoup(r.text, "html.parser")
     page_text = soup.get_text(" ", strip=True)
 
-    title = ""
-    for sel in ["h1.job-header__title", "h1[data-qa='jobTitle']", "h1"]:
-        tag = soup.select_one(sel)
-        if tag:
-            title = tag.get_text(strip=True)
-            break
-
-    company = ""
-    for sel in [".job-header__company-name", "[data-qa='companyName']", ".employer-name"]:
-        tag = soup.select_one(sel)
-        if tag:
-            company = tag.get_text(strip=True)
-            break
-
-    location = ""
-    for sel in ["[data-qa='jobLocation']", ".job-header__location", ".location"]:
-        tag = soup.select_one(sel)
-        if tag:
-            location = tag.get_text(strip=True)
-            break
-
     description = ""
-    for sel in [".job-description", "#jobDescription", "[data-qa='jobDescription']", "article"]:
-        tag = soup.select_one(sel)
-        if tag:
-            description = tag.get_text(" ", strip=True)
-            if len(description) > 200:
+    title = ""
+    company = ""
+    location = ""
+
+    # Strategy 1: JSON-LD (most reliable — Reed often embeds full JobPosting here)
+    for script in soup.find_all("script", type="application/ld+json"):
+        try:
+            data = json.loads(script.string or "")
+            if isinstance(data, list):
+                data = data[0]
+            if data.get("@type") == "JobPosting":
+                title = data.get("title", "")
+                description = data.get("description", "")
+                loc_obj = data.get("jobLocation", {})
+                if isinstance(loc_obj, list):
+                    loc_obj = loc_obj[0] if loc_obj else {}
+                location = loc_obj.get("address", {}).get("addressLocality", "")
+                company = data.get("hiringOrganization", {}).get("name", "")
+                break
+        except Exception:
+            continue
+
+    # Strategy 2: Embedded JSON in script tags (Next.js __NEXT_DATA__ or similar)
+    if not description:
+        for script in soup.find_all("script"):
+            txt = script.string or ""
+            if '"jobDescription"' in txt:
+                m = re.search(r'"jobDescription"\s*:\s*"((?:[^"\\]|\\.)+)"', txt)
+                if m:
+                    try:
+                        description = bytes(m.group(1), "utf-8").decode("unicode_escape")
+                    except Exception:
+                        description = m.group(1)
+                    break
+            if '"description"' in txt and '"JobPosting"' in txt:
+                m = re.search(r'"description"\s*:\s*"((?:[^"\\]|\\.)+)"', txt)
+                if m:
+                    try:
+                        description = bytes(m.group(1), "utf-8").decode("unicode_escape")
+                    except Exception:
+                        description = m.group(1)
+                    break
+
+    # Strategy 3: CSS selectors
+    if not description:
+        for sel in [
+            ".job-description",
+            "#jobDescription",
+            "[data-qa='jobDescription']",
+            ".description-container",
+            "article .content",
+            ".col-sm-8 .text",
+            ".col-sm-8",
+            ".col-md-8",
+            "main article",
+            "article",
+        ]:
+            tag = soup.select_one(sel)
+            if tag:
+                text = tag.get_text(" ", strip=True)
+                if len(text) > 200:
+                    description = text
+                    break
+
+    # Strategy 4: Largest text block heuristic
+    if not description:
+        candidates = []
+        for tag in soup.find_all(["div", "section", "article"]):
+            text = tag.get_text(" ", strip=True)
+            if len(text) > 300:
+                candidates.append(text)
+        if candidates:
+            description = max(candidates, key=len)
+
+    # Strip HTML tags from description if it came from JSON-LD/JSON
+    if description and "<" in description:
+        desc_soup = BeautifulSoup(description, "html.parser")
+        description = desc_soup.get_text(" ", strip=True)
+
+    # Title fallbacks
+    if not title:
+        for sel in ["h1.job-header__title", "h1[data-qa='jobTitle']", "h1"]:
+            tag = soup.select_one(sel)
+            if tag and tag.get_text(strip=True):
+                title = tag.get_text(strip=True)
+                break
+
+    # Company fallbacks
+    if not company:
+        for sel in [
+            ".job-header__company-name",
+            "[data-qa='companyName']",
+            ".employer-name",
+            "[class*='company']",
+        ]:
+            tag = soup.select_one(sel)
+            if tag and tag.get_text(strip=True):
+                company = tag.get_text(strip=True)
+                break
+
+    # Location fallbacks
+    if not location:
+        for sel in [
+            "[data-qa='jobLocation']",
+            ".job-header__location",
+            ".location",
+            "[class*='location']",
+        ]:
+            tag = soup.select_one(sel)
+            if tag and tag.get_text(strip=True):
+                location = tag.get_text(strip=True)
                 break
 
     salary = ""
@@ -244,9 +333,14 @@ def scrape_via_html() -> list[dict]:
     for i, (job_id, url) in enumerate(all_ids.items(), 1):
         out_path = OUTPUT_DIR / f"{job_id}.json"
         if out_path.exists():
-            with open(out_path, encoding="utf-8") as f:
-                jobs.append(json.load(f))
-            continue
+            existing = json.load(open(out_path, encoding="utf-8"))
+            # Re-fetch if previously empty
+            if existing.get("char_count", 0) > 150:
+                jobs.append(existing)
+                print(f"  [{i}/{len(all_ids)}] {job_id} — cached ({existing['char_count']} chars)")
+                continue
+            else:
+                print(f"  [{i}/{len(all_ids)}] {job_id} — re-fetching (was empty)")
 
         print(f"  [{i}/{len(all_ids)}] {job_id} ...")
         job = html_get_job(job_id, url)
@@ -255,6 +349,9 @@ def scrape_via_html() -> list[dict]:
             continue
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(job, f, indent=2, ensure_ascii=False)
+
+        status = "OK" if job["char_count"] > 150 else "EMPTY"
+        print(f"    [{status}] {job['title']!r} @ {job.get('company','')!r} — {job['char_count']} chars")
         jobs.append(job)
 
     return jobs
@@ -293,10 +390,10 @@ def write_manifest(jobs: list[dict]):
 
 if __name__ == "__main__":
     if REED_API_KEY:
-        print("Using Reed API (key detected)")
+        print(f"Using Reed API (key detected: {REED_API_KEY[:8]}...)")
         jobs = scrape_via_api()
     else:
-        print("No REED_API_KEY — falling back to HTML scraping")
+        print("No REED_API_KEY set — using HTML scraping (may be less reliable)")
         print("Get a free key: https://www.reed.co.uk/developers/jobseeker")
         jobs = scrape_via_html()
 
