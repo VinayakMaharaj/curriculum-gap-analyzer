@@ -1,6 +1,9 @@
 """
-Indeed Canada scraper — Mohammed baseline (replaces defunct Workopolis).
-HTML scraping of ca.indeed.com across Toronto / Vancouver / Montreal / Remote.
+Canada job scraper — Mohammed et al. baseline (via JobDataLake REST API).
+Replaces the defunct Indeed HTML scraper.
+
+API docs: https://api.jobdatalake.com
+1 credit per request. Free tier: 1,000 credits.
 
 Usage:
   python scrape_indeed_canada.py
@@ -11,16 +14,17 @@ Output:
 """
 
 import json
-import re
 import time
-import random
+import re
 from pathlib import Path
 import requests
-from bs4 import BeautifulSoup
 
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
+JDL_API_KEY  = "jdl_9d853acd0702540ed477a9f75d98f1a70d688007dd332f57"
+JDL_BASE     = "https://api.jobdatalake.com/v1"
+
 SEARCH_KEYWORDS = [
     "data scientist",
     "data analyst",
@@ -29,185 +33,127 @@ SEARCH_KEYWORDS = [
     "software engineer",
 ]
 
-LOCATIONS = ["Toronto, Ontario", "Vancouver, BC", "Montreal, Quebec", "Remote"]
+PER_PAGE     = 100
+MAX_PAGES    = 3        # 15 credits total for search calls
+COUNTRY      = "CA"
+JOB_FUNCTION = "data"  # narrows to data/analytics roles
 
-OUTPUT_DIR = Path("data/raw/job_postings/indeed_canada")
+OUTPUT_DIR   = Path("data/raw/job_postings/indeed_canada")
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 MANIFEST_PATH = OUTPUT_DIR / "_manifest.json"
 
-DELAY_MIN = 2.0
-DELAY_MAX = 4.5
+HEADERS = {"X-API-Key": JDL_API_KEY}
 
-HEADERS = {
-    "User-Agent": (
-        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) "
-        "AppleWebKit/537.36 (KHTML, like Gecko) "
-        "Chrome/120.0.0.0 Safari/537.36"
-    ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "en-CA,en;q=0.9",
-    "Referer": "https://ca.indeed.com/",
+DELAY = 0.15   # 10 req/sec rate limit → stay safe at ~6/sec
+
+
+# ---------------------------------------------------------------------------
+# DS relevance filter (title-based)
+# ---------------------------------------------------------------------------
+DS_TITLE_KEYWORDS = {
+    "data scientist", "data analyst", "data engineer", "machine learning",
+    "ml engineer", "ai engineer", "analytics engineer", "business intelligence",
+    "bi developer", "bi engineer", "nlp", "deep learning", "llm",
+    "applied scientist", "research scientist", "decision scientist",
+    "data platform", "mlops", "data architect", "quantitative analyst",
+    "software engineer", "software developer", "systems analyst",
 }
 
-INDEED_BASE = "https://ca.indeed.com"
-MAX_PAGES_PER_SEARCH = 5   # 15 results/page → up to 75 per keyword+location
+def is_ds_relevant(title: str) -> bool:
+    t = title.lower()
+    return any(kw in t for kw in DS_TITLE_KEYWORDS)
 
 
 # ---------------------------------------------------------------------------
-# Helpers
+# API calls
 # ---------------------------------------------------------------------------
 
-def sleep():
-    time.sleep(random.uniform(DELAY_MIN, DELAY_MAX))
-
-
-def get(url: str, session: requests.Session) -> requests.Response | None:
+def search_jobs(keyword: str, page: int) -> dict:
+    params = {
+        "q":          keyword,
+        "countries":  COUNTRY,
+        "page":       page,
+        "per_page":   PER_PAGE,
+        "sort_by":    "posted_at:desc",
+    }
     try:
-        r = session.get(url, timeout=20)
+        r = requests.get(f"{JDL_BASE}/jobs", headers=HEADERS, params=params, timeout=15)
+        if r.status_code == 402:
+            print("  [!] Out of credits — stopping.")
+            return {}
         r.raise_for_status()
-        return r
-    except requests.RequestException as e:
-        print(f"  [ERROR] {url}: {e}")
+        return r.json()
+    except Exception as e:
+        print(f"  [ERROR] search {keyword!r} p{page}: {e}")
+        return {}
+
+
+def get_job_detail(handle: str) -> dict | None:
+    try:
+        r = requests.get(f"{JDL_BASE}/jobs/{handle}", headers=HEADERS, timeout=15)
+        if r.status_code == 404:
+            return None
+        r.raise_for_status()
+        return r.json()
+    except Exception as e:
+        print(f"  [ERROR] detail {handle}: {e}")
         return None
 
 
-def extract_jk_ids(html: str) -> list[str]:
-    return list(set(re.findall(r'"jk":"([a-f0-9]{16})"', html)))
+# ---------------------------------------------------------------------------
+# Build job record from listing + optional detail
+# ---------------------------------------------------------------------------
 
+def build_job_record(listing: dict, detail: dict | None = None) -> dict:
+    src = detail if detail else listing
 
-def search_indeed(keyword: str, location: str, page: int, session: requests.Session) -> list[str]:
-    start = page * 15
-    kw_encoded = keyword.replace(" ", "+")
-    loc_encoded = location.replace(" ", "+").replace(",", "%2C")
-    url = (
-        f"{INDEED_BASE}/jobs"
-        f"?q={kw_encoded}&l={loc_encoded}"
-        f"&start={start}&sort=date"
-    )
-    print(f"    p{page+1}: {keyword!r} in {location} ...")
-    resp = get(url, session)
-    sleep()
-    if not resp:
-        return []
-    return extract_jk_ids(resp.text)
+    # Description: detail call returns full text; listing has none
+    description = src.get("description", "") or ""
 
+    # Strip HTML if present
+    if "<" in description:
+        description = re.sub(r"<[^>]+>", " ", description)
+        description = re.sub(r"\s+", " ", description).strip()
 
-def fetch_job_detail(jk: str, session: requests.Session) -> dict | None:
-    url = f"{INDEED_BASE}/viewjob?jk={jk}"
-    resp = get(url, session)
-    sleep()
-    if not resp:
-        return None
-
-    soup = BeautifulSoup(resp.text, "html.parser")
-    page_text = soup.get_text(" ", strip=True)
-
-    title = ""
-    company = ""
-    location = ""
-    description = ""
-
-    # Strategy 1: JSON-LD
-    for script in soup.find_all("script", type="application/ld+json"):
-        try:
-            data = json.loads(script.string or "")
-            if isinstance(data, list):
-                data = data[0]
-            if data.get("@type") == "JobPosting":
-                title = data.get("title", "")
-                description = data.get("description", "")
-                loc_obj = data.get("jobLocation", {})
-                if isinstance(loc_obj, list):
-                    loc_obj = loc_obj[0] if loc_obj else {}
-                location = loc_obj.get("address", {}).get("addressLocality", "")
-                company = data.get("hiringOrganization", {}).get("name", "")
-                break
-        except Exception:
-            continue
-
-    # Strategy 2: Indeed-specific data attributes
-    if not title:
-        for sel in [
-            "h1[data-testid='jobsearch-JobInfoHeader-title']",
-            "h1.jobsearch-JobInfoHeader-title",
-            "h1",
-        ]:
-            tag = soup.select_one(sel)
-            if tag and tag.get_text(strip=True):
-                title = tag.get_text(strip=True)
-                break
-
-    if not company:
-        for sel in [
-            "[data-testid='inlineHeader-companyName']",
-            ".jobsearch-CompanyInfoWithoutHeaderImage span",
-            "[class*='companyName']",
-        ]:
-            tag = soup.select_one(sel)
-            if tag and tag.get_text(strip=True):
-                company = tag.get_text(strip=True)
-                break
-
-    if not location:
-        for sel in [
-            "[data-testid='job-location']",
-            "[class*='companyLocation']",
-        ]:
-            tag = soup.select_one(sel)
-            if tag and tag.get_text(strip=True):
-                location = tag.get_text(strip=True)
-                break
-
-    # Strategy 3: description CSS selectors
+    # Build a pseudo-description from structured fields if detail missing
     if not description:
-        for sel in [
-            "#jobDescriptionText",
-            ".jobsearch-jobDescriptionText",
-            "div[data-testid='job-description']",
-            "[class*='jobDescription']",
-        ]:
-            tag = soup.select_one(sel)
-            if tag:
-                text = tag.get_text(" ", strip=True)
-                if len(text) > 200:
-                    description = text
-                    break
+        parts = []
+        skills = listing.get("required_skills", [])
+        if skills:
+            parts.append("Required skills: " + ", ".join(skills))
+        seniority = listing.get("seniority", [])
+        if seniority:
+            parts.append("Seniority: " + ", ".join(seniority))
+        sal_min = listing.get("salary_min_usd")
+        sal_max = listing.get("salary_max_usd")
+        if sal_min:
+            parts.append(f"Salary: ${sal_min}k–${sal_max}k USD" if sal_max else f"Salary from ${sal_min}k USD")
+        emp_type = listing.get("employment_type", "")
+        if emp_type:
+            parts.append(f"Employment type: {emp_type}")
+        description = " | ".join(parts)
 
-    # Strategy 4: largest div heuristic
-    if not description:
-        candidates = [
-            tag.get_text(" ", strip=True)
-            for tag in soup.find_all("div")
-            if len(tag.get_text(" ", strip=True)) > 300
-        ]
-        if candidates:
-            description = max(candidates, key=len)
-
-    # Strip HTML if came from JSON-LD
-    if description and "<" in description:
-        desc_soup = BeautifulSoup(description, "html.parser")
-        description = desc_soup.get_text(" ", strip=True)
-
-    salary = ""
-    m = re.search(
-        r"\$[\d,]+(?:\s*[-–]\s*\$[\d,]+)?(?:\s*(?:per|a|/)\s*\w+)?",
-        page_text,
-        re.IGNORECASE,
-    )
-    if m:
-        salary = m.group(0)
+    locations = listing.get("locations", [])
+    location  = locations[0] if locations else ""
 
     return {
-        "job_id":    jk,
-        "url":       url,
-        "title":     title,
-        "company":   company,
-        "location":  location,
-        "country":   "Canada",
-        "salary":    salary,
+        "job_id":      listing.get("job_handle", listing.get("id", "")),
+        "url":         listing.get("url", ""),
+        "title":       listing.get("title", ""),
+        "company":     listing.get("company_name", ""),
+        "location":    location,
+        "country":     "Canada",
+        "salary":      (
+            f"${listing['salary_min_usd']}k–${listing['salary_max_usd']}k"
+            if listing.get("salary_min_usd") else ""
+        ),
+        "skills":      listing.get("required_skills", []),
+        "seniority":   listing.get("seniority", []),
+        "remote_type": listing.get("remote_type", ""),
+        "posted_at":   listing.get("posted_at", ""),
         "description": description,
-        "char_count": len(description),
-        "source":    "ca.indeed.com",
+        "char_count":  len(description),
+        "source":      "jobdatalake.com/CA",
     }
 
 
@@ -216,66 +162,96 @@ def fetch_job_detail(jk: str, session: requests.Session) -> dict | None:
 # ---------------------------------------------------------------------------
 
 def run_scrape() -> list[dict]:
-    session = requests.Session()
-    session.headers.update(HEADERS)
+    all_listings: dict[str, dict] = {}   # handle → listing dict
+    credits_used = 0
 
-    # Warm up cookies
-    try:
-        session.get(INDEED_BASE, timeout=10)
-        sleep()
-    except Exception:
-        pass
-
-    all_jks: set[str] = set()
+    # Phase 1: search calls
+    print("Phase 1: Searching JobDataLake for Canada DS jobs...")
     for keyword in SEARCH_KEYWORDS:
-        for location in LOCATIONS:
-            for page in range(MAX_PAGES_PER_SEARCH):
-                jks = search_indeed(keyword, location, page, session)
-                if not jks:
-                    break
-                all_jks.update(jks)
-                if len(jks) < 15:
-                    break
+        print(f"\n  Keyword: {keyword!r}")
+        for page in range(1, MAX_PAGES + 1):
+            print(f"    Page {page} ...")
+            data = search_jobs(keyword, page)
+            credits_used += 1
+            time.sleep(DELAY)
 
-    print(f"\n  Found {len(all_jks)} unique job IDs — fetching details...")
-    jobs = []
-    jk_list = list(all_jks)
+            if not data:
+                break
 
-    for i, jk in enumerate(jk_list, 1):
-        out_path = OUTPUT_DIR / f"{jk}.json"
+            jobs = data.get("jobs", [])
+            if not jobs:
+                print("    No more results.")
+                break
 
+            found_total = data.get("found", "?")
+            print(f"    {len(jobs)} results (total found: {found_total})")
+
+            for j in jobs:
+                handle = j.get("job_handle") or j.get("id", "")
+                if handle and handle not in all_listings:
+                    if is_ds_relevant(j.get("title", "")):
+                        all_listings[handle] = j
+                    else:
+                        pass  # silently skip off-topic
+
+            # Stop early if we've seen all results
+            total_pages = -(-data.get("found", 0) // PER_PAGE)  # ceil div
+            if page >= total_pages:
+                break
+
+    print(f"\n  Search phase done. Credits used: {credits_used}")
+    print(f"  Unique DS-relevant listings: {len(all_listings)}")
+
+    # Phase 2: fetch full descriptions for jobs missing skill data
+    print("\nPhase 2: Fetching full descriptions...")
+    jobs_out = []
+    handles = list(all_listings.keys())
+
+    for i, handle in enumerate(handles, 1):
+        out_path = OUTPUT_DIR / f"{handle}.json"
+
+        # Use cache if already fetched
         if out_path.exists():
-            existing = json.load(open(out_path, encoding="utf-8"))
-            if existing.get("char_count", 0) > 150:
-                jobs.append(existing)
-                print(f"  [{i}/{len(jk_list)}] {jk} — cached ({existing['char_count']} chars)")
+            with open(out_path, encoding="utf-8") as f:
+                job = json.load(f)
+            if job.get("char_count", 0) > 50:
+                jobs_out.append(job)
+                print(f"  [{i}/{len(handles)}] {handle} — cached ({job['char_count']} chars)")
                 continue
-            else:
-                print(f"  [{i}/{len(jk_list)}] {jk} — re-fetching (was empty)")
 
-        print(f"  [{i}/{len(jk_list)}] {jk} ...")
-        job = fetch_job_detail(jk, session)
-        if not job:
-            continue
+        listing = all_listings[handle]
+
+        # Only burn a credit on detail call if listing has no description
+        # and has fewer than 3 skills (not enough for NLP)
+        needs_detail = len(listing.get("required_skills", [])) < 3
+
+        detail = None
+        if needs_detail and credits_used < 950:   # leave buffer
+            detail = get_job_detail(handle)
+            credits_used += 1
+            time.sleep(DELAY)
+
+        job = build_job_record(listing, detail)
 
         with open(out_path, "w", encoding="utf-8") as f:
             json.dump(job, f, indent=2, ensure_ascii=False)
 
-        status = "OK" if job["char_count"] > 150 else "EMPTY"
-        print(f"    [{status}] {job['title']!r} @ {job['company']!r} — {job['char_count']} chars")
-        jobs.append(job)
+        status = "DETAIL" if detail else "LISTING"
+        print(f"  [{i}/{len(handles)}] [{status}] {job['title']!r} @ {job['company']!r} — {job['char_count']} chars")
+        jobs_out.append(job)
 
-    return jobs
+    print(f"\n  Total credits used: {credits_used}")
+    return jobs_out
 
 
 def write_manifest(jobs: list[dict]):
-    meaningful = [j for j in jobs if j.get("char_count", 0) > 150]
+    meaningful = [j for j in jobs if j.get("char_count", 0) > 50]
     manifest = {
         "total_found":  len(jobs),
         "meaningful":   len(meaningful),
-        "source":       "ca.indeed.com",
+        "source":       "jobdatalake.com/CA",
         "keywords":     SEARCH_KEYWORDS,
-        "locations":    LOCATIONS,
+        "country":      "Canada",
         "jobs": [
             {
                 "job_id":      j["job_id"],
@@ -283,9 +259,10 @@ def write_manifest(jobs: list[dict]):
                 "company":     j.get("company", ""),
                 "location":    j.get("location", ""),
                 "country":     "Canada",
+                "skills":      j.get("skills", []),
                 "char_count":  j.get("char_count", 0),
                 "url":         j.get("url", ""),
-                "has_content": j.get("char_count", 0) > 150,
+                "has_content": j.get("char_count", 0) > 50,
             }
             for j in jobs
         ],
@@ -294,7 +271,7 @@ def write_manifest(jobs: list[dict]):
         json.dump(manifest, f, indent=2, ensure_ascii=False)
 
     print(f"\n{'='*60}")
-    print(f"Indeed Canada scrape complete")
+    print(f"Canada scrape complete (JobDataLake)")
     print(f"  Total found  : {manifest['total_found']}")
     print(f"  With content : {manifest['meaningful']}")
     print(f"  Manifest     : {MANIFEST_PATH}")
