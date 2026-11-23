@@ -1,37 +1,25 @@
 """
-phase1_skillner.py
-──────────────────
-Phase 1: Reproduce Mohammed et al. baseline.
-
-Steps:
-  1. Load job corpus + course outline corpus
-  2. Run SkillNER on each document → extract skill mentions
-  3. Save per-document skill lists + aggregated skill frequencies
-  4. Output: data/processed/skills_jobs.json
-             data/processed/skills_courses.json
-             data/processed/skill_freq_jobs.json
-             data/processed/skill_freq_courses.json
-
-SkillNER uses spaCy + a curated EMSI/Lightcast skill taxonomy.
-Install deps first (run once):
-  pip install spacy skillner --break-system-packages
-  python -m spacy download en_core_web_lg
+Phase 1 — SkillNER extraction on job + course corpora.
+Replicates Mohammed et al. skill extraction step.
 """
 
 import json
-import pathlib
 import sys
-from collections import Counter, defaultdict
+import hashlib
+from pathlib import Path
 
-# ── Paths ──────────────────────────────────────────────────────────────────────
-RAW        = pathlib.Path("data/raw")
-PROCESSED  = pathlib.Path("data/processed")
-PROCESSED.mkdir(parents=True, exist_ok=True)
+# ── Paths ────────────────────────────────────────────────────────────────────
+ROOT         = Path(__file__).resolve().parents[2]
+JOB_CORPUS   = ROOT / "data" / "raw" / "job_postings"  / "_corpus.json"
+COURSE_CORPUS= ROOT / "data" / "raw" / "course_outlines" / "_corpus.json"
+OUT_DIR      = ROOT / "data" / "processed"
+OUT_DIR.mkdir(parents=True, exist_ok=True)
 
-JOB_CORPUS    = RAW / "job_postings"    / "_corpus.json"
-COURSE_CORPUS = RAW / "course_outlines" / "_corpus.json"
+# tmp file to normalise job corpus into list-of-dicts with a "text" field
+JOB_CORPUS_TMP = OUT_DIR / "_jobs_tmp.json"
 
-# ── Lazy imports (give helpful error if not installed) ─────────────────────────
+
+# ── SkillNER loader ──────────────────────────────────────────────────────────
 def load_skillner():
     try:
         import spacy
@@ -42,32 +30,24 @@ def load_skillner():
         print(f"\n[ERROR] Missing dependency: {e}")
         print("Install with:")
         print("  pip install skillNer")
+        print("  pip install ipython")
         print("  python -m spacy download en_core_web_lg")
         sys.exit(1)
 
     print("Loading spaCy model (en_core_web_lg)...")
-    try:
-        import spacy
-        nlp = spacy.load("en_core_web_lg")
-    except OSError:
-        print("[ERROR] spaCy model not found. Run:")
-        print("  python -m spacy download en_core_web_lg")
-        sys.exit(1)
-
+    nlp = spacy.load("en_core_web_lg")
     print("Initialising SkillNER...")
-    from spacy.matcher import PhraseMatcher
     extractor = SkillExtractor(nlp, SKILL_DB, PhraseMatcher)
     return extractor
 
 
+# ── Skill extraction ─────────────────────────────────────────────────────────
 def extract_skills(extractor, text: str) -> list[str]:
-    """Return list of skill strings found in text."""
     if not text or len(text) < 20:
         return []
     try:
-        annotations = extractor.annotate(text[:5000])  # cap at 5k chars
+        annotations = extractor.annotate(text[:5000])
         skills = []
-        # skillNer returns results dict with full_matches and ngram_scored
         results = annotations.get("results", {})
         for match in results.get("full_matches", []):
             val = match.get("doc_node_value", "").lower().strip()
@@ -83,90 +63,133 @@ def extract_skills(extractor, text: str) -> list[str]:
         return []
 
 
-def process_corpus(extractor, corpus_path: pathlib.Path, label: str):
-    data = json.loads(corpus_path.read_text(encoding="utf-8"))
-    docs = data.get("courses") or data.get("jobs") or []
-
-    # job corpus uses a flat list; course corpus has {"courses": [...]}
-    # job _corpus.json root is a flat list
-    if isinstance(data, list):
-        docs = data
-    elif "courses" in data:
-        docs = data["courses"]
-    else:
-        docs = data  # fallback
-
+# ── Corpus processor ─────────────────────────────────────────────────────────
+def process_corpus(extractor, records: list, label: str):
+    """
+    records: list of dicts, each must have a "text" field (and optionally "id").
+    Returns:
+        results  — list of {id, skills}
+        freq     — {skill: count_of_docs_mentioning_it}
+    """
     results = []
-    freq    = Counter()
-    total   = len(docs)
+    freq    = {}
+    total   = len(records)
 
-    print(f"\n[{label}] Processing {total} documents...")
-    for i, doc in enumerate(docs):
+    for i, rec in enumerate(records):
         if i % 100 == 0:
-            print(f"  {i}/{total}", end="\r")
+            print(f"  [{label}] {i}/{total} ...")
 
-        text = doc.get("description", "")
+        text = rec.get("text", "") or rec.get("description", "") or ""
+        doc_id = rec.get("id") or rec.get("course_id") or rec.get("job_id") or str(i)
+
         skills = extract_skills(extractor, text)
+        results.append({"id": doc_id, "skills": skills})
 
-        doc_id = (
-            doc.get("course_id")
-            or doc.get("job_id")
-            or f"{label}_{i}"
-        )
+        seen = set()
+        for s in skills:
+            if s not in seen:
+                freq[s] = freq.get(s, 0) + 1
+                seen.add(s)
 
-        results.append({
-            "id":     doc_id,
-            "source": doc.get("source") or doc.get("campus_short") or label,
-            "title":  doc.get("title", ""),
-            "skills": skills,
-            "n_skills": len(skills),
-        })
-        freq.update(skills)
-
-    print(f"  {total}/{total} ✓")
-    print(f"  Unique skills found: {len(freq)}")
-    print(f"  Docs with ≥1 skill:  {sum(1 for r in results if r['n_skills'] > 0)}")
-
+    print(f"  [{label}] done — {total} docs, {len(freq)} unique skills")
     return results, freq
 
 
-def save(obj, path: pathlib.Path):
-    path.write_text(json.dumps(obj, indent=2))
-    print(f"  → {path}")
-
-
+# ── Main ──────────────────────────────────────────────────────────────────────
 def main():
     extractor = load_skillner()
 
-    # ── Jobs ──────────────────────────────────────────────────────────────────
-    # job _corpus.json is a flat list
-    job_data = json.loads(JOB_CORPUS.read_text(encoding="utf-8"))
-    # wrap in a dict so process_corpus handles it
-    JOB_CORPUS_TMP = PROCESSED / "_job_corpus_tmp.json"
-    JOB_CORPUS_TMP.write_text(json.dumps(job_data), encoding="utf-8")
+    # ── Job corpus ──
+    print(f"\nLoading job corpus: {JOB_CORPUS}")
+    raw_jobs = json.loads(JOB_CORPUS.read_text(encoding="utf-8"))
 
-    job_results, job_freq = process_corpus(extractor, JOB_CORPUS_TMP, "jobs")
-    save(job_results, PROCESSED / "skills_jobs.json")
-    save(dict(job_freq.most_common(500)), PROCESSED / "skill_freq_jobs.json")
-    JOB_CORPUS_TMP.unlink()
+    # Corpus may be a list or a dict with a "jobs" key
+    if isinstance(raw_jobs, list):
+        job_records = raw_jobs
+    elif isinstance(raw_jobs, dict):
+        job_records = raw_jobs.get("jobs") or raw_jobs.get("postings") or []
+    else:
+        print("[ERROR] Unexpected job corpus format")
+        sys.exit(1)
 
-    # ── Courses ───────────────────────────────────────────────────────────────
-    course_results, course_freq = process_corpus(extractor, COURSE_CORPUS, "courses")
-    save(course_results, PROCESSED / "skills_courses.json")
-    save(dict(course_freq.most_common(500)), PROCESSED / "skill_freq_courses.json")
+    # Normalise: each record needs a "text" field
+    for rec in job_records:
+        if "text" not in rec:
+            # Try common field names
+            rec["text"] = (
+                rec.get("description", "") or
+                rec.get("body", "") or
+                rec.get("full_text", "") or
+                rec.get("job_description", "") or
+                ""
+            )
 
-    # ── Summary ───────────────────────────────────────────────────────────────
-    print("\n" + "=" * 60)
-    print("Phase 1 SkillNER complete.")
-    print(f"  Job skills extracted  : {len(job_freq)} unique")
-    print(f"  Course skills extracted: {len(course_freq)} unique")
-    print("\nTop 20 job skills:")
-    for skill, count in job_freq.most_common(20):
-        print(f"  {count:4d}  {skill}")
-    print("\nTop 20 course skills:")
-    for skill, count in course_freq.most_common(20):
-        print(f"  {count:4d}  {skill}")
-    print("\nNext: python pipeline/nlp/phase1_lda.py")
+    print(f"  {len(job_records)} job records loaded")
+
+    # ── Course corpus ──
+    print(f"\nLoading course corpus: {COURSE_CORPUS}")
+    raw_courses = json.loads(COURSE_CORPUS.read_text(encoding="utf-8"))
+
+    if isinstance(raw_courses, list):
+        course_records = raw_courses
+    elif isinstance(raw_courses, dict):
+        course_records = raw_courses.get("courses") or []
+    else:
+        print("[ERROR] Unexpected course corpus format")
+        sys.exit(1)
+
+    for rec in course_records:
+        if "text" not in rec:
+            rec["text"] = (
+                rec.get("description", "") or
+                rec.get("body", "") or
+                rec.get("content", "") or
+                ""
+            )
+
+    print(f"  {len(course_records)} course records loaded")
+
+    # ── Extract ──
+    print("\n--- Extracting skills from job postings ---")
+    job_results, job_freq = process_corpus(extractor, job_records, "jobs")
+
+    print("\n--- Extracting skills from course outlines ---")
+    course_results, course_freq = process_corpus(extractor, course_records, "courses")
+
+    # ── Save outputs ──
+    print("\nSaving outputs...")
+
+    (OUT_DIR / "skills_jobs.json").write_text(
+        json.dumps(job_results, indent=2), encoding="utf-8"
+    )
+    (OUT_DIR / "skills_courses.json").write_text(
+        json.dumps(course_results, indent=2), encoding="utf-8"
+    )
+    (OUT_DIR / "skill_freq_jobs.json").write_text(
+        json.dumps(job_freq, indent=2), encoding="utf-8"
+    )
+    (OUT_DIR / "skill_freq_courses.json").write_text(
+        json.dumps(course_freq, indent=2), encoding="utf-8"
+    )
+
+    # ── Summary ──
+    top_job_skills = sorted(job_freq.items(), key=lambda x: x[1], reverse=True)[:20]
+    top_course_skills = sorted(course_freq.items(), key=lambda x: x[1], reverse=True)[:20]
+
+    print("\n=== TOP 20 SKILLS IN JOB POSTINGS ===")
+    for skill, count in top_job_skills:
+        pct = count / len(job_records) * 100
+        print(f"  {skill:<40} {count:>4} docs ({pct:.1f}%)")
+
+    print("\n=== TOP 20 SKILLS IN COURSE OUTLINES ===")
+    for skill, count in top_course_skills:
+        pct = count / len(course_records) * 100
+        print(f"  {skill:<40} {count:>4} docs ({pct:.1f}%)")
+
+    print(f"\n✓ Phase 1 SkillNER complete.")
+    print(f"  Jobs:    {len(job_records)} docs, {len(job_freq)} unique skills")
+    print(f"  Courses: {len(course_records)} docs, {len(course_freq)} unique skills")
+    print(f"  Outputs in: {OUT_DIR}")
 
 
 if __name__ == "__main__":
